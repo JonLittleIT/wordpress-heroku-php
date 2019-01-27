@@ -1,0 +1,324 @@
+
+
+/* btc_calc */
+
+.chart_options label{
+    display: inline-block;
+    width: 100%;
+}
+
+.chart_options{
+    padding-left: 50px;
+}
+
+
+.home-template  .cryprocurrency-prices-title{
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.home-template  #btc_calc{
+    text-align: center;
+}
+
+.home-template  #btc_calc  input[type=text]{
+    background: #000;
+    border: 0;
+    border-radius: 100px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: 0 10px;
+    color: #fff;
+    vertical-align: top;
+    margin-top: 17px;
+}
+
+.home-template  #btc_calc + a {
+    display: none !important;
+}
+
+
+
+aside .cryprocurrency-prices-title {
+    display: none;
+}
+
+html  .crtools-graph .period-button , html .crtools-graph .fiat-button {
+    color: inherit;
+    padding: 2px 8px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+html .crtools-graph .period-button:hover, .crtools-graph .period-button.active {
+    font-weight: normal;
+    color: #fff;
+}
+
+html .crtools-graph .fiat-button {
+    border-color:#ddd;
+}
+
+aside .prices-table img {
+    margin: -1px 3px 0 0;
+}
+
+
+
+html .crtools-graph .period-button {
+    margin-right: 10px;
+    color: inherit !important;
+}
+
+html .crtools-graph .period-button:hover, .crtools-graph .period-button.active {
+    color: #fff !important;
+}
+
+.crtools-graph .period-button {
+    padding: 5px 10px !important;
+    margin-bottom: 10px;
+}
+
+.crtools-graph .fiat-button {
+    color: inherit;
+    margin-bottom: 10px;
+}
+
+.bt-calc h2{
+    display: none !important;
+}
+
+#text-2 .textwidget > h2{
+    display: none;
+}
+
+
+
+/* --- EASYDROPDOWN DEFAULT THEME --- */
+
+.tmp-select-dropdown  ul , .tmp-select-dropdown  ol {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+
+
+.tmp-select-dropdown  li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.tmp-select-dropdown  li::before{
+    display: none !important;
+}
+
+/* PREFIXED CSS */
+
+ .tmp-select-dropdown,
+ .tmp-select-dropdown div,
+ .tmp-select-dropdown li,
+ .tmp-select-dropdown div::after{
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+}
+
+ .tmp-select-dropdown .selected::after,
+ .tmp-select-dropdown.scrollable div::after{
+	-webkit-pointer-events: none;
+	-moz-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+}
+
+/* WRAPPER */
+
+ .tmp-select-dropdown{
+    position: relative;
+    width: 160px;
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    display: inline-block;
+    -moz-user-select: none;
+    user-select: none;
+    margin-top: 0;
+    clear: both;
+
+}
+
+.tmpl-home  .tmp-select-dropdown{
+    position: relative;
+    top: 18px;
+}
+
+ .tmp-select-dropdown.open{
+	z-index: 2;
+}
+
+
+
+
+/* CARAT */
+
+ .tmp-select-dropdown .carat{
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	margin-top: -4px;
+	border: 6px solid transparent;
+	border-top: 8px solid #fff;
+}
+
+ .tmp-select-dropdown.open .carat{
+	margin-top: -10px;
+	border-top: 6px solid transparent;
+	border-bottom: 8px solid #fff;
+}
+
+ .tmp-select-dropdown.disabled .carat{
+	border-top-color: #999;
+}
+
+/* OLD SELECT (HIDDEN) */
+
+ .tmp-select-dropdown .old{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+ .tmp-select-dropdown select{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+ .tmp-select-dropdown.touch .old{
+	width: 100%;
+	height: 100%;
+}
+
+ .tmp-select-dropdown.touch select{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+/* SELECTED FEEDBACK ITEM */ 
+
+ .tmp-select-dropdown .selected,
+ .tmp-select-dropdown li{
+display: block;
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+    padding:11px 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #000;
+    border: 0;
+    border-radius: 100px;
+    margin-bottom: 2px;
+}
+
+ .tmp-select-dropdown.disabled .selected{
+	color: #999;
+}
+
+ .tmp-select-dropdown .selected::after{
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 60px;
+}
+
+/* DROP DOWN WRAPPER */
+
+ .tmp-select-dropdown div{
+    position: absolute;
+    height: 0;
+    left: -1px;
+    right: -1px;
+    top: 100%;
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+/* Height is adjusted by JS on open */
+
+ .tmp-select-dropdown.open div{
+	opacity: 1;
+	z-index: 2;
+}
+
+/* FADE OVERLAY FOR SCROLLING LISTS */
+
+ .tmp-select-dropdown.scrollable div::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	
+	box-shadow: inset 0 -50px 30px -35px #fff;
+}
+
+ .tmp-select-dropdown.scrollable.bottom div::after{
+	opacity: 0;
+}
+
+/* DROP DOWN LIST */
+
+ .tmp-select-dropdown ul{
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    background: #000;
+    width: 134px;
+    border-radius: 0 !important;
+}
+
+ .tmp-select-dropdown.scrollable.open ul{
+	overflow-y: auto;
+}
+
+/* DROP DOWN LIST ITEMS */
+
+ .tmp-select-dropdown li{
+    list-style: none;
+    padding: 0px 12px;
+    height: auto;
+    line-height: 1.2;
+}
+
+/* .focus class is also added on hover */
+
+ .tmp-select-dropdown li.focus{
+    background: #222;
+    z-index: 3;
+    color: #fff;
+    border-radius: 0 !important;
+}
+

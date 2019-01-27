@@ -1,0 +1,70 @@
+//style widget Tabs post
+.sidebar .widget_tabs_post{
+
+    .widget-title{
+        border: none;
+        display: table;
+        width: 100%;
+        border-bottom: 1px solid #efefef;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        li{
+            border: none;
+            float: none;
+            padding: 0;
+            display: table-cell;
+            &:first-child a{
+                @include rtl-padding-left(0px);
+            }
+            &:last-child a{
+                @include rtl-padding-right(0px);
+                text-align: right;
+            }
+            &.active a{
+                color: $theme-color;
+            }
+            a{
+                color: #48494d;
+                display: block;
+                font-size: 16px;
+                font-weight: 500;
+                margin: 0;
+                padding: 10px 20px;
+                @include rtl-text-align-left();
+                text-transform: capitalize;
+                &:hover, &:focus,&:active{
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+    article{
+        padding: 10px 0;
+        &:first-child{
+            padding-top: 0;
+        }
+    }
+    .entry-header{
+        padding: 0;
+    }
+    .byline{
+        display: none;
+    }
+    .article-content .entry-meta-right{
+        @include rtl-float-left();
+        .text-comment{
+            color: #757575;
+        }
+    }
+    .total-view{
+        padding:0;
+    }
+    .entry-title > a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}
+.ti-comment{
+    @include rtl-padding-right(2px);
+}
