@@ -1,0 +1,153 @@
+/*------------------------------------------------------------------
+[Gutenberg] - [Table of contents]
+
+- Gutenberg backend Custom Styling
+/*------------------------------------------------------------------*/
+
+.wp-block {
+    max-width: 1170px;
+}
+/*Custom font styling*/
+/*general*/
+.editor-block-list__layout .editor-block-list__block {
+    color: #333333;
+    font-family: "Montserrat",serif;
+}
+.editor-post-title__block .editor-post-title__input {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.editor-block-list__layout .wp-block-heading h1,
+.editor-block-list__layout .wp-block-heading h2,
+.editor-block-list__layout .wp-block-heading h3,
+.editor-block-list__layout .wp-block-heading h4,
+.editor-block-list__layout .wp-block-heading h5,
+.editor-block-list__layout .wp-block-heading h6 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.editor-block-list__layout .wp-block-heading h2 {
+    font-size: 30px !important;
+    line-height: 1 !important;
+    font-weight: 500 !important;
+}
+.edit-post-visual-editor p.wp-block-subhead {
+    color: #9aa7af;
+}
+.editor-styles-wrapper .editor-block-list__layout .mce-content-body, .editor-styles-wrapper .editor-block-list__layout p {
+    font-size: 18px;
+    color: #454646;
+    line-height: 29px;
+    font-weight: 300;
+}
+.wp-block-quote__citation {
+    font-size: 16px !important;
+    font-style: italic;
+    color: #6c7781 !important;
+}
+.editor-styles-wrapper .editor-block-list__layout .wp-block-cover p {
+	color: #fff;
+	font-size: 32px;
+	line-height: 1.25;
+}
+.editor-block-list__layout  pre {
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	word-break: break-all;
+	word-wrap: break-word;
+	color: #333;
+	background-color: #f9f9f9;
+	border: 1px solid #e6e6e6;
+}
+.editor-block-list__layout .editor-block-list__block-edit ul li a {
+    color: #1bdac9;
+    font-size: 17px;
+    text-decoration: none;
+}
+.editor-block-list__layout  input.components-placeholder__input[type="url"]{
+	color: #333;
+	font-size: 14px;
+}
+
+/*button*/
+.editor-block-list__layout .wp-block-button__link {
+    background: #7023FF;
+    border-radius: 3px;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 6px 15px;
+    font-weight: 400 !important;
+}
+.editor-block-list__layout button.components-button.is-button.is-default.is-large {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+/* table */
+.editor-block-list__layout .wp-block-table{
+	text-align: center;
+	background-color: transparent;
+}
+.editor-block-list__layout .wp-block-table td, 
+.editor-block-list__layout .wp-block-table th {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+}
+.editor-block-list__layout .editor-rich-text__tinymce li {
+    color: #454646;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*blockquote*/
+.wp-block-pullquote {
+    border-top: 4px solid #7023FF !important;
+    border-bottom: 4px solid #7023FF !important;
+}
+.editor-block-list__layout .wp-block-quote:not(.is-large):not(.is-style-large) {
+    border-color: #7023FF;
+}
+.editor-block-list__layout .editor-block-list__block-edit .wp-block-quote,
+.editor-block-list__layout .editor-block-list__block-edit  .blockquote {
+    border-left: 4px solid #1bdac9;
+
+}
+.editor-block-list__layout  .wp-block-quote.is-large p, 
+.editor-block-list__layout  .wp-block-quote.is-style-large p,
+.editor-block-list__layout .editor-block-list__block-edit  .blockquote {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.6;
+}
+.editor-block-list__layout .editor-block-list__block-edit .wp-block-code .editor-plain-text {
+	color: #3c424f;
+}
+
+
+.editor-block-list__layout .wp-block-quote {
+    background: #F6F6F6;
+    padding: 30px !important;
+}
+
+.editor-block-list__layout .wp-block-quote p {
+    margin-top: 0px !important;
+}
+
+.wp-block-image figcaption {
+    font-size: 13px !important;
+    color: #555d66 !important;
+    font-weight: 300 !important;
+}
+
+.wp-block-image figcaption {
+    font-size: 13px !important;
+    color: #555d66 !important;
+    font-weight: 300 !important;
+}

@@ -1,0 +1,40 @@
+﻿Version 1.2.1
+    	Added:
+    		- Compatibility with WP 5.0.3
+            - Contact Form 7
+
+        Fixed:
+            - Update plugins to their latest versions
+            - Сryptocurrency Prices shortcode
+            - Update Cryptocurrency All-in-One plugin
+
+        Changed:
+    		- Update demo data
+
+v.1.2
+	Added:
+    - GDPR Framework plugin
+    - Alert to Demo data installation
+
+    Fixed:
+    - Compatibility with Gutenberg and other PageBuilders
+    - Compatibility with PHP 7
+    - Update plugins to their latest versions
+    - Improve theme styles
+    - Update documentation
+
+    Changed:
+    - Update default contact forms to make them GDPR-compliant
+    - Move Importer to ThemeREX Addons plugin
+
+
+v.1.1.0
+	Added:
+        - Compatibility with Cryptocurrency Rocket Tools plugin
+        - Compatibility with Live Crypto plugin
+        - Currency post type 
+        - "trx_sc_currency" shortcode for displaying available currencies
+
+v.1.0.0
+	* Styles are improved
+	* Add plugins support: Cryptocurrency Price Ticker Widget, GoUrl WooCommerce Bitcoin

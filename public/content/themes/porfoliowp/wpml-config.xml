@@ -1,0 +1,59 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">smartowl_header_custom_variant</custom-field>
+        <custom-field action="translate">smartowl_service_subtitle</custom-field>
+        <custom-field action="translate">smartowl_testimonial_bg_color</custom-field>
+        <custom-field action="translate">smartowl_testimonial_border_color</custom-field>
+        <custom-field action="translate">job-position</custom-field>
+        <custom-field action="translate">company</custom-field>
+        <custom-field action="translate">page_spacing</custom-field>
+        <custom-field action="translate">breadcrumbs_on_off</custom-field>
+        <custom-field action="translate">smartowl_header_custom_fixed_navigation</custom-field>
+        <custom-field action="translate">smartowl_custom_header_options_status</custom-field>
+        <custom-field action="translate">smartowl_page_custom_menu</custom-field>
+        <custom-field action="translate">smartowl_client_name</custom-field>
+        <custom-field action="translate">smartowl_project_name</custom-field>
+        <custom-field action="translate">smartowl_project_link</custom-field>
+        <custom-field action="translate">smartowl_project_color</custom-field>
+        <custom-field action="translate">smartowl_custom_footer_options_status</custom-field>
+        <custom-field action="translate">smartowl_footer_custom_row1_status</custom-field>
+        <custom-field action="translate">smartowl_footer_custom_row1_layout</custom-field>
+        <custom-field action="translate">smartowl_footer_custom_row2_status</custom-field>
+        <custom-field action="translate">smartowl_footer_custom_row2_layout</custom-field>
+        <custom-field action="translate">smartowl_footer_custom_row3_status</custom-field>
+        <custom-field action="translate">smartowl_footer_custom_row3_layout</custom-field>
+        <custom-field action="translate">smartowl_member_position</custom-field>
+        <custom-field action="translate">smartowl_member_email</custom-field>
+        <custom-field action="translate">smartowl_member_phone</custom-field>
+        <custom-field action="translate">smartowl_post_background_color</custom-field>
+        <custom-field action="translate">smartowl_post_border_color</custom-field>
+        <custom-field action="translate">smartowl_post_border_button_color</custom-field>
+        <custom-field action="translate">smartowl_sermon_bg_color</custom-field>
+        <custom-field action="translate">smartowl_service_badge_background_color</custom-field>
+        <custom-field action="translate">smartowl_service_badge_border_color</custom-field>
+        <custom-field action="translate">smartowl_service_badge_icon</custom-field>
+        <custom-field action="translate">select_revslider_shortcode</custom-field>
+        <custom-field action="translate">smartowl_event_date</custom-field>
+        <custom-field action="translate">smartowl_portfolio_icon</custom-field>
+        <custom-field action="translate">smartowl_select_font</custom-field>
+        <custom-field action="translate">smartowl_font-simple-line-icons</custom-field>
+        <custom-field action="translate">smartowl_font-awesome-icons</custom-field>
+        <custom-field action="translate">_li_love_count</custom-field>
+        <custom-field action="translate">mt_portfolio_subtitle</custom-field>
+        <custom-field action="translate">mt_project_link</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">mt_event</custom-type>
+        <custom-type translate="1">mt-gallery</custom-type>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+        <custom-type translate="1">clients</custom-type>
+        <custom-type translate="1">member</custom-type>
+        <custom-type translate="1">service</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">portfolios</taxonomy>
+        <taxonomy translate="1">portfolioskill</taxonomy>
+        <taxonomy translate="1">mt-gallery-category</taxonomy>
+    </taxonomies>    
+</wpml-config>

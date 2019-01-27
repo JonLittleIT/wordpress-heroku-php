@@ -1,0 +1,67 @@
+.subscribe .result {
+    display: block;
+    width: 100% !important;
+}
+.mc_embed_signup {
+    margin-top: 15px;
+    overflow: hidden;
+}
+.newspaper-info {
+    color: #ffffff;
+}
+.complex-layout .subscribe h3 i {
+    margin-right: 5px;
+}
+.subscribe > input[type="text"] {
+    border: 0 none;
+    float: left;
+    font-style: italic;
+    padding: 15px 25px;
+    width: 65%;
+    border-radius: 30px;
+    font-family: "Ubuntu";
+    font-weight: initial;
+    font-size: 18px;
+    text-transform: normal !important;
+    margin-right: 20px;
+}
+.subscribe > button[type="submit"] {
+    border: 0 none;
+    color: #ffffff;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    padding: 15px;
+    width: 30%;
+    border-radius: 30px;
+    font-family: "Ubuntu";
+    font-size: 18px;
+}
+.subscribe_title {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.complex-layout .subscribe {
+    border: 1px solid rgb(223, 229, 233);
+    overflow: hidden;
+    padding: 30px;
+}
+.complex-layout .subscribe > button[type="submit"] {
+    padding: 8px 16px;
+}
+.complex-layout .subscribe > button[type="submit"]{
+    width: auto;
+}
+.complex-layout .subscribe > input[type="text"] {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 8px;
+    width: 50%;
+}
+.complex-layout .subscribe > h3 {
+    float: left;
+    font-size: 14px;
+    margin: 10px 0;
+    width: 38%;
+}
+
+

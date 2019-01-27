@@ -1,0 +1,2 @@
+[14-Dec-2016 04:00:42 UTC] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/modelthe/public_html/mt_eagle/wp-content/plugins/modeltheme-framework/inc/mega-menu/lib/class.modeltheme-mega-menu.php on line 10
+[27-Jan-2017 18:52:06 UTC] PHP Fatal error:  Class 'Walker_Nav_Menu_Edit' not found in /home/modelthe/public_html/mt_eagle/wp-content/plugins/modeltheme-framework/inc/mega-menu/lib/class.modeltheme-mega-menu.php on line 10

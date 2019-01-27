@@ -1,0 +1,1 @@
+[11-Dec-2016 23:39:04 UTC] PHP Fatal error:  Call to undefined function trailingslashit() in /home/modelthe/public_html/mt_eagle/wp-content/plugins/modeltheme-framework/inc/mega-menu/modeltheme-mega-menu.php on line 3

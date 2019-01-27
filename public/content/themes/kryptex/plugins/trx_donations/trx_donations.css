@@ -1,0 +1,60 @@
+/* ThemeREX Donations styles
+----------------------------------------------------------------- */
+
+.post-type-archive-donation .page-header,
+.tax-donation_category .page-header {
+	display: none;
+}
+
+
+/* NEW */
+.sc_donations_info .sc_donations_title {
+    margin: 0;
+    font-size: 1.143em;
+    font-weight: 600;
+    padding-right: 3.3em;
+}
+.sc_donations_info .sc_donations_scale {
+    height: 9px;
+    position: relative;
+    margin-top: 1.8em;
+}
+.sc_donations_info .sc_donations_scale_raised {
+    height: 9px;
+    position: static;
+}
+.sc_donations_info .sc_donations_excerpt {
+    margin: 1.5em 0 0;
+    line-height: 1.55em;
+}
+.sc_donations_info .sc_donations_scale_raised .sc_donations_data_label,
+.sc_donations_info .sc_donations_scale_raised .sc_donations_data_number {
+    top: -1.75em;
+    font-size: 1.143em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sc_donations_excerpt b { font-weight: 600; }
+.sc_donations_info .sc_donations_title + .sc_donations_data {
+    margin: 0;
+}
+.sc_donations_info .sc_donations_title + .sc_donations_data .sc_donations_scale {
+    margin-top: 0.6em;
+}
+.post_type_donation.post_item_single .post_sidebar .post_supporters {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #ddd;
+}
+.post_item_single .post_supporters_title,
+.post_item_single .post_raised_title,
+.post_item_single .post_goal_title {
+    margin-top: 1em;
+}
+.post_item_single .sc_donations_form_label {
+    margin-bottom: 0.4em;
+}
+
+body .sc_donations_info .sc_donations_featured {
+    margin: 0 0 2em 0;
+}

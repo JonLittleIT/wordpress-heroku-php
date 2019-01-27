@@ -1,0 +1,71 @@
+.sc_layouts_title_caption {
+	margin: 0 auto;
+}
+.sc_layouts_row_type_compact .sc_layouts_title_caption {
+	font-size: 2em;
+}
+.sc_layouts_title_meta + .sc_layouts_title_title > .sc_layouts_title_caption {
+	font-size: 3em;
+	line-height: 1.2em;
+	margin: 0.2em 0 0.2em;
+}
+.sc_layouts_title_caption img {
+	display:inline-block;
+	max-height:1.5em;
+	vertical-align:middle;
+	width:auto;
+	margin: -0.2em 0.2em 0 0;
+}
+.sc_layouts_title_link {
+	display:inline-block;
+	margin:0.5em 0 2em;
+}
+.sc_layouts_title_meta .post_edit:before {
+	margin-right: 0.5em;
+}
+.sc_layouts_title_description {
+	font-size:13px;
+	line-height:19px;
+	margin: 4px auto 1em;
+	max-width:75%;
+}
+.sc_layouts_title_description p {
+	margin:0;
+}
+
+.sc_layouts_title_breadcrumbs {
+	margin-top: 0.5em;
+}
+
+.sc_layouts_title.with_content {
+	position:relative;
+	min-height: 0em;
+}
+.sc_layouts_title.with_image {
+	min-height: 20rem;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+.sc_layouts_title.with_image.with_content:before {
+	content:' ';
+	position:absolute;
+	z-index:0;	/* Important! 1+ place this block over cart and over popups! */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.1);
+}
+.sc_layouts_title .sc_layouts_title_content {
+	position:static;
+}
+.sc_layouts_title.with_image .sc_layouts_title_content {
+	position:absolute;
+	z-index:2;
+	left: 50%;
+	top: 50%;
+	-webkit-transform:translate(-50%, -50%);
+	    -ms-transform:translate(-50%, -50%);
+	        transform:translate(-50%, -50%);
+}

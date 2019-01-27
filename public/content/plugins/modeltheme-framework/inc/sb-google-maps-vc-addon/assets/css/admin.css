@@ -1,0 +1,8 @@
+/* CSS Document */
+.pac-container {
+	z-index:9999999 !important;
+}
+div.wpb_vc_param_value.sbvcgmap_title {
+	padding:5px 50px 0;
+	font-weight:700;
+}

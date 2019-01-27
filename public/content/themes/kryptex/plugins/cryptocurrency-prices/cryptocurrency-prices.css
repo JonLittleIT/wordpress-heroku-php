@@ -1,0 +1,90 @@
+/* Cryptocurrency All-in-One
+------------------------------------------------------------------------------------ */
+
+.cryptodonation-widget p {
+	font-family:"Ubuntu",sans-serif;
+	text-align: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 105px;
+	margin-bottom: 0;
+	padding: 3.2em 2.5em;
+}
+.cryptodonation-widget > p + a,
+.cryptodonation-widget > p br,
+.cryptodonation-widget > p strong:last-child {
+	display: none;
+}
+
+.cryptodonation-widget > p img {
+	position: absolute;
+	max-width: 105px;
+	max-height: 105px;
+	top: 47px;
+}
+.cryptodonation-widget > p strong {
+	text-align: left;
+	font-weight: 300;
+	margin-left: 120px;
+}
+.cryptodonation-widget > p .donation-address {
+	display: none;
+}
+.cryptodonation-widget .cryptodonation-widget-info {
+	font-family: "fontello";
+	font-size: 10px;
+	font-weight: 300;
+	padding: 0 8px;
+	background: #fff;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+.trx_widget_tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.trx_widget_tooltip .tooltiptext {
+	visibility: hidden;
+	width: 220px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 10px;
+	position: absolute;
+	z-index: 1;
+	bottom: 130%;
+	left: 50%;
+	margin-left: -110px;
+}
+
+.trx_widget_tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -15px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+
+.trx_widget_tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+@media (max-width: 1262px) {
+	.trx_widget_tooltip .tooltiptext {
+		margin-left: 0;
+		left: auto;
+		right: -40px;
+	}
+
+	.trx_widget_tooltip .tooltiptext::after {
+		right: 46px;
+		left: auto;
+	}
+}

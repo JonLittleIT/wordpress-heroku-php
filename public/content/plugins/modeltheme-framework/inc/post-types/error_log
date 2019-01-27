@@ -1,0 +1,1 @@
+[11-Dec-2016 20:43:35 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/modelthe/public_html/mt_eagle/wp-content/plugins/modeltheme-framework/inc/post-types/post-types.php on line 125
