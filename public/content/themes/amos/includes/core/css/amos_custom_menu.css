@@ -1,0 +1,65 @@
+.amos_custom_menu_options .amos_checkbox input {
+    display: block;
+    float: left;
+    margin-bottom: 11px;
+    margin-right: 7px;
+}
+
+.amos_background_image {
+    display: none !important;
+}
+
+.amos_custom_active.menu-item-depth-0 .amos_background_image {
+    display: block !important;
+}
+.amos_background_image input {
+    display: block;
+}
+
+.amos_custom_mega_menu, .mega_label, .item-type-column, .item-type-megalabel, .amos_custom_active.menu-item-depth-2 .description-title, .amos_custom_active.menu-item-depth-3 .description-title {
+    display: none;
+}
+
+.menu-item-depth-0 .amos_custom_mega_menu_d0, .amos_custom_active.menu-item-depth-1 .amos_custom_mega_menu_d1, .amos_custom_active.menu-item-depth-2 .amos_custom_mega_menu_d2, .amos_custom_active.menu-item-depth-3 .amos_custom_mega_menu_d2, .amos_custom_active.menu-item-depth-4 .amos_custom_mega_menu_d2, .amos_custom_active.menu-item-depth-5 .amos_custom_mega_menu_d2, .amos_custom_active.menu-item-depth-6 .amos_custom_mega_menu_d2, .amos_custom_active.menu-item-depth-7 .amos_custom_mega_menu_d2, .amos_custom_active.menu-item-depth-8 .amos_custom_mega_menu_d2 {
+    display: block;
+}
+
+
+
+/*depth 0 Specials*/
+
+.amos_custom_active.menu-item-depth-0 .item-type-megalabel {
+    display: inline;
+    font-size: 11px;
+    color: #222;
+}
+
+
+
+
+/*depth1 specials*/
+
+.amos_custom_active.menu-item-depth-1 .field-description, .amos_custom_active.menu-item-depth-1 .link-to-original, .amos_custom_active.menu-item-depth-1 .description-title, .amos_custom_active.menu-item-depth-1 .default_label, .amos_custom_active.menu-item-depth-1 .field-url, .amos_custom_active.menu-item-depth-1 .item-type-default {
+    display: none;
+}
+
+.amos_custom_active.menu-item-depth-1 .mega_label {
+    display: inline;
+}
+
+.amos_custom_active.menu-item-depth-1 .item-type-column {
+    display: block;
+    color: #222;
+    margin-top:-30px;
+}
+
+.amos_custom_active.menu-item-depth-2 .field-description, .amos_custom_active.menu-item-depth-3 .field-description, .amos_custom_active.menu-item-depth-4 .field-description, .amos_custom_active.menu-item-depth-5 .field-description, .amos_custom_active.menu-item-depth-6 .field-description, .amos_custom_active.menu-item-depth-7 .field-description, .amos_custom_active.menu-item-depth-8 .field-description {
+    display: block;
+}
+
+
+.amos_custom_active.menu-item-depth-1 .label_desc_on_active {
+    height: auto;
+    width: auto;
+    float: none;
+}

@@ -1,0 +1,108 @@
+/** 
+/* THEMEPLE ADMIN STYLING FOR VISUAL COMPOSER 
+/* 
+/* @version 1.0.0
+/*
+*/
+
+.amos_templates .blocks {
+    position: relative;
+    float: left;
+    width: 270px;
+    height: 235px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 2px 2px 12px 2px #efefef;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.amos_templates {
+    display: none;
+}
+.vc_ui-template-list .vc_ui-list-bar-item-trigger {
+    padding: 30px padding-top: 40px;
+}
+
+.template-categories {
+    position: relative;
+    top: -90px;
+    margin-bottom: 10px;
+    z-index: 99999;
+    text-transform: capitalize;
+}
+.vc_ui-template-list .vc_ui-list-bar-item-trigger:hover {
+    color: #5299f8;
+}
+.sortable_templates.setup ul li {
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    width: 104px;
+    height: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.sortable_templates.setup ul li.active {
+    color: #0073aa;
+}
+
+.sortable_templates.setup ul li:hover {
+    box-shadow: 0px 8px 26px 4px #ddd;
+}
+
+.amos_img {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 0 !important;
+}
+.template-categories {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/*redux custom css*/
+
+.redux-section-indent-start {
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+#amos_redata-menu_presets.redux-container-image_select .redux-image-select img, #amos_redata-menu_presets_responsive.redux-container-image_select .redux-image-select img {
+    border-width: 2px;
+    width: 165px !important;
+}
+.redux-container-image_select ul.redux-image-select li {
+    padding: 4px 18px 4px 0;
+}
+.redux-container .redux-group-tab h3 {
+    margin-top: 0 !important;
+    margin-bottom: 10px;
+}
+
+.redux-container .redux-group-tab .redux-section-desc {
+    margin-bottom: 0;
+}
+.redux-container-image_select label.redux-image-select span {
+    font-size: 12px;
+}
+#amos_redata-menu_presets.redux-container-image_select label.redux-image-select, #amos_redata-menu_presets_responsive.redux-container-image_select label.redux-image-select {
+    float: left;
+    word-wrap: break-word;
+    position: relative;
+    width: 165px;
+}
