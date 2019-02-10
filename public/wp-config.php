@@ -14,6 +14,7 @@
  * @package WordPress
  */
 
+
 require_once(__DIR__ . '/../vendor/autoload.php');
 // (new \Dotenv\Dotenv(__DIR__.'/../'))->load();
 
@@ -134,3 +135,5 @@ if ( !defined("ABSPATH") )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . "wp-settings.php");
+
+define( 'WP_MEMORY_LIMIT', '512M' );
