@@ -1,0 +1,28 @@
+body.archive{
+    background-color:#f2f3f3;
+    article.post{
+        width: 100%;
+        padding:25px 30px;
+        border-radius:10px;
+        margin-bottom:20px;
+        background-color:#fff;
+        border:1px #ededed solid;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+        .entry-header,
+        .single-post-thumbnail{ padding-bottom:20px; }
+        .entry-title{
+            overflow:hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.archive-header-wrap{
+    position:relative;
+    overflow:hidden;
+    padding:50px 0;
+    .archive-header{
+        text-align:center;
+    }
+}

@@ -1,0 +1,39 @@
+.comment-form{
+    .comment-notes{
+        #email-notes{ display:none; }
+    }
+    .comment-form-comment{
+        label{
+            text-indent: -9999px;
+            position: absolute;
+            left: -9999px;
+        }
+    }
+    p{ margin: 18px 0 0; }
+    label{
+        margin:0 0 5px 0;
+        font-weight:600;
+        font-size:15px;
+    }
+    input:not([type="submit"]), textarea{
+        display: block;
+        width:100%;
+        padding:10px 15px;
+        margin:9px 0 0;
+        border:solid 1px #eaeaea;
+        &:focus{
+            border:solid 1px #0cb4ce;
+        }
+    }
+    input[type="submit"] {
+        display:inline-block;
+        font-size:12px;
+        text-align:center;
+        width:auto;
+        color:#303133;
+        border:solid 1px #eaeaea;
+        background-color:#f7f7f7;
+    }
+}
+.commentlist .bypostauthor { outline:none; }
+.commentlist li ul.children li.bypostauthor { outline:none; }
