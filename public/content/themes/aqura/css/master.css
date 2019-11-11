@@ -1,0 +1,465 @@
+.burger-menu {
+	display: none;
+}
+
+.section-title-5 .sub-title h4 a {
+	font-size: 5rem;
+}
+
+.section-title-5 .sub-title p {
+	font-size: 2.8rem;
+}
+
+.blog-type-3-masonry .featured-area .categories li {
+	margin: 0 5px;
+}
+
+.full-bgk-parallax-albums .content .content-info {
+	text-align: right;
+}
+
+.full-bgk-parallax-albums .content .content-info p {
+	max-width: 430px;
+	text-align: right;
+	display: inline-block;
+}
+
+.full-bgk-parallax-albums .content .content-info .social-icons a.icon-button:hover i {
+	color: #000 !important;
+}
+
+.full-bgk-parallax-albums .content .content-info p,
+.full-bgk-parallax-albums .content h2 {
+	line-height: 1.4;
+}
+
+.burger-menu.open {
+	display: table;
+}
+
+.breadcrumb.breadcrumb-fullscreen > * > * {
+	max-width: 500px;
+}
+
+.breadcrumb.breadcrumb-fullscreen.breadcrumb.breadcrumb-fullscreen--full-w > * > * {
+	max-width: 100%;
+}
+
+.navigation.posts-navigation h2 {
+	display: none;
+}
+
+.navigation.posts-navigation a {
+	color: #000;
+	font-size: 18px;
+}
+
+.navigation.posts-navigation a:hover {
+	opacity: 0.7;
+}
+
+.admin-bar .breadcrumb-fullscreen-parent.affix {
+	bottom: -webkit-calc(100% - 99px);
+	bottom: -moz-calc(100% - 99px);
+	bottom: calc(100% - 99px);
+}
+
+.admin-bar .trigger-header, .admin-bar .trigger-header-type-2 {
+	top: 32px;
+}
+
+.trigger-header-type-2 .language li {
+	float: left;
+}
+
+.no-results .search-field {
+	padding: 1.1em 1.6em;
+	border: 1px solid #e8e8e8;
+	background: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	color: #111;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+	width: 100%;
+	height: 50px;
+}
+
+.no-results form {
+	padding-top: 10px;
+}
+
+.no-results .screen-reader-text {
+	font-weight: 600;
+}
+
+.no-results .search-submit {
+	background-color: #e8e8e8;
+	border: 1px solid #e8e8e8;
+	height: 50px;
+	line-height: 50px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.blog-single-type-1 .post-meta p time {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #525252;
+	display: inline-block;
+}
+
+.blog-single-type-2 .article-header .post-meta-header .date time {
+	display: inline-block;
+	color: #111;
+	font-weight: 400;
+	font-size: 1.1rem;
+	letter-spacing: 0.8px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.blog-single-type-2 .blog-single-type-2-article footer .share-article ul li a {
+	cursor: pointer;
+}
+
+.trigger-form + div > .comment-reply-title {
+	display: none;
+}
+
+.trigger-form.active + div > .comment-reply-title {
+	display: block;
+}
+
+.single-article-top-format-iframe,
+.blog-single-type-1 .fluid-width-video-wrapper {
+	margin-bottom: 25px;
+	display: block;
+}
+
+.blog-single-type-1 .fluid-width-video-wrapper {
+	padding-top: 56.5% !important;
+}
+
+.blog-single-type-2 .fluid-width-video-wrapper {
+	padding-top: 56.5% !important;
+}
+
+.aqura_ajax-update-content {
+	margin-top: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+html.loading .aqura_ajax-update-content {
+	opacity: 0;
+	visibility: hidden;
+	margin-top: 25rem;
+}
+
+.album-single-type-2 .single-type-2-description .lyrics .panel-group .panel-body pre {
+	background: none;
+	border: none;
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.main-music-player.new-player-1 .mesh-main-player .mesh-artist, .main-music-player.new-player-1 .mesh-main-player .mesh-title {
+	position: absolute;
+	left: 115px;
+}
+
+.main-music-player.new-player-1 .mesh-main-player .mesh-title {
+	top: 8px;
+}
+
+.main-music-player.new-player-1 .mesh-main-player .mesh-artist {
+	top: 25px;
+}
+
+.gallery-section-type-1 {
+	margin-left: 1px;
+	margin-bottom: -1px;
+}
+
+.gallery-section-type-1 .row .gallery-item,
+.gallery-section-type-1 .gallery-item {
+	padding: 0;
+	float: left;
+	margin-right: -1px;
+	width: 25%;
+}
+
+.gallery-section-type-1 .row .gallery-item:nth-child(6n + 1),
+.gallery-section-type-1 .gallery-item:nth-child(6n + 1) {
+	width: 50%;
+}
+
+.gallery-section-type-1 .row .gallery-item:nth-child(6n + 6),
+.gallery-section-type-1 .gallery-item:nth-child(6n + 6) {
+	width: 50%;
+}
+
+.single-event-type-1 .single-event-type-1-about .share li a {
+	cursor: pointer;
+}
+
+.main-music-player.active-forced {
+	background: #f2f2f2;
+}
+.main-music-player.active-forced .mesh-seek-bar{
+	background-color: #c7c7c7;
+} 
+.main-music-player.active-forced .hide-player-button{
+	background-color: #f2f2f2;
+	color: #141414;
+}
+
+.main-music-player.active-forced .mesh-current-time,
+.main-music-player.active-forced .mesh-duration {
+	color: #000;
+}
+
+.main-music-player.active-forced .jplayerButton span {
+	background-color: #848484;
+}
+
+.main-music-player.active-forced .mesh-play i, 
+.main-music-player.active-forced .mesh-prev i,
+.main-music-player.active-forced .mesh-next i,
+.main-music-player.active-forced .mesh-play i,
+.main-music-player.active-forced .mesh-pause i {
+	color: #333;
+}
+
+.main-music-player.active-forced .mesh-artist{
+	color: #333;
+}
+
+.main-music-player.active-forced .mesh-title{
+	color: #999;
+}
+
+.link-yaku a, .link-yaku span {
+	color: inherit;
+}
+
+.album-covers-1 .cover-1 {
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.album-covers-1 .album {
+	float: none;
+}
+
+.album-covers-1 .info-album-covers-1 {
+	margin-bottom: 25px;
+}
+
+body .bit-widget .bit-clickable,
+body .bit-widget .bit-upcoming-events-show-all-button,
+body .bit-past-events-show-all-button {
+	color: #000;
+}
+
+body .bit-widget .bit-button,
+body .bit-widget .bit-offers {
+	background-color: #000;
+}
+
+.blog-type-1 article header .post-meta a time,
+.blog-type-1 article header .post-meta p time,
+.blog-type-1-masonry article header .post-meta a time,
+.blog-type-1-masonry article header .post-meta p time {
+	font-weight: 700;
+}
+
+.blog-type-1-masonry .blog-type-1-filter .categories a,
+.album-type-1-masonry .categories ul li a {
+	cursor: pointer;
+}
+
+.gal-alb-type-1 .albums-container li .albums-img {
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/*WooCommerce*/
+.woocommerce .woocommerce-ordering select {
+	vertical-align: middle;
+}
+
+.shop-type-1 .result .woocommerce-ordering,
+.shop-type-1 .shop-bar p {
+	float: none;
+	margin-bottom: 0;
+}
+
+.woo-products div.product {
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.shop-single-thumbnails a {
+	cursor: pointer;
+}
+
+.product-tab {
+	margin-left: 16px;
+}
+
+.shop-single-thumbnails li {
+	padding: 8px 0;
+	display: block;
+}
+
+.shop-single-thumbnails li.active a {
+	-webkit-box-shadow: 0 8px 16px rgba(0,0,0,0.04);
+	box-shadow: 0 8px 16px rgba(0,0,0,0.04);
+	display: block;
+}
+
+.woo-products .product .addTo.added .circle-plus .circle .horizontal {
+	width: 5px;
+	height: 1px;
+	top: 8px;
+	left: 15px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.woo-products .product .addTo.added .circle-plus .circle .vertical {
+	width: 1px;
+	height: 10px;
+	top: 2px;
+	left: 22px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.woo-products .product .added_to_cart {
+	display: none;
+}
+
+.woocommerce .star-rating span {
+	font-family: star;
+}
+
+.woocommerce div.product form.cart .variations label {
+	color: #000;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.woocommerce div.product form.cart .variations td, .woocommerce div.product form.cart .variations th {
+	line-height: 30px;
+}
+
+.single_variation_wrap .woocommerce-variation {
+	margin-bottom: 30px;
+	display: block;
+}
+
+.shop-single-type-1 .product-info .product-content .cart .addToCart.disabled {
+	cursor: not-allowed;
+	opacity: 0.6;
+}
+
+.shop-single-type-1 .product-info .product-content .cart .quantity-buttons {
+	padding-right: 0;
+}
+
+.shop-single-type-1 .product-info .product-content .cart .quantity-buttons .qty {
+	width: 70px;
+}
+
+.shop-single-type-1 .product-info .product-content .price span {
+	font-family: 'Lekton', sans-serif;
+}
+
+.single-woo-tabs .tab-pane > h2,
+.woocommerce #reviews #comments h2 {
+	display: none;
+}
+
+.shop-single-type-1 .single-woo-tabs .tab-content .shop_attributes tr td p {
+	padding: 0;
+}
+
+.woocommerce table.shop_attributes tr:nth-child(even) td, .woocommerce table.shop_attributes tr:nth-child(even) th {
+	background: none;
+}
+
+.woocommerce #reviews #comments ol.commentlist {
+	padding-left: 0;
+	text-align: left;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+	border-radius: 0;
+}
+
+.woocommerce #reviews #comment {
+	height: auto;
+}
+
+#review_form_wrapper.form-type-4 {
+	padding-top: 0;
+}
+
+.shop-single-type-1 .comment-respond .form-type-4 input[type=text] {
+	margin-bottom: 0;
+}
+
+.related.products,
+.upsells.products {
+	text-align: center;
+	padding-top: 10vh;
+}
+
+.related.products .woo-products,
+.upsells.products .woo-products {
+	text-align: left;
+}
+
+.related.products h2,
+.upsells.products h2 {
+	font-family: 'Lekton', sans-serif;
+	font-weight: 400;
+	color: #141414;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+@media (max-width: 1030px) {
+	.gallery-section-type-1 .row .gallery-item:nth-child(6n + 1),
+	.gallery-section-type-1 .gallery-item:nth-child(6n + 1) {
+		width: 100%;
+	}
+
+	.gallery-section-type-1 .row .gallery-item:nth-child(6n + 6),
+	.gallery-section-type-1 .gallery-item:nth-child(6n + 6) {
+		width: 100%;
+	}
+}
+
+@media (max-width: 800px) {
+	.gallery-section-type-1 .row .gallery-item,
+	.gallery-section-type-1 .gallery-item {
+		width: 100%;
+	}
+}

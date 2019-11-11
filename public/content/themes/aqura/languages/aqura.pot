@@ -1,0 +1,1906 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Aqura\n"
+"POT-Creation-Date: 2018-09-08 12:26+0300\n"
+"PO-Revision-Date: 2018-09-08 12:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:16
+msgid "Header Options"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:22
+msgid "Header Content Color"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:26
+msgid "Light"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:27
+msgid "Dark"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:36 admin/meta-box/aqura-meta-box.php:42
+msgid "Blog Layout"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:46 admin/meta-box/aqura-meta-box.php:66
+#: admin/redux/options-init.php:210
+msgid "01"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:47 admin/meta-box/aqura-meta-box.php:67
+#: admin/redux/options-init.php:211
+msgid "02"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:56 admin/meta-box/aqura-meta-box.php:62
+msgid "Album Layout"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:72
+msgid "Hide Player"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:81
+msgid "Article Options"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:85 admin/meta-box/aqura-meta-box.php:451
+#: admin/redux/options-init.php:498 admin/redux/options-init.php:505
+msgid "Header Image"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:86
+msgid "Article Type"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:91 admin/redux/options-init.php:532
+msgid "Title"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:94
+msgid "If this field is empty the title will be the article's title."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:98 admin/meta-box/aqura-meta-box.php:373
+msgid "Description"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:104
+msgid "View More Text"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:107 admin/meta-box/aqura-meta-box.php:217
+#: admin/meta-box/aqura-meta-box.php:428 admin/meta-box/aqura-meta-box.php:474
+msgid "If this field is empty the view more text will be \"View More\"."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:111 admin/redux/options-init.php:515
+msgid "Header Image Background"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:118
+msgid "Choose the type of this article"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:123
+msgid "Standard"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:124
+msgid "Vimeo"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:125
+msgid "YouTube"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:126
+msgid "Gallery"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:127
+msgid "Soundcloud"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:128
+msgid "Quote"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:133
+msgid "Video ID"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:139
+msgid "Soundcloud Track ID"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:145
+msgid "Quote Text"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:151
+msgid "Quote Icon"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:155
+msgid "A FontAwesome class like \"fa-lightbulb-o\" for instance."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:159
+msgid "Quote Author"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:165
+msgid "Gallery Images"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:175
+msgid "Album Options"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:179
+msgid "Album Page Options"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:180
+msgid "Album Details"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:181
+msgid "Album Download Links"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:182
+msgid "Album Tracks"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:187
+msgid "Page Background"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:194
+msgid "Cover Album Image"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:201 admin/meta-box/aqura-meta-box.php:458
+#: admin/redux/options-init.php:530
+msgid "Header Image Title"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:204 admin/meta-box/aqura-meta-box.php:461
+msgid "If this field is empty the title will be the album's title."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:208 admin/meta-box/aqura-meta-box.php:465
+msgid "Header Image Description"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:214 admin/meta-box/aqura-meta-box.php:471
+#: admin/redux/options-init.php:556
+msgid "Header Image View More Text"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:221
+msgid "Release date"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:227 template-parts/content-album-02.php:83
+msgid "Catalog"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:233 template-parts/content-album-02.php:91
+msgid "Label"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:239
+msgid "Format"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:245
+#: template-parts/content-album-02.php:124
+msgid "Last.fm"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:251
+#: template-parts/content-album-02.php:127
+msgid "SoundCloud"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:257
+#: template-parts/content-album-02.php:130
+msgid "iTunes"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:263
+#: template-parts/content-album-02.php:133
+msgid "Spotify"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:269
+#: template-parts/content-album-02.php:136
+msgid "Amazon"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:275
+#: template-parts/content-album-02.php:139
+msgid "Beatport"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:288
+msgid "Track name"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:293
+msgid "Track author"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:298
+msgid "Song Thumbnail"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:301
+msgid "30px X 30px."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:305
+msgid "Song Upload"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:309
+msgid "The file you wish to upload (.mp3 format preferably)."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:313
+msgid "Song External URL / Radio Stream URL"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:315
+msgid ""
+"If you write some URL into this box, it will <strong>override</strong> the "
+"above upload form. So if you have an uploaded song and an url here, the URL "
+"will be used. Also here you can add the soundcloud url to play tracks from "
+"SoundCloud."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:319
+msgid "Track Duration"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:322
+msgid ""
+"If you use an External URL for this track, the duration won't show in "
+"players if you don't add it here."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:332
+msgid "Options For Style 02"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:336 admin/meta-box/aqura-meta-box.php:343
+#: admin/meta-box/aqura-meta-box.php:452 admin/meta-box/aqura-meta-box.php:478
+msgid "Page Title"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:337
+msgid "About The Album"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:338 admin/meta-box/aqura-meta-box.php:397
+#: template-parts/content-album-02.php:238
+msgid "Lyrics"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:349 admin/meta-box/aqura-meta-box.php:484
+msgid "Page Subtitle"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:355 admin/meta-box/aqura-meta-box.php:490
+msgid "Page Title Background Text"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:361
+msgid "Youtube Embed"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:367
+msgid "Vimeo Embed"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:379
+msgid "Album Downlod Link"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:392
+msgid "Song Name"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:408
+msgid "Gallery Options"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:413
+msgid "Gallery Title"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:416
+msgid "Use this field just if you want to overwrite the main title."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:419
+msgid "Gallery Date"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:422
+msgid ""
+"Use this field just if you want to overwrite the publishing date of this "
+"gallery."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:425
+msgid "Gallery View More Text"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:431
+msgid "Gallery Photos"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:436
+msgid "Gallery Thumbnail"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:440
+msgid "This thumbnail will be displayed only on gallery listing."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:447
+msgid "Event Options"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:453
+msgid "Event Details"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:496
+msgid "Event Cover"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:503
+msgid "Event Title"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:506
+msgid "If this field is empty the event's title will be the main title."
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:510
+msgid "Event Date"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:516
+msgid "Event Location"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:522
+#: template-parts/content-events-01.php:87
+msgid "Event Type"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:528
+msgid "Event Organizator"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:534
+msgid "Tickets URL"
+msgstr ""
+
+#: admin/meta-box/aqura-meta-box.php:540
+msgid "Event Description"
+msgstr ""
+
+#: admin/redux/options-init.php:28 admin/redux/options-init.php:29
+#: admin/redux/options-init.php:623
+msgid "AQURA"
+msgstr ""
+
+#: admin/redux/options-init.php:111
+msgid "Theme"
+msgstr ""
+
+#: admin/redux/options-init.php:113
+msgid "Theme's options."
+msgstr ""
+
+#: admin/redux/options-init.php:119 admin/redux/options-init.php:391
+#: admin/redux/options-init.php:579 admin/redux/options-init.php:818
+msgid "Style"
+msgstr ""
+
+#: admin/redux/options-init.php:126
+msgid "Background Color"
+msgstr ""
+
+#: admin/redux/options-init.php:133
+msgid "Background Image"
+msgstr ""
+
+#: admin/redux/options-init.php:140
+msgid "AJAX"
+msgstr ""
+
+#: admin/redux/options-init.php:147
+msgid "AJAX (Non stop player)"
+msgstr ""
+
+#: admin/redux/options-init.php:148
+msgid "Enable or disable the ajax functionality."
+msgstr ""
+
+#: admin/redux/options-init.php:149 admin/redux/options-init.php:189
+msgid "Enabled"
+msgstr ""
+
+#: admin/redux/options-init.php:150 admin/redux/options-init.php:190
+msgid "Disabled"
+msgstr ""
+
+#: admin/redux/options-init.php:157
+msgid "API Keys"
+msgstr ""
+
+#: admin/redux/options-init.php:164
+msgid "Google Maps API Key"
+msgstr ""
+
+#: admin/redux/options-init.php:169
+msgid "Instagram Token"
+msgstr ""
+
+#: admin/redux/options-init.php:174
+msgid "Instagram User ID"
+msgstr ""
+
+#: admin/redux/options-init.php:180
+msgid "Music Player"
+msgstr ""
+
+#: admin/redux/options-init.php:187
+msgid "Enable or Disable main music player"
+msgstr ""
+
+#: admin/redux/options-init.php:188
+msgid ""
+"Be aware, if you disable main music player, the others small play triggers "
+"will not play the music."
+msgstr ""
+
+#: admin/redux/options-init.php:198
+msgid "Main Playlist Album"
+msgstr ""
+
+#: admin/redux/options-init.php:208
+msgid "Select Player Style"
+msgstr ""
+
+#: admin/redux/options-init.php:224
+msgid "Mailchimp"
+msgstr ""
+
+#: admin/redux/options-init.php:231
+msgid "MailChimp List ID"
+msgstr ""
+
+#: admin/redux/options-init.php:236
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: admin/redux/options-init.php:241
+msgid "Verification email"
+msgstr ""
+
+#: admin/redux/options-init.php:242
+msgid "Enable or disable the verification email."
+msgstr ""
+
+#: admin/redux/options-init.php:248
+msgid "Welcome email"
+msgstr ""
+
+#: admin/redux/options-init.php:249
+msgid "Enable or disable the welcome email."
+msgstr ""
+
+#: admin/redux/options-init.php:256
+msgid "Thank You Page"
+msgstr ""
+
+#: admin/redux/options-init.php:262
+msgid "Typography"
+msgstr ""
+
+#: admin/redux/options-init.php:269
+msgid "Menu"
+msgstr ""
+
+#: admin/redux/options-init.php:270
+msgid "These settings control the typography for the main menu."
+msgstr ""
+
+#: admin/redux/options-init.php:283
+msgid "Body"
+msgstr ""
+
+#: admin/redux/options-init.php:284
+msgid "These settings control the typography for all body text."
+msgstr ""
+
+#: admin/redux/options-init.php:297
+msgid "H1"
+msgstr ""
+
+#: admin/redux/options-init.php:298
+msgid "These settings control the typography for all H1 Headers."
+msgstr ""
+
+#: admin/redux/options-init.php:311
+msgid "H2"
+msgstr ""
+
+#: admin/redux/options-init.php:312
+msgid "These settings control the typography for all H2 Headers."
+msgstr ""
+
+#: admin/redux/options-init.php:325
+msgid "H3"
+msgstr ""
+
+#: admin/redux/options-init.php:326
+msgid "These settings control the typography for all H3 Headers."
+msgstr ""
+
+#: admin/redux/options-init.php:339
+msgid "H4"
+msgstr ""
+
+#: admin/redux/options-init.php:340
+msgid "These settings control the typography for all H4 Headers."
+msgstr ""
+
+#: admin/redux/options-init.php:353
+msgid "H5"
+msgstr ""
+
+#: admin/redux/options-init.php:354
+msgid "These settings control the typography for all H5 Headers."
+msgstr ""
+
+#: admin/redux/options-init.php:367
+msgid "H6"
+msgstr ""
+
+#: admin/redux/options-init.php:368
+msgid "These settings control the typography for all H6 Headers."
+msgstr ""
+
+#: admin/redux/options-init.php:383
+msgid "Header"
+msgstr ""
+
+#: admin/redux/options-init.php:385
+msgid "Header's options."
+msgstr ""
+
+#: admin/redux/options-init.php:398
+msgid "Header Style"
+msgstr ""
+
+#: admin/redux/options-init.php:399
+msgid "Select the header style for the theme."
+msgstr ""
+
+#: admin/redux/options-init.php:402 admin/redux/options-init.php:589
+msgid "Style 01"
+msgstr ""
+
+#: admin/redux/options-init.php:403 admin/redux/options-init.php:590
+msgid "Style 02"
+msgstr ""
+
+#: admin/redux/options-init.php:404
+msgid "Style 03"
+msgstr ""
+
+#: admin/redux/options-init.php:412 admin/redux/options-init.php:608
+msgid "Copyrights Text"
+msgstr ""
+
+#: admin/redux/options-init.php:426
+msgid "Logo & Favicon"
+msgstr ""
+
+#: admin/redux/options-init.php:434
+msgid "Light Logo"
+msgstr ""
+
+#: admin/redux/options-init.php:444
+msgid "Dark Logo"
+msgstr ""
+
+#: admin/redux/options-init.php:454
+msgid "Favicon"
+msgstr ""
+
+#: admin/redux/options-init.php:455
+msgid ""
+"An .ico file named \"favicon\" (80x80 px) that will show in the browsers tab "
+"and feed."
+msgstr ""
+
+#: admin/redux/options-init.php:465 admin/redux/options-init.php:472
+#: admin/redux/options-init.php:481 admin/redux/options-init.php:644
+#: admin/redux/options-init.php:658 admin/redux/options-init.php:767
+msgid "Social Icons"
+msgstr ""
+
+#: admin/redux/options-init.php:473 admin/redux/options-init.php:645
+msgid "Hide or Show the social icons."
+msgstr ""
+
+#: admin/redux/options-init.php:474 admin/redux/options-init.php:507
+#: admin/redux/options-init.php:610 admin/redux/options-init.php:646
+#: admin/redux/options-init.php:680
+msgid "Show"
+msgstr ""
+
+#: admin/redux/options-init.php:475 admin/redux/options-init.php:508
+#: admin/redux/options-init.php:611 admin/redux/options-init.php:647
+#: admin/redux/options-init.php:681
+msgid "Hide"
+msgstr ""
+
+#: admin/redux/options-init.php:482
+msgid ""
+"Shortcde base: [aqura_menu_social_icon icon=\"fa-facebook\" href=\"#\" /]"
+msgstr ""
+
+#: admin/redux/options-init.php:506
+msgid "Hide or Show the Header Image."
+msgstr ""
+
+#: admin/redux/options-init.php:543
+msgid "Header Image Text"
+msgstr ""
+
+#: admin/redux/options-init.php:550
+msgid ""
+"Your time is limited, don’t waste it living someone else’s life. Don’t be "
+"trapped by dogma, which is living the result of other people’s thinking. "
+"Don’t let the noise of other opinions drown your own inner voice."
+msgstr ""
+
+#: admin/redux/options-init.php:558
+msgid "View More"
+msgstr ""
+
+#: admin/redux/options-init.php:571
+msgid "Footer"
+msgstr ""
+
+#: admin/redux/options-init.php:573
+msgid "Footer's options."
+msgstr ""
+
+#: admin/redux/options-init.php:586
+msgid "Footer Layout"
+msgstr ""
+
+#: admin/redux/options-init.php:587
+msgid "Select the footer style."
+msgstr ""
+
+#: admin/redux/options-init.php:597 admin/redux/options-init.php:715
+msgid "Footer Background Color"
+msgstr ""
+
+#: admin/redux/options-init.php:609
+msgid "Hide or Show the copyrights text."
+msgstr ""
+
+#: admin/redux/options-init.php:622
+msgid "Copyrights Text Content"
+msgstr ""
+
+#: admin/redux/options-init.php:633
+msgid "Copyrights Link"
+msgstr ""
+
+#: admin/redux/options-init.php:659 admin/redux/options-init.php:768
+msgid ""
+"Shortcde base: [aqura_footer_social_icon icon=\"fa-facebook\" href=\"#\" /]"
+msgstr ""
+
+#: admin/redux/options-init.php:678
+msgid "Go To Top"
+msgstr ""
+
+#: admin/redux/options-init.php:679
+msgid "Hide or Show the \"Go To Top\" button."
+msgstr ""
+
+#: admin/redux/options-init.php:692
+msgid "Go To Top Button Text"
+msgstr ""
+
+#: admin/redux/options-init.php:693 footer.php:45
+msgid "Go Top"
+msgstr ""
+
+#: admin/redux/options-init.php:704
+msgid "Footer Background Image"
+msgstr ""
+
+#: admin/redux/options-init.php:726
+msgid "Footer Logo"
+msgstr ""
+
+#: admin/redux/options-init.php:737
+msgid "Management Email"
+msgstr ""
+
+#: admin/redux/options-init.php:747
+msgid "Booking Email"
+msgstr ""
+
+#: admin/redux/options-init.php:757
+msgid "Contact Phone"
+msgstr ""
+
+#: admin/redux/options-init.php:787
+msgid "Twitter User"
+msgstr ""
+
+#: admin/redux/options-init.php:797
+msgid "Number Of Tweets Displayed"
+msgstr ""
+
+#: admin/redux/options-init.php:810
+msgid "Loader"
+msgstr ""
+
+#: admin/redux/options-init.php:812
+msgid "Loader's options."
+msgstr ""
+
+#: admin/redux/options-init.php:825
+msgid "Loader Background Color"
+msgstr ""
+
+#: admin/redux/options-init.php:832
+msgid "Loader GIF"
+msgstr ""
+
+#: admin/redux/options-init.php:833
+msgid "An .gif file for loader animation."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: admin/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:393
+#: admin/tgm/class-tgm-plugin-activation.php:912
+#: admin/tgm/class-tgm-plugin-activation.php:2618
+#: admin/tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:394
+#: admin/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:395
+#: admin/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: admin/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1019
+#: admin/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1206
+#: admin/tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: admin/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: admin/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: admin/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: admin/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: admin/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3594
+#: admin/tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3594
+#: admin/tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: admin/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: admin/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:13
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:19
+msgid "MetaBox"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:25
+msgid "oAuth Twitter"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:31
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:37
+msgid "Contact Form 7"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:43
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: admin/tgm/tgm-init.php:50
+msgid "AQURA Plugins Core"
+msgstr ""
+
+#: comments.php:26 template-parts/comments-02.php:26
+msgid "Your comment "
+msgstr ""
+
+#: comments.php:33
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "Leave a comment to %s"
+msgstr ""
+
+#: comments.php:35 template-parts/comments-02.php:35
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:36
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:41 template-parts/comments-02.php:42
+msgid "Name... "
+msgstr ""
+
+#: comments.php:42 template-parts/comments-02.php:43
+msgid "Email... "
+msgstr ""
+
+#: comments.php:43 template-parts/comments-02.php:44
+msgid "Website... "
+msgstr ""
+
+#: comments.php:46 template-parts/comments-02.php:46
+msgid "Logged in as "
+msgstr ""
+
+#: comments.php:46 template-parts/comments-02.php:46
+msgid "Log out of this account "
+msgstr ""
+
+#: comments.php:46 template-parts/comments-02.php:46
+msgid "Log out?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:60
+msgid "Comment"
+msgstr ""
+
+#: comments.php:62
+msgid "Comments"
+msgstr ""
+
+#: comments.php:84 template-parts/comments-02.php:83
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:23
+msgid " Y"
+msgstr ""
+
+#: footer.php:62
+msgid "Contact Us"
+msgstr ""
+
+#: footer.php:73
+msgid "Management:"
+msgstr ""
+
+#: footer.php:81
+msgid "Booking:"
+msgstr ""
+
+#: footer.php:89
+msgid "Phone:"
+msgstr ""
+
+#: footer.php:100
+msgid "Stay in Touch"
+msgstr ""
+
+#: footer.php:103
+msgid "Email address..."
+msgstr ""
+
+#: footer.php:106
+msgid "Subscribe"
+msgstr ""
+
+#: footer.php:132
+msgid "Twitter Feed"
+msgstr ""
+
+#: functions.php:62
+msgid "Primary"
+msgstr ""
+
+#: functions.php:63
+msgid "Top Primary Opened Menu"
+msgstr ""
+
+#: functions.php:64
+msgid "Inline Style Primary 1"
+msgstr ""
+
+#: functions.php:65
+msgid "Inline Style Primary 2"
+msgstr ""
+
+#: functions.php:108
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:110
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:169
+msgctxt "slug"
+msgid "product"
+msgstr ""
+
+#: header.php:57
+msgid "Loader animation."
+msgstr ""
+
+#: header.php:209
+msgid "NAME"
+msgstr ""
+
+#: header.php:212
+msgid "LENGTH"
+msgstr ""
+
+#: header.php:215
+msgid "AVAILABLE ON"
+msgstr ""
+
+#: inc/template-tags.php:40 inc/template-tags.php:51
+msgid "By "
+msgstr ""
+
+#. translators: Category archive title. 1: Category name
+#: inc/template-tags.php:61
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#. translators: Tag archive title. 1: Tag name
+#: inc/template-tags.php:64
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#. translators: Yearly archive title. 1: Year
+#: inc/template-tags.php:70
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#. translators: Monthly archive title. 1: Month name and year
+#: inc/template-tags.php:73
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:73
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. translators: Daily archive title. 1: Date
+#: inc/template-tags.php:76
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:76
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:79
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:81
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:85
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:87
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:89
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#. translators: Post type archive title. 1: Post type name
+#: inc/template-tags.php:99
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: Taxonomy term archive title. 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:103
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:105
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:239
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:244
+msgid " at "
+msgstr ""
+
+#: inc/template-tags.php:252
+msgid " Reply"
+msgstr ""
+
+#: inc/template-tags.php:257
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:363
+msgid "Prev"
+msgstr ""
+
+#: inc/template-tags.php:365
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:409 inc/template-tags.php:464
+msgid "Previous Album"
+msgstr ""
+
+#: inc/template-tags.php:411 inc/template-tags.php:466
+msgid "Previous Event"
+msgstr ""
+
+#: inc/template-tags.php:415 inc/template-tags.php:470
+msgid "Next Album"
+msgstr ""
+
+#: inc/template-tags.php:417 inc/template-tags.php:472
+msgid "Next Event"
+msgstr ""
+
+#: single.php:75
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:78
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/comments-02.php:33
+msgid "Leave a reply"
+msgstr ""
+
+#: template-parts/comments-02.php:34
+#, php-format
+msgid "Leave a reply to %s"
+msgstr ""
+
+#: template-parts/comments-02.php:36
+msgid "Post Comment"
+msgstr ""
+
+#: template-parts/comments-02.php:56
+msgid "Responses"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-02.php:139 template-parts/content.php:98
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-02.php:150 template-parts/content-page.php:17
+#: template-parts/content.php:109
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-02.php:161
+msgid "Share This"
+msgstr ""
+
+#: template-parts/content-album-01.php:40
+msgid "Name"
+msgstr ""
+
+#: template-parts/content-album-01.php:43
+msgid "Length"
+msgstr ""
+
+#: template-parts/content-album-01.php:118
+msgid "Details"
+msgstr ""
+
+#: template-parts/content-album-01.php:123
+msgid "Realease Date:"
+msgstr ""
+
+#: template-parts/content-album-01.php:131
+msgid "Catalog:"
+msgstr ""
+
+#: template-parts/content-album-01.php:139
+msgid "Label:"
+msgstr ""
+
+#: template-parts/content-album-01.php:147
+msgid "Fomat:"
+msgstr ""
+
+#: template-parts/content-album-01.php:162
+msgid "Instagram"
+msgstr ""
+
+#: template-parts/content-album-01.php:178
+#: template-parts/content-album-02.php:121
+msgid "Available On"
+msgstr ""
+
+#: template-parts/content-album-02.php:75
+msgid "Realease Date"
+msgstr ""
+
+#: template-parts/content-album-02.php:99
+msgid "Fomat"
+msgstr ""
+
+#: template-parts/content-album-02.php:145
+msgid "New Video"
+msgstr ""
+
+#: template-parts/content-album-02.php:210
+msgid "Buy Now"
+msgstr ""
+
+#: template-parts/content-album-02.php:222
+msgid "About "
+msgstr ""
+
+#: template-parts/content-events-01.php:75
+msgid "Time"
+msgstr ""
+
+#: template-parts/content-events-01.php:81
+msgid "Location"
+msgstr ""
+
+#: template-parts/content-events-01.php:93
+msgid "Organized By"
+msgstr ""
+
+#: template-parts/content-events-01.php:99
+msgid "Buy Tickets"
+msgstr ""
+
+#: template-parts/content-events-01.php:103
+msgid "About Tour"
+msgstr ""
+
+#: template-parts/content-events-01.php:110
+msgid "Share"
+msgstr ""
+
+#: template-parts/content-events-01.php:114
+#: template-parts/content-events-01.php:120
+#: template-parts/content-events-01.php:126
+#: template-parts/content-events-01.php:132
+msgid "On"
+msgstr ""
+
+#: template-parts/content-events-01.php:116
+msgid "Facebook"
+msgstr ""
+
+#: template-parts/content-events-01.php:122
+msgid "Twitter"
+msgstr ""
+
+#: template-parts/content-events-01.php:128
+msgid "Google+"
+msgstr ""
+
+#: template-parts/content-events-01.php:134
+msgid "VK"
+msgstr ""
+
+#: template-parts/content-full-width.php:48
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:119
+msgid "Tag Cloud :"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:32
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#. translators: %d: total results
+#: woocommerce/loop/result-count.php:29
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:34
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Your name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Your E-mail address"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Enter your review here"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:37
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Theme Name of the plugin/theme
+msgid "Aqura"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://themeforest.net/item/aqura-music-bands-musicians-djs-wordpress-"
+"theme/16696753"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Music Bands Musicians & DJ\\'s WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Theme-Brothers"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/theme-brothers/portfolio"
+msgstr ""
