@@ -70,7 +70,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	define ("DISALLOW_FILE_EDIT", true );
 
 	/**  Prevent installation of themes or plugins */
-	define("DISALLOW_FILE_MODS", true );
+	define("DISALLOW_FILE_MODS", false );
 
 	/** For developers: WordPress debugging mode. */
 	define("WP_DEBUG", getenv("WP_DEBUG") == "true");
