@@ -28,6 +28,5 @@
     "memcachier",
     "papertrail",
     "newrelic",
-    "sqreen",
   ]
 }
