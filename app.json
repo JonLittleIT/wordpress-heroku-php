@@ -27,6 +27,6 @@
     "sendgrid",
     "memcachier",
     "papertrail",
-    "newrelic",
+    "newrelic"
   ]
 }
