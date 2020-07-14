@@ -1,0 +1,11 @@
+{
+    "version": 5,
+    "options": {
+        "bd_cat_10": "a:6:{s:13:\"bdaia_fp_onof\";s:4:\"true\";s:14:\"bdaia_fp_style\";s:5:\"grid1\";s:19:\"bdaia_fp_sort_order\";s:7:\"popular\";s:18:\"bdaia_fp_num_posts\";s:1:\"6\";s:22:\"bdaia_cat_post_display\";s:12:\"blockStyle13\";s:10:\"sidebar_po\";s:8:\"sideLeft\";}",
+        "bd_cat_15": "a:4:{s:13:\"bdaia_fp_onof\";s:4:\"true\";s:14:\"bdaia_fp_style\";s:5:\"grid5\";s:18:\"bdaia_fp_num_posts\";s:1:\"2\";s:22:\"bdaia_cat_post_display\";s:12:\"blockStyle12\";}",
+        "bd_cat_4": "a:5:{s:13:\"bdaia_fp_onof\";s:4:\"true\";s:14:\"bdaia_fp_style\";s:8:\"eislider\";s:19:\"bdaia_fp_sort_order\";s:7:\"popular\";s:18:\"bdaia_fp_num_posts\";s:1:\"5\";s:22:\"bdaia_cat_post_display\";s:11:\"blockStyle7\";}",
+        "bd_cat_5": "a:5:{s:13:\"bdaia_fp_onof\";s:4:\"true\";s:14:\"bdaia_fp_style\";s:8:\"carousel\";s:19:\"bdaia_fp_sort_order\";s:7:\"popular\";s:18:\"bdaia_fp_num_posts\";s:1:\"5\";s:22:\"bdaia_cat_post_display\";s:11:\"blockStyle2\";}",
+        "bd_cat_9": "a:5:{s:13:\"bdaia_fp_onof\";s:4:\"true\";s:14:\"bdaia_fp_style\";s:5:\"grid3\";s:19:\"bdaia_fp_sort_order\";s:7:\"popular\";s:18:\"bdaia_fp_num_posts\";s:1:\"5\";s:22:\"bdaia_cat_post_display\";s:11:\"blockStyle6\";}"
+    },
+    "no_autoload": []
+}

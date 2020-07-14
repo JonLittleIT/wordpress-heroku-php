@@ -1,0 +1,90 @@
+.my_meta_control .description { display: none; }
+.my_meta_control { margin: -6px -12px -12px !important; }
+.my_meta_control ul, .my_meta_control ul li {
+    margin: 0;
+    padding: 0;
+}
+.my_meta_control label {
+    display: block;
+    font-weight: bold;
+    margin: 6px;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+.my_meta_control label span {
+    display: inline;
+    font-weight: normal;
+}
+.my_meta_control span { color: #999 }
+.my_meta_control textarea, .my_meta_control input[type='text'] {
+    margin-bottom: 3px;
+    width: 99%;
+}
+.my_meta_control h4 {
+    color: #999;
+    font-size: 1em;
+    margin: 15px 6px;
+    text-transform: uppercase;
+}
+.box_meta_inner { padding: 12px; }
+.box_meta_info {
+    word-wrap: break-word;
+    color: #909090;
+    padding-top: 5px;
+}
+.meta_box_table th, .meta_box_table td {
+    vertical-align: top;
+    text-align: left;
+}
+
+.meta_box_table th {
+    min-width: 140px;
+    font-weight: 600;
+}
+.my_meta_control div.box_meta_inner {
+    border-bottom: 1px #eee solid;
+    -o-transition: all 0.2s cubic-bezier( 0, 0, 0.45, 1 ) 0s;
+    -moz-transition: all 0.2s cubic-bezier( 0, 0, 0.45, 1 ) 0s;
+    -khtml-transition: all 0.2s cubic-bezier( 0, 0, 0.45, 1 ) 0s;
+    -webkit-transition: all-color 0.2s cubic-bezier( 0, 0, 0.45, 1 ) 0s;
+    -ms-transition: all 0.2s cubic-bezier( 0, 0, 0.45, 1 ) 0s;
+    transition: all 0.2s cubic-bezier( 0, 0, 0.45, 1 ) 0s;
+}
+.my_meta_control div.box_meta_inner:hover {
+    background: #f9f9f9;
+    box-shadow: inset 0 0 6px rgba( 0,0,0, .04 );
+}
+.my_meta_control div.box_meta_inner:last-child { border-bottom: none; }
+.my_meta_control .layouts-inner { margin-top: 0 !important; }
+
+.review_criteria_bd span {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.review_criteria_inner_bd {
+    clear: both;
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.box_meta_inner table {
+    width: 100%;
+}
+.box_meta_inner table th {
+    width: 220px;
+}
+.box_meta_inner input[type=text] {
+    width: 250px;
+}
+.box_meta_inner select {
+    width: 250px;
+    height: 27px;
+    vertical-align: top;
+}
+.box_meta_inner textarea {
+    width: 400px;
+}

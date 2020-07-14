@@ -1,0 +1,35 @@
+<wpml-config>
+    <admin-texts>
+        <key name="bd_setting">
+            <key name="logo_upload" />
+            <key name="logo_retina" />
+            <key name="space_head" />
+            <key name="space_body" />
+            <key name="retina_logo_width" />
+            <key name="bdTimeFormat" />
+            <key name="footer_copyright_text" />
+            <key name="bdaia_header_ad" />
+            <key name="bdaia_footer_ad" />
+            <key name="bdaia_p_top_ad" />
+            <key name="bdaia_p_inline_ad" />
+            <key name="bdaia_p_bottom_ad" />
+            <key name="bdaia_p_temp_s3_ad" />
+            <key name="bdaia_p_temp_s4_ad" />
+        </key>
+    </admin-texts>
+    <custom-types>
+        <custom-type translate="1">layerslider</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="translate">sidebar_position_bd</custom-field>
+        <custom-field action="translate">show_post_feature_img_bd</custom-field>
+        <custom-field action="translate">post_template_bd</custom-field>
+        <custom-field action="translate">custom_styles_bd</custom-field>
+        <custom-field action="translate">bdaia_taqyeem</custom-field>
+        <custom-field action="translate">bdaia_taqyeem_position</custom-field>
+        <custom-field action="translate">bdaia_taqyeem_style</custom-field>
+        <custom-field action="translate">bdaia_taqyeem_criteria_name</custom-field>
+        <custom-field action="translate">bdaia_taqyeem_title</custom-field>
+        <custom-field action="translate">bdaia_taqyeem_brief</custom-field>
+    </custom-fields>
+</wpml-config>

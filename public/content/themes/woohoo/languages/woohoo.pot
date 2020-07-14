@@ -1,0 +1,1166 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: woohoo\n"
+"POT-Creation-Date: 2017-11-01 17:47+0200\n"
+"PO-Revision-Date: 2016-05-24 11:21+0200\n"
+"Last-Translator: \n"
+"Language-Team: Bdaia <info@info.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;gettext;gettext_noop;X-"
+"Poedit-SearchPath-0: .\n"
+
+#: 404.php:23 framework/admin/framework-default-texts.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: 404.php:26 framework/admin/framework-default-texts.php:4
+msgid "Sorry, the page you were looking for was not found."
+msgstr ""
+
+#: author.php:20 category.php:22
+#: framework/admin/framework-default-texts.php:10 tag.php:20
+msgid "Feed Subscription"
+msgstr ""
+
+#: author.php:90 framework/admin/framework-default-texts.php:11
+msgid "Posts By"
+msgstr ""
+
+#: footer.php:56
+msgid "Top Tags"
+msgstr ""
+
+#: footer.php:85 framework/admin/framework-default-texts.php:112
+msgid "About us"
+msgstr ""
+
+#: footer.php:95 framework/admin/framework-default-texts.php:113
+msgid "Follow us"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:5
+#: framework/global/check-also.php:77
+msgid "Check Also"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:6
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:7
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:8
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:9
+msgid "Blog Archives"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:13
+msgid "No Comments"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:14
+msgid "One Comment"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:15
+#: framework/single/post-comments.php:10
+#: includes/widgets/bdaia-widget-social-counter.php:620
+#: includes/widgets/bdaia-widget-tabs.php:128
+msgid "Comments"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:16
+#: framework/single/post-comments.php:17
+msgid "Comments are closed."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:17
+#: framework/ajax/ralated/related-articles.php:64
+msgid "Load More Related Articles"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:18
+#: framework/ajax/ralated/related-author.php:67
+msgid "Load More By"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:19
+#: framework/ajax/ralated/related-cat.php:71
+msgid "Load More In"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:20
+#: framework/blocks/loop/loop1.php:32 framework/blocks/loop/loop10.php:52
+#: framework/blocks/loop/loop11.php:43 framework/blocks/loop/loop13.php:65
+#: framework/blocks/loop/loop2.php:39 framework/blocks/loop/loop3.php:45
+#: framework/blocks/loop/loop4.php:44 framework/blocks/loop/loop8.php:54
+#: framework/blocks/loop/loop9.php:53 framework/blocks/loop/timeline.php:8
+#: framework/global/bdaia-cat-feature-posts.php:152
+#: framework/global/bdaia-feature-posts.php:201
+#: framework/single/post-meta-info.php:25
+msgid "By"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:21
+#: framework/blocks/loop/loop1.php:38 framework/blocks/loop/loop2.php:45
+#: framework/blocks/loop/timeline.php:13
+msgid "in"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:22
+#: framework/blocks/loop/loop1.php:59 framework/blocks/loop/loop10.php:64
+#: framework/blocks/loop/loop2.php:52 framework/blocks/loop/loop3.php:58
+#: framework/blocks/loop/loop6.php:50 framework/blocks/loop/loop8.php:69
+#: framework/blocks/loop/loop9.php:68 template-hot.php:96
+#: template-popular.php:80
+msgid "Read More"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:23
+#: framework/blocks/loop/loop13.php:7
+#: framework/global/bdaia-cat-feature-posts.php:160
+#: framework/single/post-meta-info.php:37
+msgid "Posted on"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:24
+#: framework/blocks/loop/loop13.php:59
+msgid "Continue Reading"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:25
+#: framework/functions/functions-breadcrumb.php:32
+msgid "Home"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:26
+#: framework/functions/functions-breadcrumb.php:96
+msgid "Search Results for:"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:27
+#: framework/functions/functions-breadcrumb.php:130
+msgid "Tag Archives:"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:28
+#: framework/functions/functions-breadcrumb.php:143
+msgid "Not Found"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:29
+#: framework/functions/functions-breadcrumb.php:149
+msgid "page"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:30
+#: framework/functions/functions-login.php:28
+#: framework/functions/functions-theme.php:2235
+msgid "Welcome"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:31
+#: framework/functions/functions-login.php:39
+#: framework/functions/functions-theme.php:2237
+msgid "Dashboard"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:32
+#: framework/functions/functions-login.php:42
+#: framework/functions/functions-theme.php:2240
+msgid "Your Profile"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:33
+#: framework/functions/functions-login.php:45
+#: framework/functions/functions-theme.php:2243
+msgid "Logout"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:34
+#: framework/functions/functions-login.php:100
+msgid "Username"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:35
+#: framework/functions/functions-login.php:101
+msgid "Password"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:36
+#: framework/functions/functions-login.php:104
+msgid "Remember Me"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:37
+#: framework/admin/framework-default-texts.php:114
+#: framework/functions/functions-login.php:105
+#: includes/widgets/bdaia-widget-login.php:44
+msgid "Login"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:38
+msgid "Sign up"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:39
+#: framework/functions/functions-login.php:111
+msgid "Forgot your password?"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:40
+#: framework/functions/functions-pagenav.php:171
+msgid "Page"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:41
+#: framework/functions/functions-pagenav.php:171
+msgid "of"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:42
+#: framework/functions/functions-pagenav.php:174
+msgid "First"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:43
+#: framework/functions/functions-pagenav.php:175
+msgid "Last"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:44
+#: framework/functions/functions-post-like.php:116
+#: framework/functions/functions-post-like.php:119
+msgid "I like this article"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:45
+#: framework/functions/functions-theme.php:159
+msgid "Navigation Menu"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:46
+#: framework/functions/functions-theme.php:160
+msgid "Top Menu"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:47
+#: framework/functions/functions-theme.php:161
+msgid "Footer Menu"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:48
+msgid "ago"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:49
+msgid "min read"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:50
+msgid "second read"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:51
+msgid "at"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:52
+msgid "Edit"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:53
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:54
+msgid "Reply"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:55
+#: framework/functions/functions-typo.php:91
+msgid "Default Font"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:56
+#: framework/functions/functions-widgets.php:60
+msgid "Primary Normal Widget Area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:57
+#: framework/functions/functions-widgets.php:62
+msgid "The Primary Normal widget area appears in all pages ."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:58
+#: framework/functions/functions-widgets.php:69
+msgid "Post Sidebar"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:59
+#: framework/functions/functions-widgets.php:71
+msgid "This sidebar will be used by all of your posts ."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:60
+#: framework/functions/functions-widgets.php:78
+msgid "Page Sidebar"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:61
+#: framework/functions/functions-widgets.php:80
+msgid "This sidebar will be used by all of your standard pages ."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:62
+#: framework/functions/functions-widgets.php:87
+msgid "Categories Sidebar"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:63
+#: framework/functions/functions-widgets.php:89
+msgid "This sidebar will be used by all of your standard categories ."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:64
+#: framework/functions/functions-widgets.php:99
+msgid "Shop"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:65
+#: framework/functions/functions-widgets.php:101
+msgid "This sidebar will be used by all of your standard Woocommerce ."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:66
+#: framework/functions/functions-widgets.php:113
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:67
+#: framework/functions/functions-widgets.php:115
+msgid "The first footer widget area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:68
+#: framework/functions/functions-widgets.php:121
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:69
+#: framework/functions/functions-widgets.php:123
+msgid "The Second footer widget area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:70
+#: framework/functions/functions-widgets.php:130
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:71
+#: framework/functions/functions-widgets.php:132
+msgid "The Third footer widget area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:72
+#: framework/functions/functions-widgets.php:139
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:73
+#: framework/functions/functions-widgets.php:141
+msgid "The Fourth footer widget area"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:74
+#: framework/global/bdaia-feature-posts.php:209
+msgid "Posted"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:75
+#: framework/global/bdaia-post-review.php:156
+msgid "Your Rating"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:76
+#: framework/global/bdaia-post-review.php:157
+msgid "User Rating"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:77
+#: framework/global/bdaia-post-review.php:158
+msgid "votes"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:78
+#: framework/global/bdaia-post-sharing.php:58
+#: framework/global/bdaia-post-sharing.php:67
+#: framework/global/bdaia-post-sharing.php:76
+#: framework/global/bdaia-post-sharing.php:85
+#: framework/global/bdaia-post-sharing.php:96
+#: framework/global/bdaia-post-sharing.php:105
+#: framework/global/bdaia-post-sharing.php:118
+msgid "Share on"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:79
+#: framework/global/bdaia-related.php:27
+msgid "Related Articles"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:80
+#: framework/global/bdaia-related.php:35
+msgid "More By"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:81
+#: framework/global/bdaia-related.php:50
+msgid "More In"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:82
+#: framework/global/search-ajax.php:106
+msgid "View All Results"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:83
+#: framework/headers/header-navigation.php:65
+msgid "New"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:84
+#: framework/headers/header-navigation.php:66
+msgid "Articles"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:85
+#: framework/headers/header-navigation.php:78
+msgid "Search"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:86
+#: framework/headers/header-navigation.php:100
+msgid "View your shopping cart"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:87
+#: framework/headers/header-navigation.php:109
+msgid "Random Article"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:88
+#: framework/headers/header-topbar.php:56
+#: framework/headers/header-topbar.php:89
+msgid "Select your Top Menu from wp menus"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:89
+#: framework/single/post-mailchimp-box.php:12
+msgid "Get the best viral stories straight into your inbox!"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:90
+msgid "Don&rsquo;t worry we don&rsquo;t spam"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:91
+#: framework/shorty/includes/block1-functions.php:149
+#: framework/shorty/includes/block10-functions.php:152
+#: framework/shorty/includes/block11-functions.php:150
+#: framework/shorty/includes/block13-functions.php:159
+#: framework/shorty/includes/block2-functions.php:165
+#: framework/shorty/includes/block3-functions.php:153
+#: framework/shorty/includes/block4-functions.php:154
+#: framework/shorty/includes/block5-functions.php:154
+#: framework/shorty/includes/block6-functions.php:163
+#: framework/shorty/includes/block7-functions.php:153
+#: framework/shorty/includes/block8-functions.php:153
+#: framework/shorty/includes/block9-functions.php:152
+#: framework/shorty/includes/timeline-functions.php:154
+msgid "Show More News"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:92
+#: framework/single/post-comments.php:10
+msgid "Click To Comment"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:93
+#: framework/single/post-comments.php:10
+msgid "Comment"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:94
+#: framework/single/post-mailchimp-box.php:11
+msgid "Want more stuff like this?"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:95
+#: framework/single/post-next-prev.php:9
+msgid "Previous article"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:96
+#: framework/single/post-next-prev.php:12
+msgid "Next article"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:97
+#: includes/widgets/bdaia-widget-box1.php:223
+#: includes/widgets/bdaia-widget-box2.php:221
+#: includes/widgets/bdaia-widget-box3.php:223
+#: includes/widgets/bdaia-widget-box4.php:220
+#: includes/widgets/bdaia-widget-box5.php:220
+#: includes/widgets/bdaia-widget-box6.php:220
+#: includes/widgets/bdaia-widget-box7.php:220
+#: includes/widgets/bdaia-widget-box8.php:224
+msgid "Load more"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:98
+#: includes/widgets/bdaia-widget-social-counter.php:542
+#: includes/widgets/bdaia-widget-social-counter.php:554
+#: includes/widgets/bdaia-widget-social-counter.php:576
+#: includes/widgets/bdaia-widget-social-counter.php:583
+#: includes/widgets/bdaia-widget-social-counter.php:590
+#: includes/widgets/bdaia-widget-social-counter.php:597
+msgid "Followers"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:99
+#: includes/widgets/bdaia-widget-social-counter.php:548
+msgid "Fans"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:100
+#: includes/widgets/bdaia-widget-social-counter.php:564
+#: includes/widgets/bdaia-widget-social-counter.php:570
+msgid "Subscribers"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:101
+#: includes/widgets/bdaia-widget-social-counter.php:613
+msgid "Posts"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:102
+#: includes/widgets/bdaia-widget-social-counter.php:602
+#: includes/widgets/bdaia-widget-social-counter.php:607
+#: includes/widgets/bdaia-widget-social-counter.php:627
+msgid "Members"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:103
+#: includes/widgets/bdaia-widget-tabs.php:118
+msgid "Popular"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:104
+#: includes/widgets/bdaia-widget-tabs.php:123
+msgid "Recent"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:105
+#: includes/widgets/bdaia-widget-tabs.php:133
+msgid "Tags"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:106
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:107
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:108
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:109
+msgid "searching can help."
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:110
+msgid "Pages:"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:111
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:115
+msgid "Welcome!"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:116
+msgid "Log into your account"
+msgstr ""
+
+#: framework/admin/framework-default-texts.php:117
+#: framework/global/bdaia-post-review.php:103
+msgid "Summary"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:393
+#: framework/admin/framework-tgm.php:921
+#: framework/admin/framework-tgm.php:2627
+#: framework/admin/framework-tgm.php:3674
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:394
+#: framework/admin/framework-tgm.php:3253
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update "
+"or activate."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:1028
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:1028
+#: framework/admin/framework-tgm.php:1031
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:1031
+msgid ""
+"The remote plugin package consists of more than one file, but the files "
+"are not packaged in a folder."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2076
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2367
+msgid "Required"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2370
+msgid "Recommended"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2386
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2389
+msgid "External Source"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2392
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2409
+msgid "Not Installed"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2413
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2415
+msgid "Active"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2421
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2424
+msgid "Requires Update"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2427
+msgid "Update recommended"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2584
+msgid "Installed version:"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2592
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2604
+msgid "Available version:"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2627
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2641
+msgid "Plugin"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2642
+msgid "Source"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2643
+msgid "Type"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2647
+msgid "Version"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2648
+msgid "Status"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2697
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2702
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2708
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2778
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2811
+msgid "Install"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2817
+msgid "Update"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2820
+msgid "Activate"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2851
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2853
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2894
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:2896
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3002
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3028
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3252
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3592
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3595
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3597
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3601
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3603
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3603
+#: framework/admin/framework-tgm.php:3611
+msgid "Show Details"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3603
+#: framework/admin/framework-tgm.php:3611
+msgid "Hide Details"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3604
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3606
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3609
+msgid ""
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3611
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3612
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/admin/framework-tgm.php:3614
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/wordpress-importer/parsers.php:36
+#: framework/admin/wordpress-importer/parsers.php:71
+#: framework/admin/wordpress-importer/parsers.php:79
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/admin/wordpress-importer/parsers.php:37
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: framework/admin/wordpress-importer/parsers.php:83
+#: framework/admin/wordpress-importer/parsers.php:88
+#: framework/admin/wordpress-importer/parsers.php:279
+#: framework/admin/wordpress-importer/parsers.php:471
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:122
+#: framework/admin/wordpress-importer/wordpress-importer.php:131
+#: framework/admin/wordpress-importer/wordpress-importer.php:182
+#: framework/admin/wordpress-importer/wordpress-importer.php:186
+#: framework/admin/wordpress-importer/wordpress-importer.php:195
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:123
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:166
+msgid "All done."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:166
+msgid "Have fun!"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:167
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:187
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:203
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:228
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:254
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:255
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of "
+"this site. For example, you may want to import all the entries as "
+"<code>admin</code>s entries."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:257
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually "
+"changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:267
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:270
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:287
+msgid "Import author:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:298
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:301
+msgid "as a new user:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:309
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:311
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:312
+msgid "- Select -"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:362
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:413
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:507
+#: framework/admin/wordpress-importer/wordpress-importer.php:648
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:533
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:555
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:614
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:788
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:795
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:880
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:893
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:937
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:943
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:950
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:955
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:961
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1060
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1067
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s "
+"to ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1082
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll "
+"import the posts, pages, comments, custom fields, categories, and tags "
+"into this site."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1083
+msgid ""
+"Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/admin/wordpress-importer/wordpress-importer.php:1156
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: framework/functions/functions-theme.php:171
+msgid "Block 11"
+msgstr ""

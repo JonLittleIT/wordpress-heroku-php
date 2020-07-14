@@ -1,0 +1,1 @@
+jQuery.ajax({type:"GET",url:woohoo_views_c.admin_ajax_url,data:"postviews_id="+woohoo_views_c.post_id+"&action=postviews",cache:!1});
