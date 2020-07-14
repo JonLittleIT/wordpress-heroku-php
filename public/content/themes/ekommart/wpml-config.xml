@@ -1,0 +1,11 @@
+<wpml-config>
+    <admin-texts>
+        <key name="ekommart_options">
+            <key name="deal-topbar-header" />
+            <key name="deal-topbar-countdown-text" />
+            <key name="deal-topbar-time-text" />
+            <key name="welcome-message" />
+            <key name="contact-info" />
+        </key>
+    </admin-texts>
+</wpml-config>

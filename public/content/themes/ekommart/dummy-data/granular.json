@@ -1,0 +1,15 @@
+{
+    "granular_general_settings": "",
+    "granular_editor_settings": {
+        "granular_editor_skin": "",
+        "granular_editor_hack_2": "no",
+        "granular_editor_parallax_on": "yes",
+        "granular_editor_particles_on": "no",
+        "granular_editor_exit_on": "no",
+        "granular_editor_exit_point": "editor",
+        "granular_editor_exit_target": "",
+        "granular_editor_exit_name": "Exit To Dashboard",
+        "granular_editor_live_view_name": "View Live Page"
+    },
+    "granular_advanced_settings": ""
+}

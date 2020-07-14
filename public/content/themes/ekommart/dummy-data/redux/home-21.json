@@ -1,0 +1,155 @@
+{
+    "site_mode": "light",
+    "site_layout": "wide",
+    "boxed-container": "1400",
+    "boxed-offset": "30",
+    "logo_light": {
+        "url": "https://demo2wpopal.b-cdn.net/ekommart/wp-content/uploads/2020/01/logo.svg",
+        "id": "251",
+        "height": "",
+        "width": "",
+        "thumbnail": "https://demo2wpopal.b-cdn.net/ekommart/wp-content/uploads/2020/01/logo.svg",
+        "title": "logo",
+        "caption": "",
+        "alt": "",
+        "description": ""
+    },
+    "logo_dark": {
+        "url": "https://demo2wpopal.b-cdn.net/ekommart/wp-content/uploads/2020/01/logo-dark.svg",
+        "id": "262",
+        "height": "0",
+        "width": "0",
+        "thumbnail": "https://demo2wpopal.b-cdn.net/ekommart/wp-content/uploads/2020/01/logo-dark.svg",
+        "title": "logo-dark",
+        "caption": "",
+        "alt": "",
+        "description": ""
+    },
+    "logo_size": {
+        "width": "",
+        "height": "",
+        "units": "px"
+    },
+    "body-background": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "color-primary": {
+        "regular": "#e2b791",
+        "hover": "#e2b791"
+    },
+    "color-body": "",
+    "color-heading": "",
+    "color-border": "",
+    "color-light": "",
+    "color-dark": "",
+    "typography-body": {
+        "font-family": "",
+        "font-options": "",
+        "google": "1",
+        "font-weight": "",
+        "font-style": "",
+        "subsets": "",
+        "font-size": "",
+        "line-height": "",
+        "word-spacing": "",
+        "letter-spacing": ""
+    },
+    "header-type": "1",
+    "show-header-search": "1",
+    "show-header-cart": "1",
+    "header-cart-dropdown": "side",
+    "show-header-account": "1",
+    "show-header-wishlist": "1",
+    "welcome-message": "Welcome to our online store!",
+    "contact-info": "<div class=\"ekommart-contact\">\r\n    <div class=\"contact_inner\">\r\n        <div class=\"contact_content\">\r\n            <span class=\"title\">+84 800 456 789</span>\r\n            <span class=\"sub-title\">Call Us Free</span>\r\n        </div>\r\n    </div>\r\n    <div class=\"contact_inner\">\r\n        <div class=\"contact_content\">\r\n            <span class=\"title\">Free Shipping</span>\r\n            <span class=\"sub-title\">On Orders Over $150.0</span>\r\n        </div>\r\n    </div>\r\n</div>",
+    "show-header-sticky": "1",
+    "header-sticky-animation": "1",
+    "color-header-sticky": "",
+    "background-header-sticky": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "show-deal-topbar": "1",
+    "deal-topbar-header": "Black Friday. <strong>Save up to 50%!</strong>",
+    "deal-topbar-countdown-text": "Deal Ends:",
+    "deal-topbar-time": "04/19/2021",
+    "deal-topbar-time-text": "Learn More",
+    "deal-topbar-button-link": "https://demo2wpopal.b-cdn.net/ekommart/shop",
+    "breadcrumb-default-color": "",
+    "breadcrumb-default-bg": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "blog-type": "blog-style-4",
+    "social_text": [
+        "https://www.facebook.com/",
+        "http://twitter.com/",
+        "http://instagram.com/",
+        "http://pinterest.com/",
+        "http://youtube.com/"
+    ],
+    "social-share": "1",
+    "social-share-facebook": "1",
+    "social-share-twitter": "1",
+    "social-share-linkedin": "1",
+    "social-share-google-plus": "1",
+    "social-share-pinterest": "1",
+    "social-share-email": "1",
+    "enable-footer-builder": "1",
+    "footer-builder-slug": "footerbuilder-1",
+    "wocommerce_block_style": "6",
+    "woocommerce_product_hover": "bottom-to-top",
+    "woocommerce_product_single_width": {
+        "width": "800px",
+        "units": "px"
+    },
+    "woocommerce_product_thumbnail_width": {
+        "width": "450px",
+        "units": "px"
+    },
+    "woocommerce_archive_layout": "default",
+    "woocommerce_archive_sidebar": "left",
+    "wocommerce_single_style": "1",
+    "single-product-gallery-layout": "horizontal",
+    "wocommerce_product_deal_ids": [
+        "3956",
+        "3952",
+        "5078",
+        "3954",
+        "3946"
+    ],
+    "wocommerce_product_deal_discount_rate": "10",
+    "wocommerce_product_deal_discount_sold": "19",
+    "wocommerce_product_deal_time": "09/15/2020"
+}

@@ -1,0 +1,92 @@
+/**
+ * Legacy WooCommerce Styles
+ *
+ * @todo Remove in Ekommart 2.4
+ */
+/**
+ * Imports
+ */
+@keyframes opal-loading {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes opal-loading {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@media (min-width: 768px) {
+  /**
+	 * Full width content area product layout
+	 */
+  .page-template-template-fullwidth-php .site-main .columns-1 ul.products li.product,
+  .page-template-template-homepage-php .site-main .columns-1 ul.products li.product,
+  .ekommart-full-width-content .site-main .columns-1 ul.products li.product {
+    width: 100%;
+    margin-right: 0;
+    float: none; }
+  .page-template-template-fullwidth-php .site-main .columns-2 ul.products li.product,
+  .page-template-template-homepage-php .site-main .columns-2 ul.products li.product,
+  .ekommart-full-width-content .site-main .columns-2 ul.products li.product {
+    width: 48.3870967742%;
+    float: left;
+    margin-right: 3.2258064516%; }
+  .page-template-template-fullwidth-php .site-main .columns-3 ul.products li.product,
+  .page-template-template-homepage-php .site-main .columns-3 ul.products li.product,
+  .ekommart-full-width-content .site-main .columns-3 ul.products li.product {
+    width: 31.1827956989%;
+    float: left;
+    margin-right: 3.2258064516%; }
+  .page-template-template-fullwidth-php .site-main .columns-4 ul.products li.product,
+  .page-template-template-homepage-php .site-main .columns-4 ul.products li.product,
+  .ekommart-full-width-content .site-main .columns-4 ul.products li.product {
+    width: 22.5806451613%;
+    float: left;
+    margin-right: 3.2258064516%; }
+  .page-template-template-fullwidth-php .site-main .columns-5 ul.products li.product,
+  .page-template-template-homepage-php .site-main .columns-5 ul.products li.product,
+  .ekommart-full-width-content .site-main .columns-5 ul.products li.product {
+    width: 16.9%;
+    margin-right: 3.8%; }
+  .page-template-template-fullwidth-php .site-main .columns-6 ul.products li.product,
+  .page-template-template-homepage-php .site-main .columns-6 ul.products li.product,
+  .ekommart-full-width-content .site-main .columns-6 ul.products li.product {
+    width: 13.9784946237%;
+    float: left;
+    margin-right: 3.2258064516%; }
+  /**
+	 * Main content area (adjacent to sidebar) product layout
+	 */
+  .site-main .columns-1 ul.products li.product {
+    width: 100%;
+    margin-right: 0;
+    float: none; }
+  .site-main .columns-2 ul.products li.product {
+    width: 48%;
+    margin-right: 3.8%; }
+  .site-main .columns-3 ul.products li.product {
+    width: 31.1827956989%;
+    float: left;
+    margin-right: 3.2258064516%; }
+  .site-main .columns-4 ul.products li.product {
+    width: 22.05%;
+    margin-right: 3.8%; }
+  .site-main .columns-5 ul.products li.product {
+    width: 16.9%;
+    margin-right: 3.8%; }
+  .site-main .columns-6 ul.products li.product {
+    width: 13.0434782609%;
+    float: left;
+    margin-right: 4.347826087%; }
+  .site-main ul.products li.product {
+    width: 30.4347826087%;
+    float: left;
+    margin-right: 4.347826087%; }
+  /**
+	 * Full width single product
+	 */
+  .ekommart-full-width-content.single-product .related ul.products li.product,
+  .ekommart-full-width-content.single-product .upsells ul.products li.product {
+    width: 31.1827956989%;
+    float: left;
+    margin-right: 3.2258064516%; } }

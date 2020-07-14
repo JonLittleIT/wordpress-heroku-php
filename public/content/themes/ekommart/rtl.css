@@ -1,0 +1,35 @@
+
+.woocommerce-breadcrumb .breadcrumb-separator::after {
+  content: ""; }
+
+.wc-forward::after,
+.woocommerce-Button--next::after {
+  content: ""; }
+
+.woocommerce-Button--previous::before {
+  content: ""; }
+
+.main-navigation ul.menu ul li.menu-item-has-children > a::after, .main-navigation ul.menu ul li.page_item_has_children > a::after,
+.main-navigation ul.nav-menu ul li.menu-item-has-children > a::after,
+.main-navigation ul.nav-menu ul li.page_item_has_children > a::after {
+  content: ""; }
+
+.woocommerce-tabs ul.tabs li::after {
+  content: ""; }
+
+#wl-wrapper .wl-tabs > li.active::after {
+  content: ""; }
+
+.site-main nav.navigation .nav-previous a::before {
+  content: ""; }
+
+.site-main nav.navigation .nav-next a::after {
+  content: ""; }
+
+.ekommart-product-pagination a[rel='prev']::after {
+  content: ""; }
+
+.ekommart-product-pagination a[rel='next']::after {
+  content: ""; }
+
+

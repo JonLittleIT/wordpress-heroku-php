@@ -1,0 +1,181 @@
+#ekommart-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+}
+.ekommart-modal-overlay{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+}
+#ekommart-modal-body{
+  	position: absolute;
+  	box-shadow: 0px 5px 21px rgba(0,0,0,0.3);
+    top: 50%;
+    left: 50%;
+    /*width: 800px;*/
+    max-width: 95%;
+    min-width: 50px;
+    min-height: 50px;
+    max-height: 85%;
+    transform: translate( -50%, -50% );
+    padding-bottom: 50px;
+    background-color: #fff;
+    z-index: 2;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+#ekommart-modal-body.loading{
+    padding: 0;
+}
+#ekommart-modal-body.loading .ekommart-modal-content i {
+    position: inherit;
+}
+#ekommart-modal-body.edit-menu-active{
+    width: 90%;
+    height: 90%;
+    padding: 0;
+}
+#ekommart-modal-body.edit-menu-active .ekommart-modal-content{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+#ekommart-modal-body.edit-menu-active .ekommart-modal-content iframe{
+    width: 100%;
+    height: 100%
+}
+.ekommart-modal-content{
+	max-height: calc(100vh - 200px);
+	padding: 10px 15px;
+	overflow-y: auto;
+}
+.ekommart-modal-content .wp-picker-holder{
+    position: absolute;
+    z-index: 9;
+}
+.ekommart-modal-content i{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    -webkit-transform: translate( -50%, -50% );
+    -moz-transform: translate( -50%, -50% );
+    -o-transform: translate( -50%, -50% );
+}
+.ekommart-modal-content .form-group{
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+.ekommart-modal-content .form-control{
+    min-width: 400px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+.ekommart-modal-content .form-group > label{
+    min-width: 150px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 15px;
+}
+.ekommart-modal-content .form-group > input[type="checkbox"]{
+    margin: 0 10px;
+}
+.select2-container{
+    z-index: 9999999;
+}
+.ekommart-modal-footer{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-top: 1px solid #dedede;
+}
+.ekommart-edit-menu{
+	margin-left: 10px;
+    background: red; 
+    color:#FFF;
+    font-size: 10px; 
+    padding:2px 6px;
+    border-radius: 10%;
+    font-weight: normal;
+    position: absolute;
+    right: 120px;
+    top: 9px;
+    z-index: 999;
+}
+.ekommart-edit-menu:hover{
+	cursor: pointer;
+}
+.ekommart-switcher-wrap{
+    height: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    background-color: white;
+    transform: translateZ(0);
+}
+.ekommart-switcher-wrap .sw-enable{
+    background-color: #49c66a;
+}
+.ekommart-switcher-wrap label span {
+    font-size: 7px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #a4afb7;
+    text-align: center;
+    display: block;
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+.ekommart-switcher-wrap label {
+    display: block;
+    float: left;
+    background-color: #eceeef;
+    transition: all 0.4s ease;
+}
+.ekommart-switcher-wrap .sw-disable {
+    padding: 4px 12px 4px 4px;
+}
+.ekommart-switcher-wrap .ekommart-input-switcher-true:checked ~ .state-marker {
+    left: 100%;
+    margin-left: -19px;
+}
+.ekommart-switcher-wrap .state-marker {
+    background-color: white;
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin: 1px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+    box-sizing: border-box;
+}
+.ekommart-switcher-wrap .ekommart-input-switcher-true:checked ~ .sw-enable span {
+    opacity: 1;
+    color: white;
+    text-shadow: 0 1px rgba(0,0,0,0.2);
+}
+.ekommart-switcher-wrap .ekommart-input-switcher {
+    display: none;
+}

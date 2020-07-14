@@ -1,0 +1,382 @@
+blockquote:before, a, .color-primary, .deal-topbar-text strong, .deal-time-count .countdown-item .countdown-label, .site-header-account .account-dropdown a.register-link, .site-header-account .account-dropdown a.lostpass-link, .ekommart-contact .contact_icon, ul.menu li.current-menu-item > a, .main-navigation ul li.menu-item.current-menu-parent > a, .main-navigation ul li.menu-item.current-menu-item > a, .main-navigation .sub-menu li.menu-item > a:hover, .site-info a.site-url:not(.button), .contact-block .contact-text a, .contact-block .contact-info_phones .title, .button-outline, .widget_search form::before,
+.widget_product_search form::before,
+.site-search form::before, .ekommart-social-share a:hover {
+    color: #ef3636; 
+}.outline-primary {
+    outline-color: #ef3636; 
+}.shape-primary .elementor-shape-fill {
+    fill: #ef3636; 
+}.bg-primary, .site-header-account .account-dropdown:after, .header-2 .header-bottom, .header-5 .header-bottom, .header-8 .header-navigation, .header-9 .header-navigation, button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.added_to_cart, .pagination .page-numbers.current:not(ul),
+.woocommerce-pagination .page-numbers.current:not(ul) {
+    background-color: #ef3636; 
+}.bd-primary, .deal-button, .header-11 .header-center .widget_product_search form input[type='search']:focus, .button-outline, button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.added_to_cart, .pagination .page-numbers.current:not(ul),
+.woocommerce-pagination .page-numbers.current:not(ul), .widget_search form input[type=text]:focus,
+.widget_search form input[type=search]:focus,
+.widget_product_search form input[type=text]:focus,
+.widget_product_search form input[type=search]:focus,
+.site-search form input[type=text]:focus,
+.site-search form input[type=search]:focus {
+    border-color: #ef3636; 
+}.bd-t-primary {
+    border-top-color: #ef3636; 
+}.bd-b-primary {
+    border-bottom-color: #ef3636; 
+}.bd-l-primary {
+    border-left-color: #ef3636; 
+}.bd-r-primary {
+    border-right-color: #ef3636; 
+}a:hover, .entry-title a:hover, .color-primary_hover, .site-header-account .account-links-menu li a:hover,
+.site-header-account .account-dashboard li a:hover, .ekommart-language-switcher a:hover, .ekommart-language-switcher li.item span:hover, .ekommart-contact .contact_content .contact_link:hover span, .header-11 .header-navigation .main-navigation .menu > li:hover > a, .header-11 .header-navigation .main-navigation .menu > li.current-menu-item > a, .header-11 .header-navigation .main-navigation .menu > li.current-menu-parent > a, .header-12 .main-navigation ul.menu > li.menu-item > a:hover, .main-navigation ul li.menu-item > a:hover, .vertical-navigation ul.menu > li > a:hover, .single-ekommart_menu_item .elementor-icon-list-items li a:hover,
+.mega-menu .elementor-icon-list-items li a:hover, .ekommart-breadcrumb a:hover, .hentry .entry-header .posted-on a:hover,
+.hentry .entry-header .post-author a:hover, .site-footer a:not(.button):hover, .site-info a.site-url:not(.button):hover, #comments .comment-list .comment-meta a.comment-date:hover, .widget.widget_recent_entries .post-title:hover, .wpml-ls-statics-footer li a:hover, .ekommart-canvas-filter a:not(.button):hover,
+.widget-area a:not(.button):hover {
+    color: #e01212; 
+}.outline-primary_hover {
+    outline-color: #e01212; 
+}.shape-primary_hover .elementor-shape-fill {
+    fill: #e01212; 
+}.bg-primary_hover, .vertical-navigation, .button-outline:hover, button:hover,
+input[type='button']:hover,
+input[type='reset']:hover,
+input[type='submit']:hover,
+.button:hover,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover,
+.added_to_cart:hover, .tagcloud a:hover {
+    background-color: #e01212; 
+}.bd-primary_hover, .deal-button:hover, .button-outline:hover, button:hover,
+input[type='button']:hover,
+input[type='reset']:hover,
+input[type='submit']:hover,
+.button:hover,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover,
+.added_to_cart:hover {
+    border-color: #e01212; 
+}.bd-t-primary_hover {
+    border-top-color: #e01212; 
+}.bd-b-primary_hover {
+    border-bottom-color: #e01212; 
+}.bd-l-primary_hover {
+    border-left-color: #e01212; 
+}.bd-r-primary_hover {
+    border-right-color: #e01212; 
+}body, button,
+input,
+textarea, .color-body, .site-header-account .account-links-menu li a,
+.site-header-account .account-dashboard li a, .ekommart-language-switcher a, .main-navigation ul li.menu-item > a, .main-navigation .sub-menu li.menu-item > a, .single-ekommart_menu_item .elementor-icon-list-items li a,
+.mega-menu .elementor-icon-list-items li a, .hentry .entry-header .posted-on a,
+.hentry .entry-header .post-author a, .site-footer a:not(.button), #respond .comment-form-cookies-consent label, input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+.input-text, input[type='text']::-webkit-input-placeholder,
+input[type='number']::-webkit-input-placeholder,
+input[type='email']::-webkit-input-placeholder,
+input[type='tel']::-webkit-input-placeholder,
+input[type='url']::-webkit-input-placeholder,
+input[type='password']::-webkit-input-placeholder,
+input[type='search']::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+.input-text::-webkit-input-placeholder, select:not([size]):not([multiple]), .wpml-ls-statics-footer li a, .ekommart-canvas-filter a:not(.button),
+.widget-area a:not(.button) {
+    color: #626262; 
+}body, button,
+input,
+textarea, .color-body, .site-header-account .account-links-menu li a,
+.site-header-account .account-dashboard li a, .ekommart-language-switcher a, .main-navigation ul li.menu-item > a, .main-navigation .sub-menu li.menu-item > a, .single-ekommart_menu_item .elementor-icon-list-items li a,
+.mega-menu .elementor-icon-list-items li a, .hentry .entry-header .posted-on a,
+.hentry .entry-header .post-author a, .site-footer a:not(.button), #respond .comment-form-cookies-consent label, input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+.input-text, input[type='text']:-ms-input-placeholder,
+input[type='number']:-ms-input-placeholder,
+input[type='email']:-ms-input-placeholder,
+input[type='tel']:-ms-input-placeholder,
+input[type='url']:-ms-input-placeholder,
+input[type='password']:-ms-input-placeholder,
+input[type='search']:-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+.input-text:-ms-input-placeholder, select:not([size]):not([multiple]), .wpml-ls-statics-footer li a, .ekommart-canvas-filter a:not(.button),
+.widget-area a:not(.button) {
+    color: #626262; 
+}body, button,
+input,
+textarea, .color-body, .site-header-account .account-links-menu li a,
+.site-header-account .account-dashboard li a, .ekommart-language-switcher a, .main-navigation ul li.menu-item > a, .main-navigation .sub-menu li.menu-item > a, .single-ekommart_menu_item .elementor-icon-list-items li a,
+.mega-menu .elementor-icon-list-items li a, .hentry .entry-header .posted-on a,
+.hentry .entry-header .post-author a, .site-footer a:not(.button), #respond .comment-form-cookies-consent label, input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+.input-text, input[type='text']::-ms-input-placeholder,
+input[type='number']::-ms-input-placeholder,
+input[type='email']::-ms-input-placeholder,
+input[type='tel']::-ms-input-placeholder,
+input[type='url']::-ms-input-placeholder,
+input[type='password']::-ms-input-placeholder,
+input[type='search']::-ms-input-placeholder,
+textarea::-ms-input-placeholder,
+.input-text::-ms-input-placeholder, select:not([size]):not([multiple]), .wpml-ls-statics-footer li a, .ekommart-canvas-filter a:not(.button),
+.widget-area a:not(.button) {
+    color: #626262; 
+}body, button,
+input,
+textarea, .color-body, .site-header-account .account-links-menu li a,
+.site-header-account .account-dashboard li a, .ekommart-language-switcher a, .main-navigation ul li.menu-item > a, .main-navigation .sub-menu li.menu-item > a, .single-ekommart_menu_item .elementor-icon-list-items li a,
+.mega-menu .elementor-icon-list-items li a, .hentry .entry-header .posted-on a,
+.hentry .entry-header .post-author a, .site-footer a:not(.button), #respond .comment-form-cookies-consent label, input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+.input-text, input[type='text']::placeholder,
+input[type='number']::placeholder,
+input[type='email']::placeholder,
+input[type='tel']::placeholder,
+input[type='url']::placeholder,
+input[type='password']::placeholder,
+input[type='search']::placeholder,
+textarea::placeholder,
+.input-text::placeholder, select:not([size]):not([multiple]), .wpml-ls-statics-footer li a, .ekommart-canvas-filter a:not(.button),
+.widget-area a:not(.button) {
+    color: #626262; 
+}.outline-body {
+    outline-color: #626262; 
+}.shape-body .elementor-shape-fill {
+    fill: #626262; 
+}.bg-body {
+    background-color: #626262; 
+}.bd-body {
+    border-color: #626262; 
+}.bd-t-body {
+    border-top-color: #626262; 
+}.bd-b-body {
+    border-bottom-color: #626262; 
+}.bd-l-body {
+    border-left-color: #626262; 
+}.bd-r-body {
+    border-right-color: #626262; 
+}mark, h1,
+h2, #respond #reply-title,
+h3,
+h4,
+h5,
+h6, blockquote, .entry-title a, .color-heading, .site-header-account > a i, .site-header-search > a i, .site-header-wishlist .header-wishlist i, .ekommart-contact .contact_content .title, .menu-mobile-nav-button, .main-navigation ul > li.menu-item > a,
+.main-navigation ul.nav-menu > li.menu-item > a, .vertical-navigation ul.menu > li > a, .hentry strong,
+.hentry th,
+.hentry dt, .contact-block .contact-info_icon, #comments .comment-list .comment-meta cite, #respond label, fieldset legend, .pagination .page-numbers.current:not(ul),
+.woocommerce-pagination .page-numbers.current:not(ul), .pagination .page-numbers.prev:not(ul), .pagination .page-numbers.next:not(ul),
+.woocommerce-pagination .page-numbers.prev:not(ul),
+.woocommerce-pagination .page-numbers.next:not(ul), .widget.widget_recent_entries .post-title, .widget .widget-title,
+.widget .widgettitle, .widget.widget_rss .rss-date,
+.widget.widget_rss cite, .slick-prev:before,
+.slick-next:before, .single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger::before, .ekommart-social-share .social-share-title {
+    color: #ffffff; 
+}.outline-heading {
+    outline-color: #ffffff; 
+}.shape-heading .elementor-shape-fill {
+    fill: #ffffff; 
+}.bg-heading {
+    background-color: #ffffff; 
+}.bd-heading {
+    border-color: #ffffff; 
+}.bd-t-heading {
+    border-top-color: #ffffff; 
+}.bd-b-heading {
+    border-bottom-color: #ffffff; 
+}.bd-l-heading {
+    border-left-color: #ffffff; 
+}.bd-r-heading {
+    border-right-color: #ffffff; 
+}.color-light, .ekommart-contact .contact_content .sub-title, .woocommerce-breadcrumb, .hentry .entry-header .categories-link,
+.hentry .entry-header .posted-on,
+.hentry .entry-header .post-author,
+.hentry .entry-header .post-comments,
+.hentry .entry-header .byline, .copyright-bar, #comments .comment-list .comment-meta a.comment-date, .pagination .page-numbers:not(ul),
+.woocommerce-pagination .page-numbers:not(ul), .widget.widget_recent_entries .post-date,
+.widget.widget_recent_entries .post-comments, .woocommerce-cart .cart-empty:before, .ekommart-social-share a {
+    color: #b0b0b0; 
+}.outline-light {
+    outline-color: #b0b0b0; 
+}.shape-light .elementor-shape-fill {
+    fill: #b0b0b0; 
+}.bg-light {
+    background-color: #b0b0b0; 
+}.bd-light {
+    border-color: #b0b0b0; 
+}.bd-t-light {
+    border-top-color: #b0b0b0; 
+}.bd-b-light {
+    border-bottom-color: #b0b0b0; 
+}.bd-l-light {
+    border-left-color: #b0b0b0; 
+}.bd-r-light {
+    border-right-color: #b0b0b0; 
+}.color-dark {
+    color: #000000; 
+}.outline-dark {
+    outline-color: #000000; 
+}.shape-dark .elementor-shape-fill {
+    fill: #000000; 
+}.bg-dark, .header-3 .header-top, .ekommart-breadcrumb, .copyright-bar {
+    background-color: #000000; 
+}.bd-dark {
+    border-color: #000000; 
+}.bd-t-dark {
+    border-top-color: #000000; 
+}.bd-b-dark {
+    border-bottom-color: #000000; 
+}.bd-l-dark {
+    border-left-color: #000000; 
+}.bd-r-dark {
+    border-right-color: #000000; 
+}.color-border {
+    color: #3f3f3f; 
+}.outline-border {
+    outline-color: #3f3f3f; 
+}.shape-border .elementor-shape-fill {
+    fill: #3f3f3f; 
+}.bg-border {
+    background-color: #3f3f3f; 
+}.bd-border, .site-header-account .account-dropdown .account-wrap, .header-7 .ekommart-social, .vertical-navigation .vertical-menu .menu, .vertical-navigation .vertical-menu .menu > li, .entry-content table:not(.shop_table) td, .entry-content table:not(.shop_table) th, #comments .comment-list-wrap, #comments .comment-list .comment-content .comment-text, #comments table th,
+#comments table td, input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+textarea,
+.input-text, select:not([size]):not([multiple]), fieldset, .wpml-ls.wpml-ls-legacy-dropdown-click a, .wpml-ls.wpml-ls-legacy-dropdown a, .widget_search form input[type=text],
+.widget_search form input[type=search],
+.widget_product_search form input[type=text],
+.widget_product_search form input[type=search],
+.site-search form input[type=text],
+.site-search form input[type=search], .widget_calendar table th, .widget_calendar table td {
+    border-color: #3f3f3f; 
+}h2 + h3, #respond #reply-title + h3,
+.beta + h3, .bd-t-border, .header-divider, .header-3 .header-right .header-search {
+    border-top-color: #3f3f3f; 
+}.bd-b-border, .header-1, .header-2 .header-top, .header-8 .header-top, .single .hentry .entry-header, #comments .comments-title, #secondary .widget .widget-title,
+#secondary .widget .widgettitle, .widget.widget_recent_entries li {
+    border-bottom-color: #3f3f3f; 
+}.bd-l-border, .ekommart-contact .contact_inner + .contact_inner > div:first-child, .header-7 .ekommart-language-switcher, .header-7 .site-welcome {
+    border-left-color: #3f3f3f; 
+}.bd-r-border, .header-1 .header-left, .header-3 .header-left {
+    border-right-color: #3f3f3f; 
+}.color-background {
+    color: #252525; 
+}.outline-background {
+    outline-color: #252525; 
+}.shape-background .elementor-shape-fill {
+    fill: #252525; 
+}body, .ekommart-layout-boxed #page, .bg-background, .site-header, .site-header-account .account-dropdown .account-wrap, .header-9 .header-container, .header-sticky, .main-navigation .sub-menu, .vertical-navigation ul.menu, .site-footer, input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+textarea,
+.input-text, select:not([size]):not([multiple]), .wpml-ls.wpml-ls-legacy-dropdown-click a, .wpml-ls.wpml-ls-legacy-dropdown a {
+    background-color: #252525; 
+}.bd-background {
+    border-color: #252525; 
+}.bd-t-background {
+    border-top-color: #252525; 
+}.bd-b-background {
+    border-bottom-color: #252525; 
+}.bd-l-background {
+    border-left-color: #252525; 
+}.bd-r-background {
+    border-right-color: #252525; 
+}.color-background2 {
+    color: #252525; 
+}.outline-background2 {
+    outline-color: #252525; 
+}.shape-background2 .elementor-shape-fill {
+    fill: #252525; 
+}.bg-background2 {
+    background-color: #252525; 
+}.bd-background2 {
+    border-color: #252525; 
+}.bd-t-background2 {
+    border-top-color: #252525; 
+}.bd-b-background2 {
+    border-bottom-color: #252525; 
+}.bd-l-background2 {
+    border-left-color: #252525; 
+}.bd-r-background2 {
+    border-right-color: #252525; 
+}.color-white, .header-3 .site-welcome, .header-3 .ekommart-language-switcher span, button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.added_to_cart, .form-light input[type='text'], .form-light input[type='number'], .form-light input[type='email'], .form-light input[type='tel'], .form-light input[type='url'], .form-light input[type='password'], .form-light input[type='search'], .form-light textarea, .form-light .input-text, .form-light input[type='text']::-webkit-input-placeholder, .form-light input[type='number']::-webkit-input-placeholder, .form-light input[type='email']::-webkit-input-placeholder, .form-light input[type='tel']::-webkit-input-placeholder, .form-light input[type='url']::-webkit-input-placeholder, .form-light input[type='password']::-webkit-input-placeholder, .form-light input[type='search']::-webkit-input-placeholder, .form-light textarea::-webkit-input-placeholder, .form-light .input-text::-webkit-input-placeholder {
+    color: #fff; 
+}.color-white, .header-3 .site-welcome, .header-3 .ekommart-language-switcher span, button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.added_to_cart, .form-light input[type='text'], .form-light input[type='number'], .form-light input[type='email'], .form-light input[type='tel'], .form-light input[type='url'], .form-light input[type='password'], .form-light input[type='search'], .form-light textarea, .form-light .input-text, .form-light input[type='text']:-ms-input-placeholder, .form-light input[type='number']:-ms-input-placeholder, .form-light input[type='email']:-ms-input-placeholder, .form-light input[type='tel']:-ms-input-placeholder, .form-light input[type='url']:-ms-input-placeholder, .form-light input[type='password']:-ms-input-placeholder, .form-light input[type='search']:-ms-input-placeholder, .form-light textarea:-ms-input-placeholder, .form-light .input-text:-ms-input-placeholder {
+    color: #fff; 
+}.color-white, .header-3 .site-welcome, .header-3 .ekommart-language-switcher span, button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.added_to_cart, .form-light input[type='text'], .form-light input[type='number'], .form-light input[type='email'], .form-light input[type='tel'], .form-light input[type='url'], .form-light input[type='password'], .form-light input[type='search'], .form-light textarea, .form-light .input-text, .form-light input[type='text']::-ms-input-placeholder, .form-light input[type='number']::-ms-input-placeholder, .form-light input[type='email']::-ms-input-placeholder, .form-light input[type='tel']::-ms-input-placeholder, .form-light input[type='url']::-ms-input-placeholder, .form-light input[type='password']::-ms-input-placeholder, .form-light input[type='search']::-ms-input-placeholder, .form-light textarea::-ms-input-placeholder, .form-light .input-text::-ms-input-placeholder {
+    color: #fff; 
+}.color-white, .header-3 .site-welcome, .header-3 .ekommart-language-switcher span, button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+.added_to_cart, .form-light input[type='text'], .form-light input[type='number'], .form-light input[type='email'], .form-light input[type='tel'], .form-light input[type='url'], .form-light input[type='password'], .form-light input[type='search'], .form-light textarea, .form-light .input-text, .form-light input[type='text']::placeholder, .form-light input[type='number']::placeholder, .form-light input[type='email']::placeholder, .form-light input[type='tel']::placeholder, .form-light input[type='url']::placeholder, .form-light input[type='password']::placeholder, .form-light input[type='search']::placeholder, .form-light textarea::placeholder, .form-light .input-text::placeholder {
+    color: #fff; 
+}.outline-white {
+    outline-color: #fff; 
+}.shape-white .elementor-shape-fill {
+    fill: #fff; 
+}.bg-white, .ekommart-language-switcher .sub-item {
+    background-color: #fff; 
+}.bd-white {
+    border-color: #fff; 
+}.bd-t-white {
+    border-top-color: #fff; 
+}.bd-b-white {
+    border-bottom-color: #fff; 
+}.bd-l-white {
+    border-left-color: #fff; 
+}.bd-r-white {
+    border-right-color: #fff; 
+}

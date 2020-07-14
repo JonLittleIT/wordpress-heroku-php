@@ -1,0 +1,506 @@
+
+@font-face {
+  font-family: "ekommart-icon";
+  src: url("../../../fonts/ekommart-icon.eot");
+  src: url("../../../fonts/ekommart-icon.eot?#iefix") format("eot"), url("../../../fonts/ekommart-icon.woff2") format("woff2"), url("../../../fonts/ekommart-icon.woff") format("woff"), url("../../../fonts/ekommart-icon.ttf") format("truetype"), url("../../../fonts/ekommart-icon.svg#ekommart-icon") format("svg"); }
+
+[class*="ekommart-icon-"]:before {
+  font-family: "ekommart-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle; }
+
+.ekommart-icon-badge-percent:before {
+  content: ""; }
+
+.ekommart-icon-clock:before {
+  content: ""; }
+
+.ekommart-icon-headphones-alt:before {
+  content: ""; }
+
+.ekommart-icon-map-marker-alt:before {
+  content: ""; }
+
+.ekommart-icon-mitten:before {
+  content: ""; }
+
+.ekommart-icon-paw-alt:before {
+  content: ""; }
+
+.ekommart-icon-payment_1:before {
+  content: ""; }
+
+.ekommart-icon-payment_2:before {
+  content: ""; }
+
+.ekommart-icon-payment_3:before {
+  content: ""; }
+
+.ekommart-icon-payment_4:before {
+  content: ""; }
+
+.ekommart-icon-payment_5:before {
+  content: ""; }
+
+.ekommart-icon-payment_6:before {
+  content: ""; }
+
+.ekommart-icon-phone-rotary:before {
+  content: ""; }
+
+.ekommart-icon-rings-wedding:before {
+  content: ""; }
+
+.ekommart-icon-rocket:before {
+  content: ""; }
+
+.ekommart-icon-shapes:before {
+  content: ""; }
+
+.ekommart-icon-tire:before {
+  content: ""; }
+
+.ekommart-icon-tracking_1:before {
+  content: ""; }
+
+.ekommart-icon-tracking_2:before {
+  content: ""; }
+
+.ekommart-icon-tracking_3:before {
+  content: ""; }
+
+.ekommart-icon-tshirt:before {
+  content: ""; }
+
+.ekommart-icon-tv:before {
+  content: ""; }
+
+.ekommart-icon-volleyball-ball:before {
+  content: ""; }
+
+.ekommart-icon-adobe:before {
+  content: ""; }
+
+.ekommart-icon-amazon:before {
+  content: ""; }
+
+.ekommart-icon-android:before {
+  content: ""; }
+
+.ekommart-icon-angular:before {
+  content: ""; }
+
+.ekommart-icon-apper:before {
+  content: ""; }
+
+.ekommart-icon-apple:before {
+  content: ""; }
+
+.ekommart-icon-atlassian:before {
+  content: ""; }
+
+.ekommart-icon-behance:before {
+  content: ""; }
+
+.ekommart-icon-bitbucket:before {
+  content: ""; }
+
+.ekommart-icon-bitcoin:before {
+  content: ""; }
+
+.ekommart-icon-bity:before {
+  content: ""; }
+
+.ekommart-icon-bluetooth:before {
+  content: ""; }
+
+.ekommart-icon-btc:before {
+  content: ""; }
+
+.ekommart-icon-centos:before {
+  content: ""; }
+
+.ekommart-icon-chrome:before {
+  content: ""; }
+
+.ekommart-icon-codepen:before {
+  content: ""; }
+
+.ekommart-icon-cpanel:before {
+  content: ""; }
+
+.ekommart-icon-discord:before {
+  content: ""; }
+
+.ekommart-icon-dochub:before {
+  content: ""; }
+
+.ekommart-icon-docker:before {
+  content: ""; }
+
+.ekommart-icon-dribbble:before {
+  content: ""; }
+
+.ekommart-icon-dropbox:before {
+  content: ""; }
+
+.ekommart-icon-drupal:before {
+  content: ""; }
+
+.ekommart-icon-ebay:before {
+  content: ""; }
+
+.ekommart-icon-facebook:before {
+  content: ""; }
+
+.ekommart-icon-figma:before {
+  content: ""; }
+
+.ekommart-icon-firefox:before {
+  content: ""; }
+
+.ekommart-icon-google-plus:before {
+  content: ""; }
+
+.ekommart-icon-google:before {
+  content: ""; }
+
+.ekommart-icon-grunt:before {
+  content: ""; }
+
+.ekommart-icon-gulp:before {
+  content: ""; }
+
+.ekommart-icon-html5:before {
+  content: ""; }
+
+.ekommart-icon-jenkins:before {
+  content: ""; }
+
+.ekommart-icon-joomla:before {
+  content: ""; }
+
+.ekommart-icon-link-brand:before {
+  content: ""; }
+
+.ekommart-icon-linkedin:before {
+  content: ""; }
+
+.ekommart-icon-mailchimp:before {
+  content: ""; }
+
+.ekommart-icon-opencart:before {
+  content: ""; }
+
+.ekommart-icon-paypal:before {
+  content: ""; }
+
+.ekommart-icon-pinterest-p:before {
+  content: ""; }
+
+.ekommart-icon-reddit:before {
+  content: ""; }
+
+.ekommart-icon-skype:before {
+  content: ""; }
+
+.ekommart-icon-slack:before {
+  content: ""; }
+
+.ekommart-icon-snapchat:before {
+  content: ""; }
+
+.ekommart-icon-spotify:before {
+  content: ""; }
+
+.ekommart-icon-trello:before {
+  content: ""; }
+
+.ekommart-icon-twitter:before {
+  content: ""; }
+
+.ekommart-icon-vimeo:before {
+  content: ""; }
+
+.ekommart-icon-whatsapp:before {
+  content: ""; }
+
+.ekommart-icon-wordpress:before {
+  content: ""; }
+
+.ekommart-icon-yoast:before {
+  content: ""; }
+
+.ekommart-icon-youtube:before {
+  content: ""; }
+
+.ekommart-icon-angle-down:before {
+  content: ""; }
+
+.ekommart-icon-angle-left:before {
+  content: ""; }
+
+.ekommart-icon-angle-right:before {
+  content: ""; }
+
+.ekommart-icon-angle-up:before {
+  content: ""; }
+
+.ekommart-icon-arrow-circle-down:before {
+  content: ""; }
+
+.ekommart-icon-arrow-circle-left:before {
+  content: ""; }
+
+.ekommart-icon-arrow-circle-right:before {
+  content: ""; }
+
+.ekommart-icon-arrow-circle-up:before {
+  content: ""; }
+
+.ekommart-icon-bars:before {
+  content: ""; }
+
+.ekommart-icon-caret-down:before {
+  content: ""; }
+
+.ekommart-icon-caret-left:before {
+  content: ""; }
+
+.ekommart-icon-caret-right:before {
+  content: ""; }
+
+.ekommart-icon-caret-up:before {
+  content: ""; }
+
+.ekommart-icon-cart-empty:before {
+  content: ""; }
+
+.ekommart-icon-check-square:before {
+  content: ""; }
+
+.ekommart-icon-chevron-circle-left:before {
+  content: ""; }
+
+.ekommart-icon-chevron-circle-right:before {
+  content: ""; }
+
+.ekommart-icon-chevron-down:before {
+  content: ""; }
+
+.ekommart-icon-chevron-left:before {
+  content: ""; }
+
+.ekommart-icon-chevron-right:before {
+  content: ""; }
+
+.ekommart-icon-chevron-up:before {
+  content: ""; }
+
+.ekommart-icon-circle:before {
+  content: ""; }
+
+.ekommart-icon-cloud-download-alt:before {
+  content: ""; }
+
+.ekommart-icon-comment:before {
+  content: ""; }
+
+.ekommart-icon-comments:before {
+  content: ""; }
+
+.ekommart-icon-contact:before {
+  content: ""; }
+
+.ekommart-icon-credit-card:before {
+  content: ""; }
+
+.ekommart-icon-dot-circle:before {
+  content: ""; }
+
+.ekommart-icon-edit:before {
+  content: ""; }
+
+.ekommart-icon-envelope:before {
+  content: ""; }
+
+.ekommart-icon-expand-alt:before {
+  content: ""; }
+
+.ekommart-icon-external-link-alt:before {
+  content: ""; }
+
+.ekommart-icon-eye:before {
+  content: ""; }
+
+.ekommart-icon-file-alt:before {
+  content: ""; }
+
+.ekommart-icon-file-archive:before {
+  content: ""; }
+
+.ekommart-icon-filter:before {
+  content: ""; }
+
+.ekommart-icon-folder-open:before {
+  content: ""; }
+
+.ekommart-icon-folder:before {
+  content: ""; }
+
+.ekommart-icon-free_ship:before {
+  content: ""; }
+
+.ekommart-icon-frown:before {
+  content: ""; }
+
+.ekommart-icon-gift:before {
+  content: ""; }
+
+.ekommart-icon-grip-horizontal:before {
+  content: ""; }
+
+.ekommart-icon-heart-fill:before {
+  content: ""; }
+
+.ekommart-icon-heart:before {
+  content: ""; }
+
+.ekommart-icon-history:before {
+  content: ""; }
+
+.ekommart-icon-home:before {
+  content: ""; }
+
+.ekommart-icon-info-circle:before {
+  content: ""; }
+
+.ekommart-icon-instagram:before {
+  content: ""; }
+
+.ekommart-icon-level-up-alt:before {
+  content: ""; }
+
+.ekommart-icon-long-arrow-alt-down:before {
+  content: ""; }
+
+.ekommart-icon-long-arrow-alt-left:before {
+  content: ""; }
+
+.ekommart-icon-long-arrow-alt-right:before {
+  content: ""; }
+
+.ekommart-icon-long-arrow-alt-up:before {
+  content: ""; }
+
+.ekommart-icon-map-marker-check:before {
+  content: ""; }
+
+.ekommart-icon-meh:before {
+  content: ""; }
+
+.ekommart-icon-minus-circle:before {
+  content: ""; }
+
+.ekommart-icon-mobile-android-alt:before {
+  content: ""; }
+
+.ekommart-icon-money-bill:before {
+  content: ""; }
+
+.ekommart-icon-pencil-alt:before {
+  content: ""; }
+
+.ekommart-icon-plus-circle:before {
+  content: ""; }
+
+.ekommart-icon-plus:before {
+  content: ""; }
+
+.ekommart-icon-quote:before {
+  content: ""; }
+
+.ekommart-icon-random:before {
+  content: ""; }
+
+.ekommart-icon-reply-all:before {
+  content: ""; }
+
+.ekommart-icon-reply:before {
+  content: ""; }
+
+.ekommart-icon-search-plus:before {
+  content: ""; }
+
+.ekommart-icon-search:before {
+  content: ""; }
+
+.ekommart-icon-shield-check:before {
+  content: ""; }
+
+.ekommart-icon-shopping-basket:before {
+  content: ""; }
+
+.ekommart-icon-shopping-cart:before {
+  content: ""; }
+
+.ekommart-icon-sign-out-alt:before {
+  content: ""; }
+
+.ekommart-icon-smile:before {
+  content: ""; }
+
+.ekommart-icon-spinner:before {
+  content: ""; }
+
+.ekommart-icon-square:before {
+  content: ""; }
+
+.ekommart-icon-star:before {
+  content: ""; }
+
+.ekommart-icon-store:before {
+  content: ""; }
+
+.ekommart-icon-sync:before {
+  content: ""; }
+
+.ekommart-icon-tachometer-alt:before {
+  content: ""; }
+
+.ekommart-icon-th-large:before {
+  content: ""; }
+
+.ekommart-icon-th-list:before {
+  content: ""; }
+
+.ekommart-icon-thumbtack:before {
+  content: ""; }
+
+.ekommart-icon-times-circle:before {
+  content: ""; }
+
+.ekommart-icon-times:before {
+  content: ""; }
+
+.ekommart-icon-trophy-alt:before {
+  content: ""; }
+
+.ekommart-icon-truck:before {
+  content: ""; }
+
+.ekommart-icon-user-headset:before {
+  content: ""; }
+
+.ekommart-icon-user-shield:before {
+  content: ""; }
+
+.ekommart-icon-user:before {
+  content: ""; }
+

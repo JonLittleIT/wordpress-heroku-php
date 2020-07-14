@@ -1,0 +1,4 @@
+class Elementor{
+
+}
+new Elementor();
