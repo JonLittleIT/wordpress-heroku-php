@@ -1,0 +1,26 @@
+//
+// File
+//
+// @version 1.0.0
+//
+// Outputs wp-block-file  styles
+
+.wp-block-file {
+
+  a:not(.wp-block-file__button) {
+    color: $beehive-primary;
+  }
+
+  .wp-block-file__button {
+    background: $beehive-primary;
+		display: inline-block;
+  }
+
+  &.alignleft,
+  &.alignright {
+
+    + * {
+      margin-top: 1rem;
+    }
+  }
+}

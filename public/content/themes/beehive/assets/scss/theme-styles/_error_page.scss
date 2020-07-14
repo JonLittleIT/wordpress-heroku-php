@@ -1,0 +1,35 @@
+//
+// Beehive 404 error page
+//
+// @version 1.0.0
+//
+// CSS for theme 404 error page
+
+
+.not-found {
+	padding: 40px 0; 
+	text-align: center;
+	
+	form.search-form {
+	
+		.search-field {
+		
+			input {
+				height: 50px;
+				border-radius: 50px;
+			}
+		}
+		
+		.search-button {
+			
+			button.search-submit {
+				height: 50px;
+				width: 50px;
+			}
+		}
+	}
+	
+	&.no-result {
+		padding: 0;
+	}
+}

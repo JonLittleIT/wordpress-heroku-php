@@ -1,0 +1,66 @@
+//
+// Latest posts
+//
+// @version 1.0.0
+//
+// Outputs wp-block-latest-posts styles
+
+.wp-block-latest-posts {
+
+  &.wp-block-latest-posts__list {
+
+    &:not(.is-grid) {
+      list-style: initial;
+
+      .wp-block-latest-posts__featured-image {
+        float: left;
+
+        img {
+          height: 30px;
+          margin-right: .5rem;
+          margin-bottom: .5rem;
+          border-radius: .25rem;
+        }
+
+        &.alignleft,
+        &.alignright,
+        &.aligncenter {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  a {
+    color: $beehive-primary;
+  }
+
+  &__post-date {
+    color: $beehive-mute;
+    font-size: 85%;
+  }
+
+  &.is-grid {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+
+    .wp-block-latest-posts__featured-image {
+      margin-bottom: 1rem;
+
+      img {
+        border-radius: 12px;
+      }
+    }
+  }
+
+  &.aligncenter,
+  &.alignwide,
+  &.alignfull {
+    text-align: center;
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+}

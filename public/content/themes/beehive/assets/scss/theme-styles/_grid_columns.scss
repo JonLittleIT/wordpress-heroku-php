@@ -1,0 +1,88 @@
+//
+// Beehive grid columns
+//
+// @version 1.0.0
+//
+// Styles for beehive grid columns that used throughout the theme
+
+.beehive-columns {
+    padding: 0;
+    margin: 0 -15px;
+    @include flexbox();
+    @include flex-wrap(wrap);
+
+    .column {
+        @include flex(0 0 100%);
+        max-width: 100%;
+        padding: 0 15px;
+        list-style: none;
+        margin-bottom: 30px;
+    }
+
+    @include extra-small-min() {
+        
+        &.columns-1,
+        &.columns-2,
+        &.columns-3,
+        &.columns-4,
+        &.columns-5,
+        &.columns-6 {
+
+            .column {
+                @include flex(0 0 calc(100%/2));
+                max-width: calc(100%/2);
+            }
+        }
+    }
+
+    @include medium-min() {
+
+        &.columns-1 {
+        
+            .column {
+                @include flex(0 0 100%);
+                max-width: 100%;
+            }
+        }
+    
+        &.columns-2 {
+            
+            .column {
+                @include flex(0 0 calc(100%/2));
+                max-width: calc(100%/2);
+            }
+        }
+    
+        &.columns-3 {
+            
+            .column {
+                @include flex(0 0 calc(100%/3));
+                max-width: calc(100%/3);
+            }
+        }
+    
+        &.columns-4 {
+            
+            .column {
+                @include flex(0 0 calc(100%/4));
+                max-width: calc(100%/4);
+            }
+        }
+    
+        &.columns-5 {
+            
+            .column {
+                @include flex(0 0 calc(100%/5));
+                max-width: calc(100%/5);
+            }
+        }
+    
+        &.columns-6 {
+            
+            .column {
+                @include flex(0 0 calc(100%/6));
+                max-width: calc(100%/6);
+            }
+        }
+    }
+}

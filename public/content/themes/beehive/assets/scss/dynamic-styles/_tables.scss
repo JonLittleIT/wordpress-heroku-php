@@ -1,0 +1,29 @@
+//
+// Tables
+//
+// @version 1.0.0
+//
+// Dynamic css outputs for tables
+
+table {
+   
+    tbody {
+      
+      tr {
+        
+        th {
+
+            > a {
+                color: $primary;
+            }
+        }
+              
+        td {
+
+            > a {
+                color: $primary;
+            }
+        }
+      }
+    }
+  }

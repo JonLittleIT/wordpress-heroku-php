@@ -1,0 +1,299 @@
+//
+// Comments
+//
+// @version 1.0.0
+//
+// This file is responsible for css output of the blog comments.
+
+.comments-area {
+	text-align: center;
+	margin-top: 40px;
+	
+	.comment-list {
+		text-align: left;
+		margin-bottom: 40px;
+		position: relative;
+		
+		.comment-body {
+			position: relative;
+		
+			.comment-meta {
+				padding-left: 50px;
+				line-height: 1.5;
+				margin-bottom: .5rem;
+			
+				.comment-author {
+					display: block;
+					margin-right: 10px;
+					
+					.avatar {
+						width: 40px;
+						margin: 0;
+						position: absolute;
+						left: 0;
+					}
+					
+					b {
+						color: $beehive-anchor;
+					}
+				}
+				
+				.comment-metadata {
+					display: block;
+					
+					a {
+						margin-right: 5px;
+					}
+					
+					.edit-link {
+						position: absolute;
+						top: 0;
+						right: 0;
+						
+						a {
+							color: $beehive-primary;
+							margin: 0;
+							text-decoration: none;
+						}
+
+						.comment-edit-link {
+							position: relative;
+							font-size: 0;
+
+							&::before {
+								content: "\eb0d";
+								font-family: 'unicons';
+								font-size: 13px;
+							}
+						}
+					}
+				}
+			}
+			
+			.comment-content {
+				margin-left: 50px;
+				margin-bottom: .5rem;
+
+				a {
+					color: $beehive-primary;
+				}
+
+				img {
+					border-radius: 12px;
+					margin: .5rem 0;
+				}
+
+				> * {
+					margin-bottom: 1rem;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+
+				p {
+					margin-bottom: .5rem;
+				}
+
+				table:not([class]) {
+
+					thead {
+						border: none;
+					}
+			
+					tbody {
+						
+						tr {
+							border: none;
+						}
+					}
+			
+					th,
+					td {
+						border: 1px solid $beehive-border;
+						padding: .75rem;
+					}
+				}
+			}
+			
+			.reply {
+				margin-left: 50px;
+				font-size: 90%;
+				
+				a {
+					font-weight: 600;
+				}
+			}
+		}
+		
+		.comment {
+
+			&.bypostauthor {
+
+				.comment-meta {
+			
+					.comment-author {
+
+						.avatar {
+							border: 2px solid $beehive-primary;
+						}
+					}
+				}
+			}
+		}
+
+		.depth-1 {
+			
+			&:not(:last-child) {
+				margin-bottom: 1.25rem;
+				padding-bottom: 1.25rem;
+				border-bottom: 1px solid $beehive-border;
+			}
+			
+			.comment {
+				margin-left: 50px;
+				padding-top: 1.5rem;
+
+				@include extra-small-max() {
+					margin-left: 1rem;
+				}
+			}
+		}
+
+		.comment-respond {
+			margin-top: 1rem;
+		}
+
+		.trackback,
+		.pingback {
+
+			a.url {
+				text-decoration: underline;
+				color: inherit;
+			}
+		}
+	}
+}
+
+.comments-pagination {
+	text-align: left;
+	margin-bottom: 40px;
+
+	.nav-links {
+
+		.page-numbers {
+			background-color: #fff;
+			display: inline-block;
+			min-width: 1rem;
+			padding: .25rem .75rem;
+			margin: 0;
+			border: 1px solid $beehive-border;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 2px;
+			font-size: 14px;
+
+			&:hover,
+			&:active,
+			&:focus {
+				border-color: $beehive-primary;
+				transition: all .5s;
+			}
+
+			&.current {
+				background-color: $beehive-primary;
+				border-color: $beehive-primary;
+				color: #fff;
+				box-shadow: 0 3px 10px rgba($beehive-shadow, 0.2);
+			}
+		}
+	}
+}
+
+.comment-respond {
+	padding: 3rem 2rem;
+	text-align: center;
+	border-radius: 12px;
+	border: 1px solid $beehive-border;
+
+	.block-title {
+		text-align: center;
+	
+		small {
+			display: block; 
+			font-size: 12px;
+			
+			a {
+				display: block;
+				color: $beehive-red;
+				margin-top: .5rem;
+			}
+		}
+	}
+
+	.comment-form {
+
+		textarea {
+			height: 100px;
+		}
+
+		input[type="submit"] {
+			padding: .75rem 3.5rem;
+			font-size: 1.25em;
+		}
+	}
+
+	#beehive-comment-form {
+		@include flexbox();
+		@include flex-wrap(wrap);
+		margin: 0 -10px;
+
+		> * {
+			width: 100%;
+			padding: 0 10px;
+		}
+
+		> .comment-form-comment,
+		> .comment-form-author,
+		> .comment-form-email,
+		> .comment-form-url {
+			text-align: left;
+		}
+
+		label {
+			font-weight: normal;
+		}
+	}
+
+	@include small-min() {
+		padding-left: 4rem;
+		padding-right: 4rem;
+
+		#beehive-comment-form {
+
+			> .comment-form-author,
+			> .comment-form-email,
+			> .comment-form-url {
+				@include flex(0 0 calc(100% / 3));
+				max-width: calc(100% / 3);
+			}
+		}
+	}
+}
+
+body {
+
+	&.beehive-social-layout {
+
+		&.has-page-sidebar {
+
+			.comment-respond {
+
+				@include small-min() {
+					padding-left: 3rem;
+					padding-right: 3rem;
+				}
+			}
+		}
+	}
+}

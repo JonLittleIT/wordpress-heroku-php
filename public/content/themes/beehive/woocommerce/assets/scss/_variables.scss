@@ -1,0 +1,42 @@
+
+// WooCommerce CSS Variables
+
+// Add Beehive variables
+@import "../.././../assets/scss/_variables"; 
+
+$woocommerce:     	#a46497;
+$green:           	$beehive-green;
+$red:             	$beehive-red;
+$orange:          	#ffba00;
+$blue:            	#2ea2cc;
+
+$primary:           $beehive-primary;                               // Primary color for buttons (alt)
+$primarytext:       desaturate(lighten($primary, 50%), 18%);    // Text on primary color bg
+
+$secondary:         desaturate(lighten($primary, 40%), 21%);    // Secondary buttons
+$secondarytext:     desaturate(darken($secondary, 60%), 21%);   // Text on secondary color bg
+
+$highlight:         $beehive-secondary;                             // Prices, In stock labels, sales flash
+$highlightext:      desaturate(lighten($highlight, 50%), 18%);  // Text on highlight color bg
+
+$contentbg:         #fff;                                       // Content BG - Tabs (active state)
+$subtext:           #777;                                       // small, breadcrumbs etc
+
+// Beehive colors and variables for woocommerce
+
+$wc-primary:        $beehive-primary;	                            // Primary color
+$wc-secondary:      $beehive-secondary;	                            // Secondary color
+$wc-anchor:         $beehive-anchor;                                // Anchor color
+$wc-heading:        $beehive-heading;                               // Heading
+$wc-text:           $beehive-text;                                  // Text color
+$wc-light:          $beehive-light;                                 // Light color
+$wc-mute:           $beehive-mute;                                  // Mute color
+$wc-border:         $beehive-border;                                // Border color
+$wc-shadow:         $beehive-shadow;                                // Shadow color
+$wc-red:            $beehive-red;                                   // Red color
+$wc-green:          $beehive-green;                                 // Green color
+$wc-pale__1:        $beehive-pale__1;                               // Pale 1 background color
+$wc-pale__2:        $beehive-pale__2;                               // Pale 2 background color
+$wc-dark:           $beehive-dark;                                  // Dark background
+$wc-input:          $beehive-input;                                 // Input color
+$wc-transition:     $beehive-transition;                            // Transition

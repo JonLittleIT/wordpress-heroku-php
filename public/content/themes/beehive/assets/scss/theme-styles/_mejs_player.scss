@@ -1,0 +1,150 @@
+//
+// Media element player
+//
+// @version 1.0.0
+//
+// Customize style of the default WordPress media player
+
+body.beehive {
+
+    // player background
+    .mejs-container,
+    .mejs-container .mejs-controls,
+    .mejs-container .mejs-embed,
+    .mejs-container .mejs-embed body {
+        background-color: #f1f3f4;
+    }
+
+    .mejs-container {
+
+        // player controls
+        .mejs-time {
+            color: #787979;
+        }
+
+        // Progress and audio bars
+        // Progress and audio bar background
+        .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+        .mejs-controls .mejs-time-rail .mejs-time-total {
+            background-color: #e1e1e2;
+        }
+
+        // Track progress bar background (amount of track fully loaded)
+        //We prefer to style these with the main accent color of our theme
+        .mejs-controls .mejs-time-rail .mejs-time-loaded {
+            background-color: darken(#e1e1e2, 20%);
+        }
+
+        // Current track progress and active audio volume level bar
+        .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+        .mejs-controls .mejs-time-rail .mejs-time-current {
+            background: $beehive-primary;
+        }
+
+        // Reduce height of the progress and audio bars 
+        .mejs-time-buffering,
+        .mejs-time-current,
+        .mejs-time-float,
+        .mejs-time-float-corner,
+        .mejs-time-float-current,
+        .mejs-time-hovered,
+        .mejs-time-loaded,
+        .mejs-time-marker,
+        .mejs-time-total,
+        .mejs-horizontal-volume-total,
+        .mejs-time-handle-content {
+            height: 2px;
+        }
+
+        .mejs-time-handle-content {
+            top: -8px;
+        }
+        
+        .mejs-time-total {
+            margin-top: 10px;
+        }
+        
+        .mejs-horizontal-volume-total {
+            top: 20px;
+        }
+
+        .mejs-button {
+
+            > button {
+                -webkit-filter: brightness(.4);
+                filter: brightness(.4);
+            }
+        }
+
+        .mejs-play {
+
+            > button {
+                background-position: 0 1px;
+            }
+        }
+
+        &.mejs-audio {
+            border-radius: 50px;
+            overflow: hidden;
+            height: 54px !important;
+
+            .mejs-poster,
+            .mejs-controls {
+                height: 54px !important;
+            }
+
+            .mejs-controls {
+                padding-top: 7px;
+                padding-bottom: 7px;
+            }
+        }
+
+        &.mejs-video {
+            background: #000;
+
+            .mejs-embed,
+            .mejs-embed body {
+                background: black;
+            }
+
+            .mejs-controls {
+                background: transparent;
+            }
+
+            .mejs-time {
+                color: #fff;
+            }
+
+            .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+            .mejs-controls .mejs-time-rail .mejs-time-total {
+                background-color: rgba(#fff, .4);
+            }
+
+            .mejs-controls .mejs-time-rail .mejs-time-loaded {
+                background-color: rgba(#fff, .7);
+            }
+
+            .mejs-button {
+
+                > button {
+                    -webkit-filter: brightness(1);
+                    filter: brightness(1);
+                }
+            }
+        }
+
+        // Extras
+        button {
+            background-color: transparent;
+            min-height: initial;
+            border-radius: 0;
+            box-shadow: none;
+
+
+            &:hover {
+                background-color: transparent;
+                box-shadow: none;
+            }
+        }
+    }
+}

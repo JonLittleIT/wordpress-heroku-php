@@ -1,0 +1,29 @@
+//
+// Separator
+//
+// @version 1.0.0
+//
+// Outputs wp-block-separator styles
+
+.wp-block-separator {
+  background: none;
+  border-top: none;
+  border-bottom: 1px solid $beehive-border;
+	margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  &:not(.is-style-wide):not(.is-style-dots) {
+    max-width: 290px;
+  }
+
+  &.is-style-wide {
+    border-bottom-width: 1px;
+  }
+
+  &.is-style-dots {
+
+    &::before {
+      color: $beehive-text;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+//
+// Tag could
+//
+// @version 1.0.0
+//
+// Outputs wp-block-tag-cloud styles
+
+.wp-block-tag-cloud {
+
+    a.tag-cloud-link {
+        color: inherit;
+        margin: 0;
+    }
+
+    &.aligncenter,
+    &.alignwide,
+    &.alignfull {
+        text-align: center;
+    }
+}

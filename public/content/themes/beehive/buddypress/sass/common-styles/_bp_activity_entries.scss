@@ -1,0 +1,770 @@
+// BP Activity Entries - activity loop
+// @version 3.0.0
+
+.activity-list {
+	position: relative;
+	padding: 0;
+	
+	@include medium-up() {
+
+		&:before {
+			content: "";
+			display: block;
+			background: $bp-border-color;
+			width: 2px;
+			height: 100%;
+			position: absolute;
+			left: 20px;
+			top: 2px;
+			z-index: -1;
+			opacity: .7;
+		}
+	}
+	
+	.activity-item:before,
+	.activity-item:after {
+		content: " ";
+		display: table;
+	}
+
+	.activity-item:after {
+		clear: both;
+	}
+
+	.activity-item { // li element - (entries)
+		list-style: none;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 2.5rem;
+		border: none !important;
+
+		> div {
+			position: relative;
+		}
+
+		> div.item-avatar { 
+			position: relative;
+			float: left;
+			margin-right: 10px;
+
+			img {
+				width: 40px !important;
+				height: auto;
+			}
+		}
+
+		@include medium-up() {
+			
+			> div {
+				margin-left: 55px;
+			}
+
+			> div.item-avatar {
+				margin: 0;
+				position: absolute;
+				left: 0;
+				top: 2px;
+			}
+		}
+
+		// &.new_forum_post,
+		// &.new_forum_topic {
+
+		// 	.activity-inner {
+		// 		border-left: 2px solid $light-grey;
+		// 		margin-left: $marg-sml;
+		// 		padding-left: $pad-med;
+		// 	}
+		// } // close li forum elements
+
+		.activity-inreplyto {
+			color: $light-text;
+
+			@include font-size(13);
+
+			> p {
+				display: inline;
+				margin: 0;
+			}
+
+			blockquote,
+			.activity-inner {
+				background: none;
+				border: 0;
+				display: inline;
+				margin: 0;
+				overflow: hidden;
+				padding: 0;
+			}
+		}
+
+		// The header elements: date stamp, author etc;
+		.activity-header {
+			margin-bottom: .75rem;
+			line-height: 1.75;
+
+			// ensure elements are display inline, some themes setting avatars as block
+			a,
+			img {
+				display: inline;
+			}
+			
+			img {
+				border-radius: 50%;
+				margin-right: .125rem;
+			}
+			
+			a {
+
+				&:first-child {
+					font-weight: 600;
+				}
+
+				&:not(:first-child):not(:hover) {
+					color: inherit;
+					text-decoration: underline;
+				}
+	
+			}
+			
+			.avatar {
+				display: inline-block;
+				margin: 0 $marg-xsml;
+				vertical-align: bottom;
+				width: 20px;
+			}
+
+			.time-since {
+
+				@include font-size(12);
+				text-decoration: none;
+				font-weight: normal;
+
+				&:hover {
+					cursor: pointer;
+					text-decoration: underline;
+				}
+			}
+
+		}// close .activity-header
+
+		.activity-content {
+		
+			.activity-meta.action{
+				padding: 1rem 0;
+				margin-top: 1rem;
+				border-top: 1px solid $bp-border-color;
+				border-bottom: 1px solid $bp-border-color;
+			}
+
+			div.generic-button{
+				margin: 0 1rem 0 0;
+			}
+			
+			blockquote {
+				margin: .5rem 0;
+				padding: $pad-med;
+			}
+
+			p {
+				margin: 0;
+			}
+
+		} // close .activity-content
+
+		.activity-inner {
+		
+			ul {
+				
+				li {
+					list-style: initial;
+					
+					&:before{
+						content: none;
+					}
+				}
+			}
+			
+			ol {
+				
+				li {
+					list-style-type: decimal;
+					
+					&:before{
+						content: none;
+					}
+				}
+			}
+
+			p {
+				word-wrap: break-word;
+			}
+			
+			> p {
+			
+				> img {
+					margin-top: .5rem;
+					box-shadow: 0 16px 25px -23px #000;
+					
+					@include medium-up() {
+						max-width: calc(75% - 1rem);
+					}
+				}
+			}
+			
+			img {
+				display: block;
+				border-radius: 12px;
+			}
+
+			iframe {
+				background-color: #000;
+				max-height: 284px;
+				margin-top: .5rem !important;
+				border-radius: 12px;
+				overflow: hidden;
+				box-shadow: 0 16px 25px -23px #000;
+
+				@include medium-up() {
+					max-width: calc(75% - 1rem) !important;
+				}
+			}
+
+			.jetpack-video-wrapper {
+				margin: 0;
+			}
+
+			.jetpack-video-wrapper + *,
+			iframe + * {
+				margin-top: .5rem;
+			}
+
+			a {
+				color: $bp-primary;
+			}
+
+			.activity-inner-text {
+
+				.shortcontent {
+					display: inline;
+
+					p:first-of-type {
+						display: inline;
+					}
+				}
+			}
+		}
+
+		.activity-read-more {
+			margin-left: 1em; // proportional to the text size please!
+			white-space: nowrap;
+		}
+
+		// The footer elements, buttons etc
+
+		// if this is a ul then...
+		// else we'll skip this for the rules below.
+		ul.activity-meta {
+			margin: 0;
+			padding-left: 0;
+
+			li {
+				// if a list is being used keep it inline
+				border: 0;
+				display: inline-block;
+			}
+		}
+
+		.activity-meta.action {
+			position: relative;
+			text-align: left;
+			@include flex-box-dir();
+			@include flex-align(center);
+
+			// this wrapper has generic margins in _bp_lists.scss
+			// remove for act stream actions.
+			div.generic-button {
+				margin: 0 1rem 0 0;
+
+				&.beehive-like {
+					@include box-order(-1);
+				}
+				
+				.bp-screen-reader-text {
+					border: initial;
+					clip: initial;
+					height: initial;
+					margin: initial;
+					overflow: initial;
+					padding: initial;
+					position: initial;
+					width: initial;
+					word-wrap: initial !important;
+				}
+				
+				.count,
+				.comment-count {
+					background: transparent;
+					border: 1px solid #e7edf2;
+					border-radius: 50px;
+					display: inline;
+					font-size: 85%;
+					margin-left: 2px;
+					padding: 0px 6px;
+					text-align: center;
+					line-height: 1;
+				}
+				
+			}
+
+			.button {
+				background: transparent;
+				position: relative;
+				min-height: auto;
+				border: 0;
+				font-weight: normal;
+				line-height: 1.5;
+				padding: 0;
+				box-shadow: none;
+				color: $bp-light;
+
+				span {
+					background: none;
+				}
+
+				&:hover,
+				&:active,
+				&:focus {
+					color: $bp-light;
+				}
+
+				&.like,
+				&.unlike {
+
+					i {
+						font-size: 1rem;
+						margin-right: .25rem;
+					}
+
+					.count {
+						border: none;
+					}
+				}
+
+				&.like {
+					color: $bp-primary;
+
+					&:hover,
+					&:active,
+					&:focus {
+						color: $bp-primary;
+					}
+
+					.count {
+						background: rgba($bp-primary, .1);
+						color: $bp-primary;
+
+						// &:hover {
+						// 	background: $bp-primary;
+						// 	color: #fff;
+						// 	transition: all .5s;
+						// }
+					}
+				}
+
+				&.unlike {
+					color: $bp-green;
+
+					&:hover,
+					&:active,
+					&:focus {
+						color: $bp-green;
+					}
+
+					.count {
+						background: rgba($bp-green, .1);
+						color: $bp-green;
+
+						// &:hover {
+						// 	background: $bp-primary;
+						// 	color: #fff;
+						// 	transition: all .5s;
+						// }
+					}
+				}
+			}
+
+			a {
+				padding: 0;
+			}
+
+			// we don't want a background hover if icons used
+			.button:focus,
+			.button:hover {
+				background: none;
+			}
+
+			// Uncomment .acomment-reply class for icon us
+			.button:before,
+			.icons:before {
+				font-family: 'unicons';
+				font-size: 1rem;
+				margin-right: 3px;
+				display: none;
+			}
+
+			.acomment-reply.button:before {
+				content: "\e94f";
+			}
+
+			.view:before {
+				content: "\e9d2";
+			}
+
+			.fav:before {
+				content: "\ebae";
+			}
+
+			.unfav:before {
+				content: "\ebad";
+			}
+
+			.delete-activity:before {
+				content: "\ebf7";
+			}
+
+			.delete-activity:hover {
+				color: #800;
+			}
+
+		} // close .activity-meta
+
+		@include medium-small-max() {
+
+			.activity-content {
+
+				.activity-meta.action {
+					justify-content: center;
+
+					.generic-button {
+						flex: 1;
+						text-align: center;
+						margin: 0 1rem;
+					}
+	
+					a.button i,
+					.button:before,
+					.icons:before {
+						display: inline-block;
+						font-size: 1.25rem;
+					}
+	
+					.like-text,
+					.bp-screen-reader-text {
+						display: none;
+					}
+				}
+			}
+		}
+		
+		audio, 
+		video {
+			display: block;
+		}
+
+		// mini activity - razor
+		.beehive-mini-activity {
+			margin: -.5rem;
+			padding: .5rem;
+
+			@include medium-up() {
+				max-width: 75%;
+			}
+
+			.mini-activity-inner {
+				border: 1px solid $bp-border-color;
+				border-radius: 12px;
+				overflow: hidden;
+				box-shadow: 0 8px 6px -6px rgba($bp-shadow, 0.05);
+			}
+
+			.mini-cover {
+				background-color: #c5c5c5;
+				background-size: cover;
+				background-position: center;
+				height: 120px;
+			}
+
+			.mini-content {
+				@include flex-box-dir(row);
+				padding: 1rem 1.5rem 1.5rem;
+				margin: 0 -.5rem;
+
+				> div {
+					padding: 0 .5rem;
+
+					@include medium-small-max() {
+						padding: 0 .25rem;;
+					}
+				}
+
+				.mini-avatar {
+					display: block;
+					margin-top: calc(-40px - 1rem);
+					text-align: inherit;
+
+					a {
+						text-decoration: none;
+					}
+
+					.avatar {
+						border-radius: 12px;
+						max-width: calc(100px + 1rem);
+						width: 100px;
+						height: auto;
+						border: 2px solid #fff;
+						margin: 0;
+						border-radius: 50%;
+					}
+				}
+
+				.mini-info {
+					max-width: calc(100% - (calc(32px + 1rem) + calc(100px + 1rem)));
+				
+					.mini-title {
+						margin: .25rem;
+
+						a {
+							color: $bp-anchor;
+						}
+					}
+
+					.mini-meta {
+
+						> span {
+							color: $bp-mute;
+
+							&:not(:last-child) {
+								margin-right: .25rem;
+							}
+						}
+
+						i {
+							margin-right: .25rem;
+						}
+					}
+				}
+
+				.mini-actions {
+					max-width: calc(32px + 1rem);
+					margin: 0 0 0 auto;
+
+					.generic-button {
+						margin: 0;
+
+						a,
+						.button {
+							font-size: 0;
+							line-height: 1.5;
+							height: auto;
+							min-height: initial;
+							padding: 0;
+							text-align: center;
+							height: 32px;
+							width: 32px;
+							line-height: 32px;
+							border-radius: 50%;
+
+							&:hover,
+							&:active,
+							&:focus {
+								color: #fff;
+							}
+
+							&::before {
+								font-family: 'unicons';
+								content: "\ebab";
+								font-size: 1.125rem;
+								font-weight: normal;
+								text-align: center;
+								vertical-align: middle;
+							}
+
+							&.add::before {
+								content: "\ec16";
+							}
+
+							&.remove::before {
+								content: "\ec11";
+							}
+
+							&.requested::before {
+								content: "\ec13";
+							}
+
+							&.join-group::before {
+								content: "\eb20";
+							}
+
+							&.leave-group::before {
+								content: "\ead3";
+							}
+						}
+					}
+				}
+			}
+
+			&.group {
+				
+				.mini-content {
+
+					.mini-info {
+
+						.mini-meta {
+
+							> span {
+
+								@include extra-large-max() {
+
+									&:last-child {
+										display: none;
+									}
+								}
+							}
+						}
+					} 
+				}
+			}
+		}
+
+	} // close .activity-item
+
+} // close .activity-list
+
+body.beehive-guest-user {
+
+	.activity-list {
+
+		.activity-item{
+
+			.activity-content {
+
+				.activity-meta.action {
+					justify-content: flex-start;
+
+					.generic-button {
+						margin: 0 1rem 0 0;
+						text-align: left;
+						flex: initial;
+
+						.button {
+
+							&::before {
+								content: none;
+							}
+						}
+
+						.bp-screen-reader-text {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+body.single,
+body.group-home {
+
+	.activity-list {
+		
+		.activity-item {
+
+			.activity-inner {
+
+				@include medium-up() {
+					
+					> p {
+
+						> img {
+							max-width: calc(80% - 1rem);
+						}
+					}
+
+					iframe {
+						max-width: calc(80% - 1rem) !important;
+					}
+
+					.beehive-mini-activity {
+						max-width: 80%;
+					}
+				}
+			}
+		}
+	}
+}
+
+.buddypress-wrap {
+
+	// load more link
+	.activity-list {
+
+		.load-more,
+		.load-newest {
+			background-color: #fff;
+			border: 1px solid $bp-border-color;
+			font-weight: 600;
+			margin-left: 55px;
+			margin-bottom: 2.5rem;
+			padding: 0;
+			text-align: center;
+			border-radius: 12px;
+
+			@include medium-max() {
+				margin-left: 0;
+			}
+
+			a {
+				display: block;
+				color: $bp-primary;
+				padding: $pad-sml 0;
+
+				&:focus,
+				&:hover,
+				&:active {
+					text-decoration: none;
+				}
+			}
+
+			&:focus,
+			&:hover,
+			&:active {
+				box-shadow: 0 2px 5px rgba($bp-shadow, .06);
+				transition: all .5s;
+			}
+		}
+
+	}
+}
+
+// Single Activity Entry View
+body.activity-permalink {
+
+	.activity-list {
+
+		li {
+			position: relative;
+
+			&.has-comments {
+				padding-bottom: 0;
+			}
+
+		} // close li
+
+	}
+}
+
+#bp-activity-ajax-loader {
+	list-style: none;
+}

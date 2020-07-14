@@ -1,0 +1,84 @@
+//
+// Beehive Tables
+//
+// @version 1.0.0
+//
+// Beehive theme table styles
+
+table {
+  width: 100%;
+  margin-bottom: 30px;
+	
+  thead {
+		border-bottom: 1px solid $beehive-border;
+		
+    tr {
+      background: transparent;
+			
+      th {
+        font-weight: 600;
+        vertical-align: bottom;
+        padding: .5rem .5rem .5rem 0;
+        position: relative;
+				
+				@include medium-max() {
+					padding-right: .375rem;
+				}
+      }
+			
+      th:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+  
+  tbody {
+	
+    tr {
+      background: transparent;
+			
+			&:not(:last-child) {
+				border-bottom: 1px solid $beehive-border;
+			}
+			
+			th {
+
+				> a {
+          color: $beehive-primary;
+          font-weight: normal;
+        }
+				
+				@include medium-max() {
+					padding-right: .375rem;
+				}
+			}
+			
+      td {
+        padding: .5rem .5rem .5rem 0;
+        vertical-align: top;
+        position: relative;
+
+        > a {
+          color: $beehive-primary;
+          font-weight: normal;
+        }
+      }
+			
+      td:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+	
+  p {
+    margin: 0;
+  }
+
+  a.button {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    min-height: initial;
+    line-height: 1.5;
+    font-size: 95%;
+  }
+}

@@ -1,0 +1,78 @@
+// BP Groups loop.
+// @version 3.0.0
+
+.buddypress-wrap {
+
+	.groups-list { // ul
+
+		li {
+
+			.last-activity {
+				clear: left;
+				margin-top: -.375rem;
+			}
+
+		} // close li
+
+		li.group-no-avatar div.group-desc {
+			margin-left: 0;
+		}
+		
+		&.grid	{
+			
+			> li{
+			
+				.item-avatar {
+					margin: 0;
+
+					img.avatar {
+						width: 80px;
+						border: 2px solid #fff;
+					}
+				}
+			}
+			
+			li {
+			
+				.item-cover{
+					background-color: #c5c5c5;
+					background-size: cover;
+					background-position: center;
+					height: 80px;
+					margin-bottom: -37px;
+					border-radius: 12px;
+				}
+			
+				ul.inline-members {
+					margin: .75rem auto;
+					padding: 0;
+					
+					li {
+						display: inline-block;
+						margin: 0 -.5rem;
+
+						&:hover {
+							z-index: 1;
+						}
+						
+						img.avatar {
+							width: 30px;
+							border: 2px solid #fff;
+							
+							&:hover{
+								transform: scale(1.1);
+								z-index: 1;
+								transition: all .5s;
+							}
+						}
+					}
+				}
+			}
+			
+		}
+
+	} // close .groups-list
+ 
+} // close .buddypress-wrap
+
+

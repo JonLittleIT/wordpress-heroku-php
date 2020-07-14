@@ -1,0 +1,654 @@
+//
+// Buddypress
+// @version 1.0.0
+//
+// Outputs buddypress dynamic styles
+
+// BP generic elements & typography styles
+
+// BP navs
+.bp-navs {
+
+	ul {
+
+		&.dropdown-menu {
+
+			li {
+
+				&.current,
+				&.selected {
+
+					a {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+	
+	&.dir-navs {
+		
+		> ul {
+			
+			> li {
+				
+				&.selected,
+				&.current {
+					border-bottom: 2px solid $primary;
+					
+					> a {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+	
+	&.bp-subnavs {
+		
+		> ul {
+			
+			> li {
+				
+				&.selected,
+				&.current {
+					border-bottom: 2px solid $primary;
+					
+					> a {
+						color: $primary;
+					}
+				}
+			}
+
+			li {
+
+				&.selected,
+				&.current {
+					
+					> a {
+						color: $primary;
+					}
+				}
+
+				&.has-current {
+
+					> a {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+	
+	&.single-screen-navs {
+		
+		ul {
+			
+			li {
+				
+				a {
+					
+					&:hover {
+						color: $primary;
+		
+						span.nav-link-text {
+							color: $primary;
+						}
+					}
+				}
+			}
+		}
+		
+		&.horizontal {
+			
+			ul {
+
+				&.profile-nav {
+
+					> li {
+					
+						@include medium-min() {
+							
+							&.current,
+							&.selected,
+							&.has-current {
+								
+								> a {
+									background: linear-gradient(135deg, lighten($primary,25%) 0%, $primary 75%);
+									color: #fff;
+								}
+							}
+						}
+					}
+				}
+				
+				.dropdown-menu {
+					
+					li {
+					
+						&.current,
+						&.selected {
+							
+							a {
+								
+								color: $primary;
+						
+								.nav-link-text {
+									color: $primary;
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			@include medium-max() {
+			
+				ul {
+					
+					li {
+						
+						&.current,
+						&.selected,
+						&.has-current {
+
+							> a {
+								color: $primary;
+
+								span {
+									color: $primary;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		&.vertical {
+			
+			ul {
+				
+				li {
+					
+					&.current,
+					&.selected {
+
+						a {
+							color: $primary;
+						}
+
+						span.nav-link-text {
+							color: $primary;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.buddypress_object_nav,
+.buddypress-wrap {
+	
+	.bp-navs {
+		
+		li.dynamic,
+		li.dynamic.selected,
+		li.dynamic.current {
+			
+			a {
+				
+				.count {
+					background-color: $primary;
+					color: #fff;
+				}
+			}
+		}
+		
+		li.dynamic {
+
+			a:hover {
+
+				.count {
+					background-color: lighten($primary, 10%); 
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.buddypress-wrap {
+	
+	@include medium-min() {
+		
+		.tabbed-links {
+			
+			ul,
+			ol {
+				
+				li.current,
+				li.has-current {
+					
+					> a {
+						background: $primary !important;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
+// BP update form
+.activity-update-form {
+	
+	form#whats-new-form {
+		
+		#whats-new-submit {
+			
+			input[type="button"] {
+				background: $primary;
+				color: #fff;
+				
+				&:hover,
+				&:active,
+				&:focus {
+					background: lighten($primary, 10%);
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+// BP activity entries
+.activity-list {
+	
+	.activity-item {
+		
+		.activity-inner {
+			
+			a {
+				color: $primary;
+			}
+		}
+
+		.activity-meta.action {
+
+			.button {
+
+				&.like {
+					color: $primary;
+
+					&:hover,
+					&:active,
+					&:focus {
+						color: $primary;
+					}
+
+					.count {
+						background: rgba($primary, .1);
+						color: $primary;
+
+						// &:hover {
+						// 	background: $primary;
+						// }
+					}
+				}
+			}
+		}
+	}
+}
+
+.buddypress-wrap {
+	
+	.activity-list {
+		
+		.load-more,
+		.load-newest {
+			
+			a {
+				color: $primary;
+			}
+		}
+	}
+}
+
+// BP activity comments
+.buddypress-wrap {
+	
+	.activity-comments {
+	
+		.acomment-content {
+			background: rgba(lighten($primary, 10%), .05);
+			
+			a {
+				color: $primary;
+			}
+		}
+	}
+}
+
+// BP item header general
+.single-headers {
+	
+	div#item-header-content {
+		
+		.action {
+			
+			@include medium-max() {
+				
+				.generic-button {
+					
+					a,
+					button {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+}
+
+.no-cover {
+	
+	#item-header-content {
+		
+		.action {
+		
+			@include medium-min() {
+				
+				.generic-button {
+				
+					a,
+					button {
+						background: $primary;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
+// BP item body general 
+.buddypress-wrap {
+	
+	.item-body {
+		
+		.button-tabs {
+			
+			li {
+				
+				&.current,
+				&.selected {
+					
+					a {
+						background: $primary;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
+// BP Buttons
+.buddypress {
+
+	.buddypress-wrap {
+
+		.text-links-list {
+
+			a.button {
+		
+				&:focus,
+				&:hover {
+					color: $primary;
+				}
+
+			}
+		}
+
+		.bp-primary-action.bp-primary-action {
+			background-color: $primary;
+			color: #fff;
+		}
+	}	
+}
+.buddypress-wrap {
+	
+	button {
+	
+		&.ac-reply-cancel {
+			color: $primary;
+			
+			&:focus,
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+}
+
+// BP user profile 
+.buddypress-wrap {
+	
+	.profile {
+		
+		.bp-widget {
+			
+			a {
+				color: $primary;
+			}
+		}
+	}
+
+	.standard-form {
+
+		.field-visibility-settings-close {
+
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+}
+
+// BP layouts
+@include medium-min() {
+	
+	.buddypress-wrap {
+	
+		&.bp-vertical-navs {
+
+			.dir-navs.activity-nav-tabs,
+			.dir-navs.sites-nav-tabs,
+			.dir-navs.groups-nav-tabs,
+			.dir-navs.members-nav-tabs,
+			.main-navs.user-nav-tabs,
+			.main-navs.group-nav-tabs {
+
+				ul {
+					
+					li {
+						
+						&.selected {
+							
+							a {
+								background: $primary;
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Messages 
+.message-action-unstar {
+	
+	&:before {
+		color: $primary;
+	}
+}
+
+#message-threads {
+	
+	li {
+
+		&.selected {
+
+			.user-link {
+
+				img.avatar {
+					border: 2px solid $primary;
+				}
+			}
+		}
+		
+		.thread-content {
+			
+			.thread-subject {
+				
+				.thread-count {
+					color: $primary;
+				}
+				
+				a.subject {
+					color: $primary;
+				}
+			}
+		}
+	}
+}
+
+.bp-messages-content {
+	
+	#thread-preview {
+		
+		.preview-message {
+
+			a {
+				color: $primary;
+			}
+		}
+	}
+	
+	#bp-message-thread-list {
+		
+		.message-content {
+		
+			a {
+				color: $primary;
+			}
+		}
+	}
+}
+
+
+// Miscellaneous
+.bp-help-text {
+	
+	a {
+		color: $primary;
+	}
+}
+
+.field-visibility-settings-close{
+	
+	&:hover {
+		color: $primary;
+	}
+}
+
+.buddypress-wrap {
+	
+	.bp-feedback {
+		border-top: 2px solid $info-color;
+		
+		&.info,
+		&.help {
+			border-top-color: $info-color;
+			
+			.bp-icon {
+				color: $info-color;
+			}
+
+			a {
+				color: $info-color;
+			}
+		}
+		
+		&.error,
+		&.warning {
+			border-top-color: $error-color;
+			
+			.bp-icon {
+				color: $error-color;
+			}
+
+			a {
+				color: $error-color;
+			}
+		}
+		
+		&.loading {
+			border-top-color: $primary;
+			background-image: linear-gradient(60deg, rgba($primary, .08), #fff, rgba($primary, .08), #fff, rgba($primary, .08) );
+			
+			.bp-icon {
+				color: $primary;
+			}
+
+			a {
+				color: $primary;
+			}
+		}
+		
+		&.success,
+		&.updated {
+			border-top-color: $success-color;
+			
+			.bp-icon {
+				color: $success-color;
+			}
+
+			a {
+				color: $success-color;
+			}
+		}
+	}
+}
+
+// Widgets
+.buddypress.widget {
+
+	span.bp-login-widget-register-link {
+
+		a {
+			color: $primary;
+		}
+	}
+}
+
+.profile-widget-area {
+
+	.beehive-activity-widget {
+		
+		ul.widget-activity-list {
+			
+			li {
+
+				&::before {
+					background: $primary;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

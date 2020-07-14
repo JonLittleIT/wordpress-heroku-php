@@ -1,0 +1,271 @@
+// Mixins
+@import "../../scss/_mixins";
+
+@font-face {
+    font-family: 'biconadmin';
+    src:  url('../fonts/biconadmin.eot?g933bn');
+    src:  url('../fonts/biconadmin.eot?g933bn#iefix') format('embedded-opentype'),
+      url('../fonts/biconadmin.ttf?g933bn') format('truetype'),
+      url('../fonts/biconadmin.woff?g933bn') format('woff'),
+      url('../fonts/biconadmin.svg?g933bn#biconadmin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="bicon-"], [class*=" bicon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'biconadmin' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.bicon-menu-icon:before {
+    content: "\e900";
+    color: #ccc;
+}
+  
+.beehive-cols {
+    @include flexbox();
+    @include flex-wrap(wrap);
+    margin: 0 -15px;
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;;
+    }
+
+    .col {
+        padding: 0 15px;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: calc(100%);
+        @include flex(0, 0, calc(100%));
+    }
+
+    &.col-1 {
+
+        .col {
+            max-width: calc(100%);
+            @include flex(0, 0, calc(100%));
+        }
+    }
+
+    &.col-2 {
+
+        .col {
+            max-width: calc(100% / 2);
+            @include flex(0, 0, calc(100% / 2));
+        }
+    }
+
+    &.col-3 {
+        
+        .col {
+            max-width: calc(100% / 3);
+            @include flex(0, 0, calc(100% / 3));
+        }
+    }
+
+    &.col-4 {
+
+        .col {
+            max-width: calc(100% / 4);
+            @include flex(0, 0, calc(100% / 4));
+        }
+    }
+
+    &.col-5 {
+
+        .col {
+            max-width: calc(100% / 5);
+            @include flex(0, 0, calc(100% / 5));
+        }
+    }
+
+    &.col-6 {
+
+        .col {
+            max-width: calc(100% / 6);
+            @include flex(0, 0, calc(100% / 6));
+        }
+    }
+}
+
+.dashicons-beehive-logo {
+
+    &::before {
+        content: "\e900";
+        font-family: 'biconadmin' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+    
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+.beehive-wrap {
+
+    h2.nav-tab-wrapper {
+        margin-bottom: 30px;
+    } 
+
+    .beehive-greetings {
+        position: relative;
+
+        .beehive-logo {
+            width: 170px;
+            position: absolute;
+            right: 0;
+            top: 0;
+
+            img {
+                max-width: 100%;
+            }
+
+            .theme-version {
+                background: #2ed573;
+                color: #fff;
+                padding: 5px;
+                border-radius: 50px;
+                font-weight: bold;
+                position: absolute;
+                text-align: center;
+                margin: auto;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+
+    .beehive-admin-block {
+        background: #fff;
+        padding: 1rem 2rem;
+        margin-bottom: 30px;
+
+        h3 {
+            margin: 16px 0;
+        }
+    }
+
+    .grid-block {
+        background: #fff;
+        height: 100%;
+        padding: 1.5rem 2rem;
+
+        h3, h4 {
+            margin: .6em 0;
+        }
+    }
+
+    .beehive-system-status {
+        background: #fff;
+        padding: 1rem 2rem;
+        margin-bottom: 30px;
+
+        .system-status-item {
+            @include flexbox();
+            padding: 15px 0;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid rgba(#000, .05);
+            }
+
+            .name {
+                width: 100%;
+                max-width: calc(100% / 4);
+                @include flex(0, 0, calc(100% / 4));
+            }
+
+            .status {
+                width: 100%;
+                max-width: 66.66666666%;
+                @include flex(0, 0, calc(100% / 1.5));
+            }
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+
+            .tooltiptext {
+                visibility: hidden;
+                max-width: 400px;
+                min-width: 300px;
+                background-color: #555;
+                color: #fff;
+                text-align: left;
+                border-radius: 6px;
+                padding: 8px 16px;
+                position: absolute;
+                z-index: 1;
+                top: 30px;
+                left: 50%;
+                opacity: 0;
+                transition: opacity 0.3s;
+                transform: translateX(-50%);
+                font-size: 12px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    margin: 0;
+                    height: 10px;
+                    width: 10px;
+                    background: #555;
+                    transform: translateX(-50%) rotate(45deg);
+                    left: 50%;
+                    top: -5px;
+                }
+
+                a {
+                    color: #fff;
+                    text-decoration: underline;
+                }
+            }
+
+            &:hover {
+
+                .tooltiptext {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .dashicons {
+            cursor: pointer;
+        }
+
+        .dashicons-yes {
+            color: #2ed573;
+        }
+
+        .dashicons-no-alt{
+            color: red;
+        }
+    }
+
+    .beehive-credits {
+
+        .item {
+            padding: .5rem 0;
+        }
+    }
+}

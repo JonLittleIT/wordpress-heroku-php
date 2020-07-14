@@ -1,0 +1,26 @@
+//
+// Tag could
+//
+// @version 1.0.0
+//
+// Outputs wp-block-rss styles
+
+.wp-block-rss {
+
+    .wp-block-rss__item-title {
+
+        a {
+            color: $beehive-primary;
+        }
+    }
+
+    .wp-block-rss__item-publish-date {
+        font-size: 90%;
+        color: $beehive-mute;
+    }
+
+    .wp-block-rss__item-author {
+        font-size: 90%;
+        color: $beehive-mute;
+    }
+}

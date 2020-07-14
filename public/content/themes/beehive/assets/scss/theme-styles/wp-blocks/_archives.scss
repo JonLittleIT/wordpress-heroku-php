@@ -1,0 +1,36 @@
+//
+// Archives
+//
+// @version 1.0.0
+//
+// Outputs wp-block-archives styles
+
+.wp-block-archives {
+
+  a {
+    color: $beehive-primary;
+  }
+
+  &.wp-block-archives-dropdown {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  &.aligncenter {
+    text-align: center;
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
+
+    select {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+//
+// Search form
+//
+// @version 1.0.0
+//
+// Outputs wp-block-search styles
+
+.wp-block-search {
+
+    .wp-block-search__input {
+        width: auto;
+        max-width: 100%;
+    }
+
+    @include extra-small-max() {
+
+        .wp-block-search__input {
+            width: 100%;
+        }
+
+        .wp-block-search__button {
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+    }
+}

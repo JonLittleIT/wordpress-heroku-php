@@ -1,0 +1,60 @@
+//
+// Beehive Related Post
+//
+// @version 1.0.0
+//
+// Style outputs for the related posts
+
+.related-posts {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+	p {
+		margin: 0;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.beehive-post {
+		
+		.entry-wrapper {
+
+			.entry-content {
+
+				> * {
+	
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	@include small-min() {
+
+		.grid-columns-2 {
+
+			.beehive-post {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	@include small-max() {
+
+		.grid-columns-2 {
+
+			.beehive-post {
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+

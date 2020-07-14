@@ -1,0 +1,17 @@
+//
+// Posts
+//
+// @version 1.0.0
+//
+// Outputs mejs player dynamic styles
+
+body.beehive {
+
+    .mejs-container {
+
+        .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+        .mejs-controls .mejs-time-rail .mejs-time-current {
+            background: $primary;
+        }
+    }
+}

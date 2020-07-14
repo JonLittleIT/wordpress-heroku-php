@@ -1,0 +1,2642 @@
+# Copyright (C) 2020 thunder-team
+# This file is distributed under the Themeforest Split Licence.
+msgid ""
+msgstr ""
+"Project-Id-Version: Beehive 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/beehive\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-05T15:44:45+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: beehive\n"
+
+#. Theme Name of the theme
+#: includes/class-beehive-admin.php:116
+#: includes/class-beehive-admin.php:142
+#: includes/plugin-compatibilities/elementor/class-beehive-elementor.php:100
+msgid "Beehive"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://themified.com/beehive/"
+msgstr ""
+
+#. Description of the theme
+msgid "The most attactive and adnvanced social network theme on the market"
+msgstr ""
+
+#. Author of the theme
+msgid "thunder-team"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/thunder-team/"
+msgstr ""
+
+#: 404.php:23
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:27
+msgid "Whoops!"
+msgstr ""
+
+#: 404.php:35
+msgid "It looks like nothing was found at this location. Maybe try another search?"
+msgstr ""
+
+#: bbpress/form-reply-search.php:19
+msgid "Search replies"
+msgstr ""
+
+#: bbpress/form-search.php:19
+msgid "Search"
+msgstr ""
+
+#: bbpress/form-topic-search.php:19
+msgid "Search topics"
+msgstr ""
+
+#: buddypress/groups/single/home.php:42
+#: rtmedia/main.php:174
+msgid "About Group"
+msgstr ""
+
+#: buddypress/groups/single/home.php:47
+#: rtmedia/main.php:179
+msgid "Newest Members"
+msgstr ""
+
+#: buddypress/groups/single/members-loop.php:45
+#: buddypress/members/members-loop.php:48
+#: buddypress/members/single/home.php:38
+#: rtmedia/main.php:73
+#: template-parts/social-panel.php:87
+msgid "Friends"
+msgstr ""
+
+#: buddypress/groups/single/members-loop.php:48
+#: buddypress/members/members-loop.php:51
+#: buddypress/members/single/home.php:41
+#: includes/functions/beehive-functions.php:805
+#: rtmedia/main.php:76
+#: template-parts/social-panel.php:90
+msgid "Groups"
+msgstr ""
+
+#: buddypress/members/register.php:16
+msgid "Create an Account"
+msgstr ""
+
+#: comments.php:42
+msgid "One Comment"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:46
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: includes/admin/credits.php:19
+#: includes/class-beehive-admin.php:120
+#: includes/class-beehive-admin.php:154
+msgid "Credits"
+msgstr ""
+
+#: includes/admin/credits.php:20
+msgid "We are very thankfull to the following people/company who provided some cool stuffs that tremendously helped us to create an amazing social network theme. A big thumbs up from Thunder Team."
+msgstr ""
+
+#: includes/admin/credits.php:26
+msgid "Plugins and Scripts"
+msgstr ""
+
+#: includes/admin/credits.php:27
+msgid "The BuddyPress Community"
+msgstr ""
+
+#: includes/admin/credits.php:28
+msgid "RTCamp"
+msgstr ""
+
+#: includes/admin/credits.php:29
+msgid "BuddyDev"
+msgstr ""
+
+#: includes/admin/credits.php:30
+msgid "Automattic"
+msgstr ""
+
+#: includes/admin/credits.php:31
+#: includes/theme-options.php:823
+msgid "Job Manager"
+msgstr ""
+
+#: includes/admin/credits.php:32
+msgid "WP Adverts"
+msgstr ""
+
+#: includes/admin/credits.php:33
+msgid "The bbPress Community"
+msgstr ""
+
+#: includes/admin/credits.php:34
+msgid "Team Redux"
+msgstr ""
+
+#: includes/admin/credits.php:35
+msgid "CMB2 team"
+msgstr ""
+
+#: includes/admin/credits.php:36
+msgid "Leafo"
+msgstr ""
+
+#: includes/admin/credits.php:41
+msgid "Graphics and Media"
+msgstr ""
+
+#: includes/admin/credits.php:42
+msgid "Pexels"
+msgstr ""
+
+#: includes/admin/credits.php:43
+msgid "Freepik"
+msgstr ""
+
+#: includes/admin/credits.php:44
+msgid "Mockup World"
+msgstr ""
+
+#: includes/admin/support.php:19
+msgid "Theme Support"
+msgstr ""
+
+#: includes/admin/support.php:20
+msgid "Like all the themeforest themes, Beehive offers 6 months of free support. If your support has expired, you may want to renew it at our themeforest item page. We will be more than happy to assist you."
+msgstr ""
+
+#: includes/admin/support.php:26
+#: includes/admin/support.php:28
+msgid "Docummentation"
+msgstr ""
+
+#: includes/admin/support.php:27
+msgid "Having trouble to setup the theme? Check out our docs that describes every aspect of our theme."
+msgstr ""
+
+#: includes/admin/support.php:33
+msgid "Contact Support"
+msgstr ""
+
+#: includes/admin/support.php:34
+msgid "No luck? Well, no problem. We are here to help you. Contact us and will get back to you within 24 hours."
+msgstr ""
+
+#: includes/admin/support.php:35
+msgid "Contact us"
+msgstr ""
+
+#: includes/admin/support.php:40
+msgid "Request a Feature"
+msgstr ""
+
+#: includes/admin/support.php:41
+msgid "Want new feature? Write us and if we think the suggested feature is great, we will include them in the theme."
+msgstr ""
+
+#: includes/admin/support.php:42
+msgid "Request feature"
+msgstr ""
+
+#: includes/admin/system.php:19
+#: includes/class-beehive-admin.php:118
+#: includes/class-beehive-admin.php:152
+msgid "System Status"
+msgstr ""
+
+#: includes/admin/system.php:20
+msgid "Find you server information here. If you see warnings, we strongly recommend you to fix them before you import the demo contents. In any case if you need help from our end, please do not hesitate to contact us."
+msgstr ""
+
+#: includes/admin/system.php:28
+msgid "Sorry we could not find your PHP version."
+msgstr ""
+
+#: includes/admin/system.php:30
+msgid "Met WordPress recommendation."
+msgstr ""
+
+#: includes/admin/system.php:30
+msgid "WordPress recommends 7.0.0 or above."
+msgstr ""
+
+#: includes/admin/system.php:36
+msgid "mySQL is installed."
+msgstr ""
+
+#: includes/admin/system.php:42
+msgid "We encourange you to set up PHP memory limit to at least 256MB"
+msgstr ""
+
+#: includes/admin/system.php:42
+msgid "Your memory limit is sufficient."
+msgstr ""
+
+#: includes/admin/system.php:48
+msgid "We encourange you to set it to at least 300"
+msgstr ""
+
+#: includes/admin/system.php:48
+msgid "Time limit is sufficient"
+msgstr ""
+
+#: includes/admin/system.php:54
+msgid "The largest file size that can be contained in one post."
+msgstr ""
+
+#: includes/admin/system.php:60
+msgid "The largest file size that can be uploaded to your WordPress installation."
+msgstr ""
+
+#. translators: click here link.
+#: includes/admin/system.php:67
+msgid "Recommended value is 1000. Max input vars limitation will truncate POST data such as menus. Learn more <a href=\"%s\">here</a>."
+msgstr ""
+
+#. translators: click here link.
+#: includes/admin/system.php:67
+msgid "Value is sufficient."
+msgstr ""
+
+#: includes/admin/system.php:71
+msgid "Installed"
+msgstr ""
+
+#: includes/admin/system.php:71
+msgid "Not installed"
+msgstr ""
+
+#: includes/admin/system.php:73
+msgid "ZipArchive is required for importing demo contents"
+msgstr ""
+
+#: includes/admin/system.php:77
+msgid "DEBUG is ON. If you are running your site live, consider disabling it"
+msgstr ""
+
+#: includes/admin/system.php:77
+msgid "DEBUG is Off"
+msgstr ""
+
+#: includes/admin/system.php:79
+msgid "WordPress debug mode."
+msgstr ""
+
+#: includes/admin/welcome.php:19
+msgid "Congratulation!! You have successfully installed and activated the theme. Now it is time to setup the theme just as the demo you saw online. Please go through the following simple steps and deploy your beautiful social network website in minutes. If you encounter any problem, do not hesitate to contact us."
+msgstr ""
+
+#: includes/admin/welcome.php:25
+#: includes/admin/welcome.php:27
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/admin/welcome.php:26
+msgid "First, install and activate all the plugins including both required and recommended plugins."
+msgstr ""
+
+#: includes/admin/welcome.php:32
+#: includes/admin/welcome.php:35
+msgid "Import Demo"
+msgstr ""
+
+#: includes/admin/welcome.php:34
+msgid "If you have activated the plugins successfully, you should now import demo contents."
+msgstr ""
+
+#: includes/admin/welcome.php:37
+msgid "Please install and activate One Click Demo import plugin to be able to import contents."
+msgstr ""
+
+#: includes/admin/welcome.php:38
+msgid "Install OCDI"
+msgstr ""
+
+#: includes/admin/welcome.php:44
+msgid "Theme Updates"
+msgstr ""
+
+#: includes/admin/welcome.php:46
+msgid "You can automatically get theme updates. Just click the button and follow the process."
+msgstr ""
+
+#: includes/admin/welcome.php:47
+msgid "Setup Updates"
+msgstr ""
+
+#: includes/admin/welcome.php:49
+msgid "Theme updates are disabled. Please activate Envato Market plugin to receive updates."
+msgstr ""
+
+#: includes/admin/welcome.php:50
+msgid "Enable Updates"
+msgstr ""
+
+#: includes/breadcrumb/class-bbp-trail-breadcrumb.php:63
+#: includes/breadcrumb/class-bbp-trail-breadcrumb.php:87
+#: includes/breadcrumb/class-bbp-trail-breadcrumb.php:98
+#: includes/breadcrumb/class-bbp-trail-breadcrumb.php:118
+msgid "Edit"
+msgstr ""
+
+#: includes/breadcrumb/class-bbp-trail-breadcrumb.php:83
+msgid "Split"
+msgstr ""
+
+#: includes/breadcrumb/class-bbp-trail-breadcrumb.php:85
+msgid "Merge"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:174
+msgid "Single"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:225
+msgid "Browse:"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:226
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:227
+msgid "Home"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:228
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:229
+msgid "Archives"
+msgstr ""
+
+#. Translators: %s is the search query.
+#: includes/breadcrumb/class-trail-breadcrumb.php:231
+msgid "Search results for: %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: includes/breadcrumb/class-trail-breadcrumb.php:233
+msgid "Page %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: includes/breadcrumb/class-trail-breadcrumb.php:235
+msgid "Comment Page %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: includes/breadcrumb/class-trail-breadcrumb.php:237
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: includes/breadcrumb/class-trail-breadcrumb.php:239
+msgid "Week %s"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:672
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:690
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:708
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:725
+#: includes/breadcrumb/class-trail-breadcrumb.php:754
+#: includes/breadcrumb/class-trail-breadcrumb.php:793
+#: includes/breadcrumb/class-trail-breadcrumb.php:820
+#: includes/breadcrumb/class-trail-breadcrumb.php:1155
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:726
+#: includes/breadcrumb/class-trail-breadcrumb.php:794
+#: includes/breadcrumb/class-trail-breadcrumb.php:1157
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:727
+#: includes/breadcrumb/class-trail-breadcrumb.php:1159
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/breadcrumb/class-trail-breadcrumb.php:755
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/class-beehive-admin.php:118
+msgid "Server Information"
+msgstr ""
+
+#: includes/class-beehive-admin.php:119
+#: includes/class-beehive-admin.php:153
+msgid "Support"
+msgstr ""
+
+#: includes/class-beehive-admin.php:134
+msgid "Howdy Admin"
+msgstr ""
+
+#: includes/class-beehive-admin.php:138
+msgid "Welcome to Beehive!!"
+msgstr ""
+
+#: includes/class-beehive-admin.php:139
+msgid "Thank you so much for purchasing Beehive, one of the most beautiful and avanced social network WordPress themes. We have assembled some links for you to get started. Install all the plugins and then import the demo contents. You should be ready to go!! Cheers"
+msgstr ""
+
+#: includes/class-beehive-admin.php:144
+msgid "Version: "
+msgstr ""
+
+#: includes/class-beehive-admin.php:151
+msgid "Welcome"
+msgstr ""
+
+#: includes/class-beehive-login.php:115
+msgid "Wrong username or Password."
+msgstr ""
+
+#: includes/class-beehive-login.php:124
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: includes/class-beehive-nav-walker.php:333
+msgid "Add Menu"
+msgstr ""
+
+#: includes/class-beehive-scripts.php:532
+msgid "More"
+msgstr ""
+
+#: includes/class-beehive-scripts.php:533
+msgid "Read more"
+msgstr ""
+
+#: includes/class-beehive-scripts.php:534
+msgid "Close"
+msgstr ""
+
+#: includes/class-beehive-scripts.php:535
+msgid "Like this"
+msgstr ""
+
+#: includes/class-beehive-scripts.php:536
+#: includes/plugin-compatibilities/buddypress/like-functions.php:263
+msgid "Unlike this"
+msgstr ""
+
+#: includes/class-beehive-scripts.php:537
+msgid "Attach media"
+msgstr ""
+
+#: includes/class-beehive-sidebars.php:252
+msgid "Add widgets here."
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:131
+msgid "Primary Color"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:136
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:141
+msgid "Pale pink"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:146
+msgid "Vivid red"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:151
+msgid "Luminous vivid orange"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:156
+msgid "Luminous vivid amber"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:161
+msgid "Light green cyan"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:166
+msgid "Vivid green cyan"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:171
+msgid "Pale cyan blue"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:176
+msgid "Vivid cyan blue"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:181
+msgid "Very light gray"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:186
+msgid "Cyan bluish gray"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:191
+msgid "Very dark gray"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:196
+msgid "White color"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:211
+#: includes/plugin-compatibilities/elementor/widgets/button.php:215
+msgid "Small"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:216
+#: includes/plugin-compatibilities/elementor/widgets/button.php:216
+#: includes/plugin-compatibilities/elementor/widgets/button.php:283
+msgid "Normal"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:221
+msgid "Medium"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:226
+#: includes/plugin-compatibilities/elementor/widgets/button.php:217
+msgid "Large"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:231
+msgid "Huge"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:276
+msgid "Default Navbar"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:283
+msgid "Social Panel Menu"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:290
+msgid "Sidebar Bottom Menu"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:297
+msgid "Footer Menu (Company)"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:302
+msgid "Footer Menu (Community)"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:307
+msgid "Footer Menu (Usefull Links)"
+msgstr ""
+
+#: includes/class-beehive-theme-setup.php:312
+msgid "Footer Menu (Legal)"
+msgstr ""
+
+#: includes/class-beehive-title-bar.php:127
+msgid "detail"
+msgstr ""
+
+#: includes/class-beehive-title-bar.php:133
+msgid "Not Found!"
+msgstr ""
+
+#. translators: %s: search query.
+#: includes/class-beehive-title-bar.php:147
+msgid "Search Results for: %s"
+msgstr ""
+
+#: includes/class-beehive-user-nav.php:101
+msgid "My Account"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma.
+#: includes/functions/beehive-functions.php:454
+msgid ", "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma.
+#: includes/functions/beehive-functions.php:461
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: includes/functions/beehive-functions.php:675
+msgid "Pages:"
+msgstr ""
+
+#: includes/functions/beehive-functions.php:776
+msgid "Members"
+msgstr ""
+
+#: includes/functions/beehive-functions.php:798
+#: includes/functions/beehive-functions.php:828
+#: includes/functions/beehive-functions.php:848
+msgid "View all"
+msgstr ""
+
+#: includes/functions/beehive-functions.php:835
+msgid "Posts"
+msgstr ""
+
+#: includes/functions/beehive-functions.php:855
+msgid "Nothing found!"
+msgstr ""
+
+#: includes/menu-icons/class-beehive-menu-icon.php:40
+msgid "Icon Class"
+msgstr ""
+
+#: includes/plugin-compatibilities/bbpress/class-beehive-bbpress.php:157
+msgid "Forums Menu"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/functions.php:82
+msgid "My Profile"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/functions.php:85
+msgid "View Profile"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/functions.php:101
+msgid "Manage Group"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/functions.php:104
+msgid "View Group"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/functions.php:118
+msgid "Edit profile"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/functions.php:119
+msgid "Profile settings"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/like-functions.php:119
+#: includes/plugin-compatibilities/buddypress/like-functions.php:121
+#: includes/plugin-compatibilities/buddypress/like-functions.php:265
+msgid "Liked"
+msgstr ""
+
+#: includes/plugin-compatibilities/buddypress/like-functions.php:178
+#: includes/plugin-compatibilities/buddypress/like-functions.php:180
+#: includes/plugin-compatibilities/buddypress/like-functions.php:255
+msgid "Like"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:48
+msgid "Button(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:92
+#: includes/plugin-compatibilities/elementor/widgets/button.php:265
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:136
+msgid "Button"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:100
+#: includes/plugin-compatibilities/elementor/widgets/login.php:100
+msgid "Style"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:104
+#: includes/plugin-compatibilities/elementor/widgets/button.php:118
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:115
+#: includes/plugin-compatibilities/elementor/widgets/login.php:104
+#: includes/theme-metaboxes.php:153
+#: includes/theme-metaboxes.php:171
+#: includes/theme-metaboxes.php:237
+#: includes/theme-metaboxes.php:255
+#: includes/theme-metaboxes.php:287
+#: includes/theme-metaboxes.php:305
+msgid "Default"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:105
+msgid "Outline"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:106
+msgid "Transparent"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:114
+msgid "Type"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:119
+msgid "Success"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:120
+msgid "Warning"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:121
+msgid "Danger"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:129
+msgid "Text"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:131
+msgid "Click Here"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:139
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:183
+msgid "Link to"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:143
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:187
+#: includes/theme-metaboxes.php:75
+msgid "Page"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:144
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:188
+msgid "URL"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:153
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:200
+msgid "Select a page"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:167
+msgid "Custom link"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:169
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:217
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:183
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:178
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:110
+#: includes/plugin-compatibilities/elementor/widgets/login.php:174
+#: includes/plugin-compatibilities/elementor/widgets/social-icons.php:100
+msgid "Alignment"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:187
+#: includes/plugin-compatibilities/elementor/widgets/button.php:241
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:182
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:104
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:114
+#: includes/plugin-compatibilities/elementor/widgets/login.php:178
+#: includes/plugin-compatibilities/elementor/widgets/social-icons.php:104
+#: includes/theme-options.php:523
+msgid "Left"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:191
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:186
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:105
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:118
+#: includes/plugin-compatibilities/elementor/widgets/login.php:182
+#: includes/plugin-compatibilities/elementor/widgets/social-icons.php:108
+msgid "Center"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:195
+#: includes/plugin-compatibilities/elementor/widgets/button.php:242
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:190
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:106
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:122
+#: includes/plugin-compatibilities/elementor/widgets/login.php:186
+#: includes/plugin-compatibilities/elementor/widgets/social-icons.php:112
+#: includes/theme-options.php:524
+msgid "Right"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:199
+msgid "Justified"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:211
+msgid "Size"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:225
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:100
+msgid "Icon"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:237
+msgid "Icon Position"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:250
+msgid "Button ID"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:253
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:255
+msgid "Please make sure the ID is unique and not used elsewhere on the page this form is displayed. This field allows <code>A-z 0-9</code> & underscore chars without spaces."
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:290
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:242
+msgid "Text Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:302
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:164
+msgid "Background Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:314
+msgid "Border Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:327
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:177
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:336
+msgid "Hover"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:343
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:354
+msgid "Hover background Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:365
+msgid "Border Color Hover"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:378
+msgid "Box Shadow Hover"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:386
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:397
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:305
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:185
+msgid "Border Radius"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/button.php:410
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:277
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:318
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:198
+msgid "Padding"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:48
+msgid "Contact Info(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:92
+msgid "Contact Info"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:100
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:154
+msgid "Address"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:102
+msgid "22 Park Eve, City, Country"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:110
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:163
+msgid "Email"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:112
+msgid "support@youremail.com"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:120
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:172
+msgid "Phone"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/contact-info.php:122
+msgid "+7 (777) 777 7777"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:48
+msgid "Icon Box(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:92
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:204
+msgid "Icon Box"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:111
+msgid "Icon View"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:116
+msgid "Stacked"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:117
+msgid "Framed"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:125
+msgid "Icon Shape"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:129
+msgid "Square"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:130
+msgid "Rounded"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:131
+msgid "Circle"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:142
+msgid "Icon Box Title"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:144
+msgid "Box title"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:152
+msgid "Title Tag"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:168
+msgid "Description"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:170
+msgid "At vero eos et accusamus et iusto odio dignissimos ducimus qui."
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:212
+msgid "Background color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:226
+msgid "Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/icon-box.php:254
+msgid "Icon size"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:48
+msgid "Image Slider(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:92
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:253
+msgid "Image Slider"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:100
+msgid "Content Alignment"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:117
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:138
+msgid "Choose Image"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:128
+msgid "Slide Top Subtitle"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:130
+msgid "Slide subtitle"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:138
+msgid "Slide Main Title"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:140
+msgid "Slide title"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:148
+msgid "Slide text content"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:150
+msgid "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti."
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:158
+msgid "Action Button"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:160
+#: includes/plugin-compatibilities/elementor/widgets/login.php:115
+#: includes/theme-metaboxes.php:151
+#: includes/theme-metaboxes.php:169
+#: includes/theme-metaboxes.php:235
+#: includes/theme-metaboxes.php:253
+#: includes/theme-metaboxes.php:303
+#: includes/theme-metaboxes.php:365
+#: includes/theme-options.php:195
+#: includes/theme-options.php:204
+#: includes/theme-options.php:420
+#: includes/theme-options.php:475
+#: includes/theme-options.php:604
+#: includes/theme-options.php:613
+#: includes/theme-options.php:759
+#: includes/theme-options.php:780
+msgid "Yes"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:161
+#: includes/plugin-compatibilities/elementor/widgets/login.php:116
+#: includes/theme-metaboxes.php:152
+#: includes/theme-metaboxes.php:170
+#: includes/theme-metaboxes.php:236
+#: includes/theme-metaboxes.php:254
+#: includes/theme-metaboxes.php:304
+#: includes/theme-metaboxes.php:366
+#: includes/theme-options.php:196
+#: includes/theme-options.php:205
+#: includes/theme-options.php:421
+#: includes/theme-options.php:476
+#: includes/theme-options.php:605
+#: includes/theme-options.php:614
+#: includes/theme-options.php:760
+#: includes/theme-options.php:781
+msgid "No"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:170
+#: includes/plugin-compatibilities/elementor/widgets/login.php:137
+msgid "Button Text"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:172
+msgid "Action"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:215
+msgid "Button Url"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:233
+msgid "Slides"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:238
+msgid "Slide title #1"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:241
+msgid "Slide title #2"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:261
+msgid "Height"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/image-slider.php:293
+msgid "Overlay Background Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:48
+msgid "Inline Menu(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:92
+msgid "Inline Menu"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:100
+msgid "Select Menu"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/inline-menu.php:152
+msgid "Link Color"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:48
+msgid "Login Form(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:92
+msgid "Login Form"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:105
+msgid "Compact"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:113
+msgid "On Dark BG?"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:125
+msgid "Signup Link"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:127
+#: includes/theme-metaboxes.php:101
+#: includes/theme-metaboxes.php:347
+msgid "Show"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:128
+#: includes/theme-metaboxes.php:102
+#: includes/theme-metaboxes.php:348
+msgid "Hide"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:139
+#: template-parts/login-modal.php:62
+msgid "Log Into Your Account"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:147
+msgid "Max Width"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:234
+#: template-parts/login-modal.php:27
+#: template-parts/social-panel.php:28
+msgid "Email/username"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:236
+#: template-parts/login-modal.php:29
+#: template-parts/social-panel.php:30
+msgid "Email or username"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:241
+#: includes/plugin-compatibilities/elementor/widgets/login.php:243
+#: template-parts/login-modal.php:34
+#: template-parts/login-modal.php:36
+#: template-parts/social-panel.php:35
+#: template-parts/social-panel.php:37
+msgid "Password"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:252
+msgid "Remember"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:259
+#: template-parts/login-modal.php:52
+msgid "Lost Password?"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:274
+#: template-parts/login-modal.php:67
+#: template-parts/social-panel.php:50
+msgid "Create an account"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:278
+#: template-parts/login-modal.php:71
+#: template-parts/social-panel.php:54
+msgid "Signup is disabled"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:288
+msgid "Howdy, "
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/login.php:288
+msgid "Logout"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:48
+msgid "Site Stats(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:92
+msgid "Site Stats"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:102
+msgid "Item value"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:104
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:128
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:132
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:136
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:140
+msgid "50M+"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:112
+msgid "Title"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:114
+msgid "List Title"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:122
+msgid "Statistics List"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:127
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:164
+msgid "Title #1"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:131
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:169
+msgid "Title #2"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:135
+msgid "Title #3"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/site-stats.php:139
+msgid "Title #4"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/social-icons.php:48
+msgid "Social Icons(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/social-icons.php:92
+msgid "Social icons"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:44
+msgid "Content tabs(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:88
+msgid "Content tabs"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:98
+msgid "Tab icon"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:109
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:111
+msgid "Tab title"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:119
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:121
+msgid "Tab subtitle"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:129
+msgid "Tab contents"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:149
+msgid "Content"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:151
+msgid "Tab content"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:159
+msgid "Tab list"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:165
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:170
+msgid "Item content. Click the edit button to change this text."
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/tabs.php:309
+msgid "Tab image"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:44
+msgid "Team Member(a)"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:88
+msgid "Team Member"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:96
+msgid "Member Image"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:107
+msgid "Name"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:109
+msgid "John Doe"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:116
+msgid "Position"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:118
+msgid "Marketing Executive"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:125
+msgid "Facebook profile link"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:137
+msgid "Twitter profile link"
+msgstr ""
+
+#: includes/plugin-compatibilities/elementor/widgets/team-member.php:149
+msgid "Linkedin profile link"
+msgstr ""
+
+#: includes/plugin-compatibilities/job-manager/class-beehive-job-manager.php:161
+msgid "Jobs Menu"
+msgstr ""
+
+#: includes/plugin-compatibilities/job-manager/functions.php:65
+#: includes/plugin-compatibilities/job-manager/functions.php:85
+msgid "e.g. 20000"
+msgstr ""
+
+#: includes/plugin-compatibilities/job-manager/functions.php:83
+msgid "Salary ($)"
+msgstr ""
+
+#: includes/plugin-compatibilities/job-manager/functions.php:102
+msgid "Jobs"
+msgstr ""
+
+#: includes/plugin-compatibilities/job-manager/functions.php:122
+msgid "Manage Jobs"
+msgstr ""
+
+#: includes/plugin-compatibilities/woocommerce/class-beehive-woocommerce.php:169
+msgid "Shop Menu"
+msgstr ""
+
+#: includes/plugin-compatibilities/woocommerce/functions.php:213
+#: includes/plugin-compatibilities/woocommerce/functions.php:240
+msgid "View Cart"
+msgstr ""
+
+#: includes/plugin-compatibilities/woocommerce/functions.php:263
+msgid "View Product"
+msgstr ""
+
+#: includes/plugin-compatibilities/wpadverts/class-beehive-wpadverts.php:162
+msgid "Classified Menu"
+msgstr ""
+
+#: includes/plugin-compatibilities/wpadverts/functions.php:167
+msgid "Adverts"
+msgstr ""
+
+#: includes/plugin-compatibilities/wpadverts/functions.php:187
+msgid "Manage Ads"
+msgstr ""
+
+#: includes/theme-metaboxes.php:62
+msgid "Meta Options"
+msgstr ""
+
+#: includes/theme-metaboxes.php:67
+msgid "Header"
+msgstr ""
+
+#: includes/theme-metaboxes.php:71
+#: includes/theme-options.php:409
+msgid "Title Bar"
+msgstr ""
+
+#: includes/theme-metaboxes.php:79
+#: includes/theme-options.php:379
+msgid "Sidebars"
+msgstr ""
+
+#: includes/theme-metaboxes.php:83
+msgid "Footer"
+msgstr ""
+
+#: includes/theme-metaboxes.php:93
+#: includes/theme-metaboxes.php:339
+msgid "Show/Hide"
+msgstr ""
+
+#: includes/theme-metaboxes.php:94
+msgid "Show or hide header on this page."
+msgstr ""
+
+#: includes/theme-metaboxes.php:103
+#: includes/theme-metaboxes.php:349
+#: includes/theme-metaboxes.php:367
+msgid "default"
+msgstr ""
+
+#: includes/theme-metaboxes.php:111
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/theme-metaboxes.php:112
+msgid "Upload logo if you want to override default logo on this page."
+msgstr ""
+
+#: includes/theme-metaboxes.php:127
+msgid "Mobile Logo"
+msgstr ""
+
+#: includes/theme-metaboxes.php:128
+msgid "Use different logo in mobile devices on this page. Note: This option only works on default header."
+msgstr ""
+
+#: includes/theme-metaboxes.php:143
+msgid "Fluid Menu"
+msgstr ""
+
+#: includes/theme-metaboxes.php:144
+msgid "Want to have fluid menu on this page?"
+msgstr ""
+
+#: includes/theme-metaboxes.php:161
+msgid "Fixed at Top"
+msgstr ""
+
+#: includes/theme-metaboxes.php:162
+msgid "Menu fixed at top"
+msgstr ""
+
+#: includes/theme-metaboxes.php:179
+msgid "Overlay Header"
+msgstr ""
+
+#: includes/theme-metaboxes.php:180
+msgid "Check this for overlay header."
+msgstr ""
+
+#: includes/theme-metaboxes.php:191
+msgid "Menu Color White"
+msgstr ""
+
+#: includes/theme-metaboxes.php:192
+msgid "Check this if you want to turn menu colors into white."
+msgstr ""
+
+#: includes/theme-metaboxes.php:203
+msgid "Humbergur Menu"
+msgstr ""
+
+#: includes/theme-metaboxes.php:204
+msgid "Enable humbergur menu on desktop. Note: This option only works on default header."
+msgstr ""
+
+#: includes/theme-metaboxes.php:215
+#: includes/theme-options.php:417
+msgid "Remove Title Bar"
+msgstr ""
+
+#: includes/theme-metaboxes.php:216
+msgid "Check to remove title section from this page."
+msgstr ""
+
+#: includes/theme-metaboxes.php:227
+msgid "Page Title"
+msgstr ""
+
+#: includes/theme-metaboxes.php:228
+msgid "Display page title?"
+msgstr ""
+
+#: includes/theme-metaboxes.php:245
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/theme-metaboxes.php:246
+msgid "Display breadcrumb?"
+msgstr ""
+
+#: includes/theme-metaboxes.php:263
+msgid "Select Sidebar"
+msgstr ""
+
+#: includes/theme-metaboxes.php:264
+msgid "The sidebar you select must have widgets assigned to it. Also please note: for templates that are full width ( Such as Full Width ), this option is irrelevant."
+msgstr ""
+
+#: includes/theme-metaboxes.php:270
+msgid "Select a sidebar"
+msgstr ""
+
+#: includes/theme-metaboxes.php:277
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: includes/theme-metaboxes.php:278
+msgid "Enable or disable sticky sidebar."
+msgstr ""
+
+#: includes/theme-metaboxes.php:285
+#: includes/theme-options.php:398
+msgid "Enable"
+msgstr ""
+
+#: includes/theme-metaboxes.php:286
+#: includes/theme-options.php:399
+msgid "Disable"
+msgstr ""
+
+#: includes/theme-metaboxes.php:295
+msgid "Featured Image"
+msgstr ""
+
+#: includes/theme-metaboxes.php:296
+msgid "Display featured image?"
+msgstr ""
+
+#: includes/theme-metaboxes.php:314
+msgid "Login Modal"
+msgstr ""
+
+#: includes/theme-metaboxes.php:315
+msgid "Check to fire login modal."
+msgstr ""
+
+#: includes/theme-metaboxes.php:327
+msgid "Remove Preloader"
+msgstr ""
+
+#: includes/theme-metaboxes.php:328
+msgid "Check if you want to remove prealoader from this page."
+msgstr ""
+
+#: includes/theme-metaboxes.php:340
+msgid "Show or hide footer on this page."
+msgstr ""
+
+#: includes/theme-metaboxes.php:357
+msgid "Copyright Info"
+msgstr ""
+
+#: includes/theme-metaboxes.php:358
+msgid "Want to display copyright info on this page?"
+msgstr ""
+
+#: includes/theme-metaboxes.php:390
+msgid "Post Meta Options."
+msgstr ""
+
+#: includes/theme-metaboxes.php:398
+msgid "Post Slider"
+msgstr ""
+
+#: includes/theme-metaboxes.php:399
+msgid "Add slider images to the post."
+msgstr ""
+
+#: includes/theme-metaboxes.php:404
+msgid "Add Media"
+msgstr ""
+
+#: includes/theme-options.php:37
+msgid "Theme Options"
+msgstr ""
+
+#: includes/theme-options.php:38
+msgid "Beehive Options"
+msgstr ""
+
+#: includes/theme-options.php:144
+msgid "General Settings"
+msgstr ""
+
+#: includes/theme-options.php:146
+msgid "General settings for beehive theme. Update logo and other general settings"
+msgstr ""
+
+#: includes/theme-options.php:153
+msgid "Social Template Logo: "
+msgstr ""
+
+#: includes/theme-options.php:154
+msgid "Upload social template logo. This logo is displayed on the menu panel of the social dashboard template."
+msgstr ""
+
+#: includes/theme-options.php:163
+msgid "Social Template Icon Logo: "
+msgstr ""
+
+#: includes/theme-options.php:164
+msgid "Used in the social template page wide view (collapsed menu). If it is not set, social template logo from the above field will be used."
+msgstr ""
+
+#: includes/theme-options.php:172
+msgid "Ajax Login"
+msgstr ""
+
+#: includes/theme-options.php:173
+msgid "Enable or disable ajax login in all custom login forms."
+msgstr ""
+
+#: includes/theme-options.php:184
+msgid "Navbar Settings"
+msgstr ""
+
+#: includes/theme-options.php:186
+msgid "Theme navbar settings. For typography check typography tab in the left. You can edit/override some other properties in the page meta options."
+msgstr ""
+
+#: includes/theme-options.php:192
+msgid "Fixed at Top: "
+msgstr ""
+
+#: includes/theme-options.php:193
+msgid "Do you want the navbar to be fixed at top?"
+msgstr ""
+
+#: includes/theme-options.php:201
+msgid "Fluid Navbar: "
+msgstr ""
+
+#: includes/theme-options.php:202
+msgid "Do you want the navbar to be full width?"
+msgstr ""
+
+#: includes/theme-options.php:210
+msgid "User Navigation"
+msgstr ""
+
+#: includes/theme-options.php:211
+msgid "Turn on to display user navbar in the menu header."
+msgstr ""
+
+#: includes/theme-options.php:213
+#: includes/theme-options.php:513
+#: includes/theme-options.php:534
+#: includes/theme-options.php:543
+#: includes/theme-options.php:559
+#: includes/theme-options.php:568
+#: includes/theme-options.php:577
+#: includes/theme-options.php:741
+#: includes/theme-options.php:750
+#: includes/theme-options.php:841
+#: includes/theme-options.php:871
+#: includes/theme-options.php:894
+msgid "On"
+msgstr ""
+
+#: includes/theme-options.php:214
+#: includes/theme-options.php:514
+#: includes/theme-options.php:535
+#: includes/theme-options.php:544
+#: includes/theme-options.php:560
+#: includes/theme-options.php:569
+#: includes/theme-options.php:578
+#: includes/theme-options.php:742
+#: includes/theme-options.php:751
+#: includes/theme-options.php:842
+#: includes/theme-options.php:872
+#: includes/theme-options.php:895
+msgid "Off"
+msgstr ""
+
+#: includes/theme-options.php:224
+msgid "Typgraphy"
+msgstr ""
+
+#: includes/theme-options.php:226
+msgid "Choose your theme typography"
+msgstr ""
+
+#: includes/theme-options.php:232
+msgid "Body Typography: "
+msgstr ""
+
+#: includes/theme-options.php:233
+msgid "Select the font you like for body texts."
+msgstr ""
+
+#: includes/theme-options.php:256
+msgid "Heading Font: "
+msgstr ""
+
+#: includes/theme-options.php:257
+msgid "Select heading font styles."
+msgstr ""
+
+#: includes/theme-options.php:284
+msgid "Color Selection"
+msgstr ""
+
+#: includes/theme-options.php:286
+msgid "Theme color selection."
+msgstr ""
+
+#: includes/theme-options.php:292
+msgid "Primary Color: "
+msgstr ""
+
+#: includes/theme-options.php:293
+msgid "Select primary theme color."
+msgstr ""
+
+#: includes/theme-options.php:302
+msgid "Secondary Color: "
+msgstr ""
+
+#: includes/theme-options.php:303
+msgid "Select secondary theme color."
+msgstr ""
+
+#: includes/theme-options.php:312
+msgid "Social Panel BG: "
+msgstr ""
+
+#: includes/theme-options.php:313
+msgid "Select background color for social dashboard template menu panel."
+msgstr ""
+
+#: includes/theme-options.php:322
+msgid "Info messages colors"
+msgstr ""
+
+#: includes/theme-options.php:323
+msgid "Select info messages colors."
+msgstr ""
+
+#: includes/theme-options.php:329
+msgid "Info color: "
+msgstr ""
+
+#: includes/theme-options.php:330
+msgid "Select color for info messages."
+msgstr ""
+
+#: includes/theme-options.php:339
+msgid "Success color: "
+msgstr ""
+
+#: includes/theme-options.php:340
+msgid "Select color for success messages."
+msgstr ""
+
+#: includes/theme-options.php:349
+msgid "Warning color: "
+msgstr ""
+
+#: includes/theme-options.php:350
+msgid "Select color for warning messages."
+msgstr ""
+
+#: includes/theme-options.php:359
+msgid "Error color: "
+msgstr ""
+
+#: includes/theme-options.php:360
+msgid "Select color for error messages."
+msgstr ""
+
+#: includes/theme-options.php:381
+msgid "Manage theme sidebars here"
+msgstr ""
+
+#: includes/theme-options.php:387
+msgid "Add/Remove Sidebars"
+msgstr ""
+
+#: includes/theme-options.php:388
+msgid "Make sure the sidebar name is unique when adding/editing a sidebar"
+msgstr ""
+
+#: includes/theme-options.php:390
+msgid "Only valid string is allowed."
+msgstr ""
+
+#: includes/theme-options.php:395
+msgid "Enable Sticky Feature"
+msgstr ""
+
+#: includes/theme-options.php:396
+msgid "The last widget within the sidebar will be stuck as user scroll to the bottom of the page."
+msgstr ""
+
+#: includes/theme-options.php:411
+msgid "Update page title bar settings."
+msgstr ""
+
+#: includes/theme-options.php:418
+msgid "Remove title bar at the top of the page."
+msgstr ""
+
+#: includes/theme-options.php:431
+msgid "Page Settings"
+msgstr ""
+
+#: includes/theme-options.php:433
+msgid "Update page settings here."
+msgstr ""
+
+#: includes/theme-options.php:439
+msgid "404 Page"
+msgstr ""
+
+#: includes/theme-options.php:440
+msgid "404 error page options."
+msgstr ""
+
+#: includes/theme-options.php:447
+msgid "404 Image"
+msgstr ""
+
+#: includes/theme-options.php:448
+msgid "Upload your own creative 404 error image."
+msgstr ""
+
+#: includes/theme-options.php:456
+msgid "Error Page Title"
+msgstr ""
+
+#: includes/theme-options.php:457
+msgid "Relace default page title if you want."
+msgstr ""
+
+#: includes/theme-options.php:463
+msgid "404 page description"
+msgstr ""
+
+#: includes/theme-options.php:464
+msgid "Write down the text you want to display as description while user is on the 404 error page."
+msgstr ""
+
+#: includes/theme-options.php:465
+msgid "No html please."
+msgstr ""
+
+#: includes/theme-options.php:472
+msgid "Display Search Form"
+msgstr ""
+
+#: includes/theme-options.php:473
+msgid "Display search form to the user who is lost."
+msgstr ""
+
+#: includes/theme-options.php:491
+msgid "Blog Settings"
+msgstr ""
+
+#: includes/theme-options.php:493
+msgid "Control the blog settings here."
+msgstr ""
+
+#: includes/theme-options.php:499
+msgid "Blog Styles"
+msgstr ""
+
+#: includes/theme-options.php:500
+msgid "Choose between standard listing and grid layout to display your blog."
+msgstr ""
+
+#: includes/theme-options.php:502
+msgid "Classic"
+msgstr ""
+
+#: includes/theme-options.php:503
+msgid "Grid"
+msgstr ""
+
+#: includes/theme-options.php:510
+msgid "Sidebar"
+msgstr ""
+
+#: includes/theme-options.php:511
+msgid "Turn on to display sidebar post archives."
+msgstr ""
+
+#: includes/theme-options.php:519
+msgid "Sidebar Alignment"
+msgstr ""
+
+#: includes/theme-options.php:520
+msgid "Choose between left and right to display the sidebar."
+msgstr ""
+
+#: includes/theme-options.php:531
+msgid "Post Format"
+msgstr ""
+
+#: includes/theme-options.php:532
+msgid "Turn on to display post format flag in the post archives."
+msgstr ""
+
+#: includes/theme-options.php:540
+msgid "Post Meta Slider"
+msgstr ""
+
+#: includes/theme-options.php:541
+msgid "Turn on to display the post meta slider on single blog posts."
+msgstr ""
+
+#: includes/theme-options.php:549
+msgid "Blog Single"
+msgstr ""
+
+#: includes/theme-options.php:550
+msgid "Control single blog options."
+msgstr ""
+
+#: includes/theme-options.php:556
+msgid "Author Link"
+msgstr ""
+
+#: includes/theme-options.php:557
+msgid "Choose whether or not display the author link"
+msgstr ""
+
+#: includes/theme-options.php:565
+msgid "Post Navigation"
+msgstr ""
+
+#: includes/theme-options.php:566
+msgid "Turn on to display the previous/next post navigation on single blog posts."
+msgstr ""
+
+#: includes/theme-options.php:574
+#: template-parts/related-posts.php:26
+msgid "Related Posts"
+msgstr ""
+
+#: includes/theme-options.php:575
+msgid "Turn on to display related blog posts."
+msgstr ""
+
+#: includes/theme-options.php:593
+msgid "Footer Settings"
+msgstr ""
+
+#: includes/theme-options.php:595
+msgid "Control footer settings."
+msgstr ""
+
+#: includes/theme-options.php:601
+msgid "Display Social Links"
+msgstr ""
+
+#: includes/theme-options.php:602
+msgid "Choose whether or not display the social links listed below."
+msgstr ""
+
+#: includes/theme-options.php:610
+msgid "Colophon"
+msgstr ""
+
+#: includes/theme-options.php:611
+msgid "Choose whether or not display copyright text."
+msgstr ""
+
+#: includes/theme-options.php:619
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/theme-options.php:620
+msgid "Write copyright texts to be displayed at the bottom of the footer."
+msgstr ""
+
+#: includes/theme-options.php:632
+msgid "Social Links"
+msgstr ""
+
+#: includes/theme-options.php:634
+msgid "Social links with icons."
+msgstr ""
+
+#: includes/theme-options.php:640
+msgid "Facebook."
+msgstr ""
+
+#: includes/theme-options.php:641
+msgid "Your Facebook link."
+msgstr ""
+
+#: includes/theme-options.php:647
+msgid "Twitter."
+msgstr ""
+
+#: includes/theme-options.php:648
+msgid "Your Twitter link."
+msgstr ""
+
+#: includes/theme-options.php:654
+msgid "Google+."
+msgstr ""
+
+#: includes/theme-options.php:655
+msgid "Your Google+ link."
+msgstr ""
+
+#: includes/theme-options.php:661
+msgid "Pinterest"
+msgstr ""
+
+#: includes/theme-options.php:662
+msgid "Your Pinterest link."
+msgstr ""
+
+#: includes/theme-options.php:668
+msgid "Linkedin"
+msgstr ""
+
+#: includes/theme-options.php:669
+msgid "Your Linkedin link."
+msgstr ""
+
+#: includes/theme-options.php:675
+msgid "Instagram"
+msgstr ""
+
+#: includes/theme-options.php:676
+msgid "Your Instagram link."
+msgstr ""
+
+#: includes/theme-options.php:682
+msgid "Dribbble"
+msgstr ""
+
+#: includes/theme-options.php:683
+msgid "Your Dribbble link."
+msgstr ""
+
+#: includes/theme-options.php:689
+msgid "Tumblr"
+msgstr ""
+
+#: includes/theme-options.php:690
+msgid "Your Tumblr link."
+msgstr ""
+
+#: includes/theme-options.php:696
+msgid "Github"
+msgstr ""
+
+#: includes/theme-options.php:697
+msgid "Your Github link."
+msgstr ""
+
+#: includes/theme-options.php:703
+msgid "Youtube"
+msgstr ""
+
+#: includes/theme-options.php:704
+msgid "Your Youtube link."
+msgstr ""
+
+#: includes/theme-options.php:710
+msgid "Vimeo"
+msgstr ""
+
+#: includes/theme-options.php:711
+msgid "Your Vimeo link."
+msgstr ""
+
+#: includes/theme-options.php:723
+msgid "Buddypress"
+msgstr ""
+
+#: includes/theme-options.php:725
+msgid "Additional buddypress options by beehive theme"
+msgstr ""
+
+#: includes/theme-options.php:731
+msgid "Activity Options"
+msgstr ""
+
+#: includes/theme-options.php:732
+msgid "Control additional activity options offered by beehive theme"
+msgstr ""
+
+#: includes/theme-options.php:738
+msgid "Activity Filter"
+msgstr ""
+
+#: includes/theme-options.php:739
+msgid "Turn on to display activity search and filter."
+msgstr ""
+
+#: includes/theme-options.php:747
+msgid "Activity Like"
+msgstr ""
+
+#: includes/theme-options.php:748
+msgid "Turn on to enable activity likes."
+msgstr ""
+
+#: includes/theme-options.php:756
+msgid "Home Redirect"
+msgstr ""
+
+#: includes/theme-options.php:757
+msgid "Redirect logged in users from homepage to buddypress activity page."
+msgstr ""
+
+#: includes/theme-options.php:770
+msgid "Registration Options"
+msgstr ""
+
+#: includes/theme-options.php:771
+msgid "Control additional registration page options offered by beehive theme"
+msgstr ""
+
+#: includes/theme-options.php:777
+msgid "Hide Visibility Toggles"
+msgstr ""
+
+#: includes/theme-options.php:778
+msgid "Hide buddypress visibility toggles on the registration page."
+msgstr ""
+
+#: includes/theme-options.php:797
+msgid "RT Media"
+msgstr ""
+
+#: includes/theme-options.php:799
+msgid "Additional rt media options by beehive theme"
+msgstr ""
+
+#: includes/theme-options.php:805
+msgid "Activity character limit"
+msgstr ""
+
+#: includes/theme-options.php:806
+msgid "Set character limit for each activity. You do not want people write down a researh paper in the activity, do you?"
+msgstr ""
+
+#: includes/theme-options.php:825
+msgid "Additional job manager options by beehive theme"
+msgstr ""
+
+#: includes/theme-options.php:831
+msgid "Job Single"
+msgstr ""
+
+#: includes/theme-options.php:832
+msgid "Control single job options."
+msgstr ""
+
+#: includes/theme-options.php:838
+#: template-parts/job_manager/related-jobs.php:26
+msgid "Related Jobs"
+msgstr ""
+
+#: includes/theme-options.php:839
+msgid "Turn on to display related jobs."
+msgstr ""
+
+#: includes/theme-options.php:859
+msgid "Classified"
+msgstr ""
+
+#: includes/theme-options.php:861
+msgid "Additional wp adverts options by beehive theme"
+msgstr ""
+
+#: includes/theme-options.php:867
+msgid "BP Profile Tab"
+msgstr ""
+
+#: includes/theme-options.php:868
+msgid "Create a buddypress profile tab for users to manage ads from their profile."
+msgstr ""
+
+#: includes/theme-options.php:869
+msgid "This option requires buddpress plugin to be active."
+msgstr ""
+
+#: includes/theme-options.php:877
+msgid "Classified Single"
+msgstr ""
+
+#: includes/theme-options.php:878
+msgid "Control single classified options."
+msgstr ""
+
+#: includes/theme-options.php:884
+msgid "Advert Tips"
+msgstr ""
+
+#: includes/theme-options.php:885
+msgid "Tips for the clients seeing an ad."
+msgstr ""
+
+#: includes/theme-options.php:886
+#: template-parts/wpadverts/content-single-advert.php:71
+msgid "Choose a save place to meet with the seller you are dealing with."
+msgstr ""
+
+#: includes/theme-options.php:886
+#: template-parts/wpadverts/content-single-advert.php:72
+msgid "Read the ad carefully and beware of unrealistic offers."
+msgstr ""
+
+#: includes/theme-options.php:886
+#: template-parts/wpadverts/content-single-advert.php:73
+msgid "Use a secure transaction. Try to avoid cash transactions."
+msgstr ""
+
+#: includes/theme-options.php:891
+msgid "Related Adverts"
+msgstr ""
+
+#: includes/theme-options.php:892
+msgid "Turn on to display related ads."
+msgstr ""
+
+#: includes/theme-options.php:910
+msgid "Documentation"
+msgstr ""
+
+#: job_manager/account-signin.php:67
+msgid "Account details"
+msgstr ""
+
+#: job_manager/content-single-job_listing-company.php:36
+msgid "Website"
+msgstr ""
+
+#: job_manager/content-single-job_listing-company.php:41
+msgid "Twitter"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:35
+msgid "Job Type"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:51
+#: template-parts/job_manager/content-single-job.php:65
+msgid "Location"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:64
+msgid "Filled"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:76
+msgid "Closed"
+msgstr ""
+
+#: job_manager/job-filter-job-types.php:21
+#: template-parts/woocommerce/shop-filters.php:29
+msgid "Filter"
+msgstr ""
+
+#: job_manager/job-submit.php:40
+msgid "Job details"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Blank Template"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Left sidebar"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Right sidebar"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Social Template Full"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Social Template"
+msgstr ""
+
+#: rtmedia/main.php:100
+#: rtmedia/main.php:229
+msgid "Media menu"
+msgstr ""
+
+#: rtmedia/media/media-gallery.php:42
+msgid "Add"
+msgstr ""
+
+#: searchform.php:16
+#: template-parts/social-header.php:23
+msgid "Search..."
+msgstr ""
+
+#: template-parts/buddypress/member-photos.php:17
+msgid "My photos"
+msgstr ""
+
+#: template-parts/content-classic.php:26
+#: template-parts/content-grid.php:25
+msgid "Sticky"
+msgstr ""
+
+#: template-parts/content-classic.php:51
+#: template-parts/content-grid.php:61
+#: template-parts/content-search.php:31
+#: template-parts/related-posts.php:61
+msgid "Continue reading"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:29
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-single.php:25
+msgid "By: "
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:50
+#: template-parts/job_manager/content-single-job.php:27
+#: template-parts/wpadverts/content-single-advert.php:37
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/default-footer.php:30
+msgid "Company"
+msgstr ""
+
+#: template-parts/default-footer.php:46
+msgid "Community"
+msgstr ""
+
+#: template-parts/default-footer.php:62
+msgid "Useful links"
+msgstr ""
+
+#: template-parts/default-footer.php:78
+msgid "Legal"
+msgstr ""
+
+#: template-parts/default-footer.php:105
+msgid "Thunder Team © 2020. All rights reserved"
+msgstr ""
+
+#: template-parts/default-header.php:29
+msgid "Main Menu"
+msgstr ""
+
+#: template-parts/job_manager/content-single-job.php:49
+msgid "Job Overview"
+msgstr ""
+
+#: template-parts/job_manager/content-single-job.php:55
+msgid "Date Posted"
+msgstr ""
+
+#: template-parts/job_manager/content-single-job.php:77
+msgid "Jop Type"
+msgstr ""
+
+#: template-parts/job_manager/content-single-job.php:93
+msgid "Salary"
+msgstr ""
+
+#: template-parts/job_manager/content-single-job.php:104
+msgid "Category"
+msgstr ""
+
+#: template-parts/job_manager/content-single-job.php:108
+msgid "Uncategorized"
+msgstr ""
+
+#: template-parts/login-modal.php:19
+msgid "Guest"
+msgstr ""
+
+#: template-parts/login-modal.php:23
+msgid "Log into your account"
+msgstr ""
+
+#: template-parts/login-modal.php:45
+msgid "Remember Me"
+msgstr ""
+
+#: template-parts/notification-nav.php:20
+msgid "Login"
+msgstr ""
+
+#: template-parts/notification-nav.php:24
+msgid "Register"
+msgstr ""
+
+#: template-parts/notification-nav.php:33
+msgid "Friend Requests"
+msgstr ""
+
+#: template-parts/notification-nav.php:36
+#: template-parts/notification-nav.php:74
+#: template-parts/notification-nav.php:118
+msgid "9+"
+msgstr ""
+
+#: template-parts/notification-nav.php:43
+msgid "Friend requests"
+msgstr ""
+
+#. translators: number of friend requests.
+#: template-parts/notification-nav.php:50
+msgctxt "Number of friend requests"
+msgid "You have %s friend request pending."
+msgid_plural "You have %s friend requests pending."
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/notification-nav.php:58
+msgid "No friend request."
+msgstr ""
+
+#: template-parts/notification-nav.php:62
+msgid "All Requests"
+msgstr ""
+
+#: template-parts/notification-nav.php:71
+#: template-parts/notification-nav.php:81
+msgid "Notifications"
+msgstr ""
+
+#: template-parts/notification-nav.php:102
+msgid "No notifications found"
+msgstr ""
+
+#: template-parts/notification-nav.php:106
+msgid "All Notifications"
+msgstr ""
+
+#: template-parts/notification-nav.php:115
+msgid "Messages"
+msgstr ""
+
+#: template-parts/notification-nav.php:125
+msgid "Unread messages"
+msgstr ""
+
+#: template-parts/notification-nav.php:154
+msgid "No messages to read."
+msgstr ""
+
+#: template-parts/notification-nav.php:158
+msgid "All Messages"
+msgstr ""
+
+#: template-parts/post-navigation.php:21
+msgid "Prev post"
+msgstr ""
+
+#: template-parts/post-navigation.php:28
+msgid "Next post"
+msgstr ""
+
+#: template-parts/post-slider.php:46
+#: template-parts/post-slider.php:50
+msgid "Previous"
+msgstr ""
+
+#: template-parts/social-panel.php:24
+msgid "Login Now"
+msgstr ""
+
+#: template-parts/social-panel.php:45
+msgid "Log In"
+msgstr ""
+
+#: template-parts/social-panel.php:77
+msgid "Administrator"
+msgstr ""
+
+#: template-parts/social-panel.php:79
+msgid "Member"
+msgstr ""
+
+#: template-parts/wpadverts/content-single-advert.php:60
+#: template-parts/wpadverts/content-single-advert.php:69
+msgid "Useful Tips"
+msgstr ""
+
+#: template-parts/wpadverts/related-adverts.php:26
+msgid "Related Ads"
+msgstr ""
+
+#: template-parts/wpadverts/related-adverts.php:36
+#: wpadverts/list-item.php:12
+msgid "Featured"
+msgstr ""
+
+#: template-parts/wpadverts/related-adverts.php:69
+#: wpadverts/list-item.php:51
+msgid "Detail"
+msgstr ""
+
+#: wpadverts/add-preview.php:7
+msgid "Preview"
+msgstr ""
+
+#: wpadverts/add-save.php:15
+msgid "Your ad has been published."
+msgstr ""
+
+#: wpadverts/categories-top.php:15
+msgid "ads"
+msgstr ""
+
+#: wpadverts/list-item.php:49
+#: wpadverts/manage.php:35
+msgid "N/A"
+msgstr ""
+
+#: wpadverts/manage.php:66
+msgid "Manage"
+msgstr ""
+
+#: wpadverts/single.php:46
+msgid "Description:"
+msgstr ""

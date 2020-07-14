@@ -1,0 +1,16 @@
+//
+// Modals
+//
+// @version 1.0.0
+//
+// Outputs modals dynamic styles
+
+.modal {
+	
+	&.login-modal {
+		
+		.modal-header {
+			background-color: $primary;
+		}
+	}
+}

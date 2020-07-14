@@ -1,0 +1,470 @@
+//
+// Beehive Buttons
+//
+// @version 1.0.0
+//
+// Style beehive buttons
+
+.btn {
+	
+	&:hover,
+	&:active,
+	&:focus {
+		border: 1px solid transparent;
+		box-shadow: 0 10px 15px -7px rgba($beehive-shadow, 0.25) !important;
+	}
+}
+
+a.button,
+.generic-button a,
+input[type="button"],
+input[type="reset"],
+button {
+	background-color: transparent;
+	display: inline-block;
+	white-space: nowrap;
+	color: $beehive-primary;
+	fill: $beehive-primary;
+	border: 1px solid $beehive-primary;
+	border-radius: 30px;
+	padding: .375rem 2rem;
+	min-height: 2.5rem;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	box-shadow: 0 2px 5px 0 rgba($beehive-shadow, 0.08);
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $beehive-primary;
+		color: #fff;
+		transition: all 750ms ease;
+	}
+	
+	&:disabled,
+	&.disabled,
+	&:disabled[disabled] {
+		cursor: not-allowed;
+		opacity: 0.5;
+	}
+	
+	&.button-filter {
+		background: none !important;
+		color: $beehive-text;
+		border: 1px solid $beehive-border;
+		font-weight: normal;
+		box-shadow: none;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		
+		i {
+			margin-right: .25rem;
+		}
+		
+		&:hover,
+		&:active,
+		&:focus {
+			background: none;
+			color: $beehive-primary;
+			border: 1px solid $beehive-primary;
+		}
+	}
+}
+
+.text-button.text-button {
+	background: none;
+	border: none;
+	box-shadow: none;
+	color: $beehive-primary;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-decoration: none;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background: none;
+		color: $beehive-primary;
+		text-decoration: underline;
+	}
+}
+
+input[type="submit"],
+button[type="submit"] {
+	background-color: $beehive-primary;
+	background-image: linear-gradient(90deg, $beehive-primary 0, lighten($beehive-primary, 15%) 50%, $beehive-primary 100%);
+	background-size: 200%;;
+	display: inline-block;
+	padding: .375rem 2rem;
+	padding-top: calc(.375rem + 1px);
+	padding-bottom: calc(.375rem + 1px);
+	border: none;
+	min-height: 2.5rem;
+	border-radius: 30px;
+	text-align: center;
+	font-weight: normal;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+	box-shadow: 0 1px 2px 0 rgba($beehive-primary, .5);
+	
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: lighten($beehive-primary, 10%);
+		background-position: right center;
+		box-shadow: 0 1px 3px 0 rgba($beehive-primary, .5);
+		transition: all 750ms ease;
+	}
+}
+
+a.button {
+
+	.button-text-wrapper {
+        @include flexbox();
+        @include align-items(center);
+		@include justify-content(center);
+	}
+
+	.button-icon {
+		display: block;
+		margin-right: .5rem;
+	}
+
+	&.icon-right {
+
+		.button-text-wrapper {
+			@include flex-direction(row-reverse);
+		}
+
+		.button-icon {
+			margin-right: 0;
+			margin-left: .5rem;
+		}
+	}
+
+	&.button-transparent.large {
+
+		.button-icon {
+			background-color: rgba(#fff, .05);
+			height: 50px;
+			width: 50px;
+			line-height: 50px;
+			border-radius: 50%;
+			max-width: 50px;
+			text-align: center;
+			@include flex(0 0 50px);
+			@include flexbox();
+			@include align-items(center);
+			@include justify-content(center);
+		}
+
+		.button-text-wrapper {
+
+			> span.button-text {
+				@include ellipsis();
+			}
+		}
+
+		&.icon-left {
+			padding-left: .75rem;
+			text-align: left;
+
+			.button-text-wrapper {
+				@include justify-content(start);
+			}		
+		}
+
+		&.icon-right {
+			padding-right: .75rem;
+			text-align: right;
+
+			.button-text-wrapper {
+				@include justify-content(end);
+			}	
+		}
+	}
+
+	svg {
+		height: 20px;
+	}
+}
+
+a.button,
+input,
+button {
+
+	&.button-primary {
+		background-color: $beehive-primary;
+		background-image: linear-gradient(90deg, $beehive-primary 0, lighten($beehive-primary, 15%) 50%, $beehive-primary 100%);
+		background-size: 200%;
+		min-height: 2.5rem;
+		padding-top: calc(.375rem + 1px);
+		padding-bottom: calc(.375rem + 1px);
+		border: none;
+		color: #fff;
+		fill: #fff;
+		box-shadow: 0 1px 2px 0 rgba($beehive-primary, .5);
+		
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($beehive-primary, 10%);
+			background-position: right center;
+			box-shadow: 0 1px 3px 0 rgba($beehive-primary, .5);
+			transition: all 750ms ease;
+		}
+
+		&.success {
+			background-color: $beehive-green;
+			background-image: linear-gradient(90deg, $beehive-green 0, lighten($beehive-green, 15%) 50%, $beehive-green 100%);
+			box-shadow: 0 1px 2px 0 rgba($beehive-green, .5);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($beehive-green, 10%);
+				box-shadow: 0 1px 3px 0 rgba($beehive-green, .5);
+			}
+		}
+
+		&.warning {
+			background-color: $beehive-secondary;
+			background-image: linear-gradient(90deg, $beehive-secondary 0, lighten($beehive-secondary, 15%) 50%, $beehive-secondary 100%);
+			box-shadow: 0 1px 2px 0 rgba($beehive-secondary, .5);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($beehive-secondary, 10%);
+				box-shadow: 0 1px 3px 0 rgba($beehive-secondary, .5);
+			}
+		}
+
+		&.danger {
+			background-color: $beehive-red;
+			background-image: linear-gradient(90deg, $beehive-red 0, lighten($beehive-red, 15%) 50%, $beehive-red 100%);
+			box-shadow: 0 1px 2px 0 rgba($beehive-red, .5);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($beehive-red, 10%);
+				box-shadow: 0 1px 3px 0 rgba($beehive-red, .5);
+			}
+		}
+	}
+
+	&.button-outline {
+		background-color: transparent;
+		color: $beehive-primary;
+		fill: $beehive-primary;
+		border: 1px solid $beehive-primary;
+		box-shadow: 0 10px 15px -7px rgba($beehive-shadow, 0.10);
+
+		&:hover,
+		&:focus,
+		&.focus {
+			background-color: $beehive-primary;
+			color: #fff;
+			fill: #fff;
+		}
+
+		&.success {
+			color: $beehive-green;
+			fill: $beehive-green;
+			border-color: $beehive-green;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $beehive-green;
+				color: #fff;
+				fill: #fff;
+			}
+		}
+
+		&.warning {
+			color: $beehive-secondary;
+			fill: $beehive-secondary;
+			border-color: $beehive-secondary;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $beehive-secondary;
+				color: #fff;
+				fill: #fff;
+			}
+		}
+
+		&.danger {
+			color: $beehive-red;
+			fill: $beehive-red;
+			border-color: $beehive-red;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $beehive-red;
+				color: #fff;
+				fill: #fff;
+			}
+		}
+
+		&.button-outline {
+			background-image: none;
+		}
+	}
+
+	&.button-transparent {
+		background-color: rgba(#fff, .1);
+		color: #fff;
+		fill: #fff;
+		border: none;
+		box-shadow: none;
+		padding-top: calc(.375rem + 1px);
+		padding-bottom: calc(.375rem + 1px);
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: rgba(#fff, .2);
+			box-shadow: none;
+			transition: all .5s;
+		}
+
+		&.success {
+			background-color: rgba($beehive-green, .1);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: rgba($beehive-green, .2);
+			}
+		}
+
+		&.warning {
+			background-color: rgba($beehive-secondary, .1);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: rgba($beehive-secondary, .2);
+			}
+		}
+
+		&.danger {
+			background-color: rgba($beehive-red, .1);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: rgba($beehive-red, .2);
+			}
+		}
+
+		&.button-transparent {
+			background-image: none;
+		}
+	}
+
+	&.button-solid {
+		background-color: $beehive-primary;
+		min-height: 2.5rem;
+		padding-top: calc(.375rem + 1px);
+		padding-bottom: calc(.375rem + 1px);
+		border: none;
+		color: #fff;
+		fill: #fff;
+		box-shadow: 0 1px 2px 0 rgba($beehive-primary, .5);
+		
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($beehive-primary, 10%);
+			box-shadow: 0 1px 3px 0 rgba($beehive-primary, .5);
+			transition: all 750ms ease;
+		}
+
+		&.success {
+			background-color: $beehive-green;
+			box-shadow: 0 1px 2px 0 rgba($beehive-green, .5);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($beehive-green, 10%);
+				box-shadow: 0 1px 3px 0 rgba($beehive-green, .5);
+			}
+		}
+
+		&.warning {
+			background-color: $beehive-secondary;
+			box-shadow: 0 1px 2px 0 rgba($beehive-secondary, .5);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($beehive-secondary, 10%);
+				box-shadow: 0 1px 3px 0 rgba($beehive-secondary, .5);
+			}
+		}
+
+		&.danger {
+			background-color: $beehive-red;
+			box-shadow: 0 1px 2px 0 rgba($beehive-red, .5);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($beehive-red, 10%);
+				box-shadow: 0 1px 3px 0 rgba($beehive-red, .5);
+			}
+		}
+
+		&.button-solid {
+			background-image: none;
+		}
+	}
+	
+	&.small  {
+		min-height: initial;
+		font-size: 95%;
+		line-height: 1.5;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+	}
+
+	&.medium {
+		font-size: 1rem;
+	}
+
+	&.large {
+		font-size: 1.25em;
+		padding-top: .75rem;
+		padding-bottom: .75rem;
+
+		&.button-gradient {
+			padding-top: calc(.75rem + 1px);
+			padding-bottom: calc(.75rem + 1px);
+		}
+	}
+
+	&.wide {
+		width: 100%;
+	}
+
+	&.round {
+		border-radius: 100px;
+	}
+
+	&.loading {
+		-moz-animation: loader-pulsate 0.5s infinite ease-in-out alternate;
+		-webkit-animation: loader-pulsate 0.5s infinite ease-in-out alternate;
+		animation: loader-pulsate 0.5s infinite ease-in-out alternate;
+	}
+}

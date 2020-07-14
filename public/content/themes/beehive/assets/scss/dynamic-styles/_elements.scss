@@ -1,0 +1,126 @@
+//
+// Elements
+//
+// @version 1.0.0
+//
+// Outputs beehive elements dynamic styles
+
+// Generic elementor styles
+.elementor-accordion {
+
+    .elementor-tab-title {
+
+        .elementor-accordion-icon {
+
+            .elementor-accordion-icon-closed {
+                color: $primary;
+                fill: $primary;
+            }
+        }
+
+        &.elementor-active {
+            background-color: $primary;
+        }
+    }
+}
+
+// Beehive tabs
+.beehive-tabs-element {
+
+    .nav-tabs {
+
+        .nav-item {
+
+            .nav-item-icon {
+                background-color: rgba($primary, .05);
+
+                i {
+                    color: $primary;
+                }
+
+                svg {
+                    fill: $primary;
+                }
+            }
+
+            &.active {
+
+                .nav-item-wrapper {
+                    border-color: $primary;
+
+                    @media (min-width: 767px) {
+
+                        &::before {
+                            background-color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .tab-content {
+
+        .tab-pane {
+
+            .pane-wrapper {
+
+                .pane-texts {
+
+                    p {
+
+                        a {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Icon box element {
+.beehive-iconbox-element {
+
+    .icon-wrapper {
+
+        i,
+        svg {
+            color: $primary;
+            fill: $primary;
+        }
+    }
+
+    &.icon-view-stacked {
+
+        .icon-wrapper {
+
+            background: $primary;
+        }
+    }
+
+    &.icon-view-framed {
+
+        .icon-wrapper {
+            border-color: $primary;
+
+            i,
+            svg {
+                color: $primary;
+                fill: $primary;
+            }
+        }
+    }
+}
+
+// Contact info element
+.beehive-contactinfo-element {
+
+    .item {
+
+        .item-icon {
+            background-color: rgba($primary, .05);
+            color: $primary;
+        }
+    }
+}

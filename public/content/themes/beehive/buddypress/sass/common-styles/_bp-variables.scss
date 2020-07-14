@@ -1,0 +1,121 @@
+//
+// BuddyPress scss Variables
+//
+// @version 3.0.0
+
+// This file provides colors, and any other values that benefit
+// from a variable definition that can be managed and changed from one
+// central position for all instances of the property/value.
+
+// Spacing values - used primarily for main elements to allow us
+// to adjust values in a grouped manner.
+
+// Add Beehive variables
+@import "../.././../assets/scss/_variables"; 
+
+$pad-xsml: 0.25rem !default;
+$pad-sml:  0.5rem !default;
+$pad-med:  1rem !default;
+$pad-lrg:  1.25rem !default;
+$pad-xlrg: 2rem !default;
+
+$marg-xsml: .25rem !default;
+$marg-sml:  .5rem !default;
+$marg-med:  1rem !default;
+$marg-lrg:  1.25rem !default;
+$marg-xlrg: 2rem !default;
+
+// Colours
+
+$dark-grey:            #555 !default;
+$light-text:           #767676 !default; // lightest gray on #fff with 4.5:1 contrast ratio
+$light-text-plus:      #737373 !default; // $light-text on #fafafa background
+$primary-grey:         #ccc !default;
+$light-grey:           #eaeaea !default;
+$med-light-grey:       #d6d6d6 !default;
+$blue:                 #5087e5 !default;
+$black:                #333 !default;
+$grey:                 $primary-grey !default;
+$golden:               #edbb34 !default;
+
+$highlight:            $blue !default; // for various elements such as span qnt indications
+$text-link-hover:      #5087e5 !default;
+$text-link-visited:    $med-light-grey !default;
+$bp-border-color:      $beehive-border !default;
+$bp-border-dark:       $primary-grey !default;
+$buttons-background:   #ededed !default;
+$off-white:            $beehive-pale__1 !default;
+$white:                #fff !default;
+$form-border-color:    $med-light-grey !default;
+$bp-text:              $dark-grey !default;
+$form-text:            $light-text-plus !default;
+$primary-headings:     $light-text !default;
+$textarea-bck:         $white !default;
+$meta-text:            $light-text-plus !default;
+$meta-text-dark:       $dark-grey !default;
+$focussed-border-clr:  rgba(31, 179, 221, 0.9) !default; // textareas? e.g whats-new
+
+// Message colors
+
+// used on text == red & input validation pseudo classes
+$warn:           $beehive-red !default;
+$valid:          $beehive-green !default;
+
+// The colors for boxes
+$warnings:       $beehive-red !default;
+$informational:  #5561e2 !default;
+$loading:        #5561e2 !default;
+$update-success: $beehive-green !default;
+
+// password warn colors & border-short
+// These may be overidden on the @include mixin call
+$pwd-background:    #eee !default;
+$background-short:  #ffa0a0 !default;
+$border-short:      #f04040 !default;
+$background-good:   #66d66e !default;
+$border-good:       #438c48 !default;
+$background-bad:    #ffb78c !default;
+$border-bad:        #ff853c !default;
+
+// Animation loader-pulsate border / shadow colors
+
+$border-color-from:        #aaa !default;
+$border-color-to:          #ccc !default;
+$shadow-color-from:        #ccc !default;
+$shadow-color-to:          #f8f8f8 !default;
+
+// BP Tooltips
+
+$tooltip-background:        $white !default;
+$tooltip-border:            $light-text-plus !default;
+$tooltip-border-radius:     1px !default;
+$tooltip-box-shadow:        4px 4px 8px rgba(0, 0, 0, 0.2) !default; // 1px 1px 0 1px rgba(132, 132, 132, 0.3) !default;
+$tooltip-font-family:       "Helvetica Neue", helvetica, arial, san-serif;
+$tooltip-font-size:         12px !default;
+$tooltip-font-weight:       400 !default;
+$tooltip-max-width:         200px !default;
+$tooltip-padding-hor:       8px !default;
+$tooltip-padding-vert:      5px !default;
+$tooltip-text-color:        $black !default;
+$tooltip-tip-area:          7px !default; // bp-tooltip arrow's height, width, & margin
+$tooltip-tip-background:    $white !default;
+$tooltip-z-index:           100000 !default;
+
+// Beehive colors and variables for buddypress
+
+$bp-primary:        $beehive-primary;                               // Primary color
+$bp-secondary:      $beehive-secondary;                             // Secondary color
+$bp-anchor:         $beehive-anchor;                                // Anchor color 
+$bp-heading:        $beehive-heading;                               // Heading
+$bp-text:           $beehive-text;                                  // Text color
+$bp-light:          $beehive-light;                                 // Light color
+$bp-mute:           $beehive-mute;                                  // Mute color
+$bp-border:         $beehive-border;                                // Border color
+$bp-shadow:         $beehive-shadow;                                // Shadow color
+$bp-red:          	$beehive-red;                                   // Red color
+$bp-green:         	$beehive-green;                                 // Green
+$bp-pale__1:        $beehive-pale__1;                               // Pale 1 background color
+$bp-pale__2:        $beehive-pale__2;                               // Pale 2 background color
+$bp-dark:           $beehive-dark;                                  // Dark background
+$bp-input:          $beehive-input;                                 // Input color
+$bp-transition:     $beehive-transition;                            // Transition

@@ -1,0 +1,70 @@
+//
+// blockquote
+//
+// @version 1.0.0
+//
+// Outputs wp-block-quote styles
+
+blockquote,
+.wp-block-quote {
+  padding: 0 1rem;
+  position: relative;
+  border-left: 2px solid;
+  border-color: $beehive-primary;
+
+  p {
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  cite {
+    color: $beehive-mute;
+    font-style: normal;
+  }
+
+  a {
+    color: $beehive-primary;
+    text-decoration: underline;
+  }
+
+  &.is-style-large {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: lighter;
+		margin: 1.5rem 0;
+
+    p {
+      font-size: inherit;
+      line-height: 1.5;
+      font-style: normal;
+    }
+
+    cite {
+      display: block;
+      font-size: inherit;
+      text-align: inherit;
+      margin-top: .5rem;
+    }
+  }
+
+  &.has-text-align-right,
+  &[style*="text-align:right"], 
+  &[style*="text-align: right"] {
+    border-left: none;
+    border-right: 2px solid $beehive-primary;
+  }
+}
+
+.wp-block-quote {
+
+  a {
+    color: $beehive-primary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+//
+// Code
+//
+// @version 1.0.0
+//
+// Outputs wp-block-code styles
+
+.wp-block-code {
+  padding: 1rem;
+  border-left: 2px solid;
+  border-color: $beehive-primary;
+
+  code {
+    color: $beehive-primary;
+    margin: 0;
+  }
+}

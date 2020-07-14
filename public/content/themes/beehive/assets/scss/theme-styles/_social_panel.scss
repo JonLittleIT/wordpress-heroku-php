@@ -1,0 +1,346 @@
+//
+// Social Panel
+//
+// @version 1.0.0
+//
+// Landles social panel styles
+
+.beehive-social-panel {
+	background: $beehive-pale__2;
+	width: 22%;
+	height: 100vh;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10002;
+	
+	.inner-panel { 
+		max-height: 100vh;
+		height: 100%;
+
+		.mCSB_container {
+			min-height: 100vh;
+			@include flexbox();
+			@include flex-direction(column);
+
+			.panel-block {
+
+				&.light {
+					@include flex-grow(1);
+				}
+			}
+		}
+	}
+	
+	.panel-block {
+		padding: 2.5rem 1rem 1rem;
+		
+		&.dark {
+			background-color: $beehive-dark;
+			background-image: linear-gradient(135deg, lighten($beehive-dark, 10%) 0%, $beehive-dark 50%);
+		}
+		
+		&.light {
+			padding-top: 90px;
+			padding-bottom: 30px;
+			border-right: 1px solid;
+			border-color: $beehive-border;
+		}
+		
+		.item {
+			max-width: 250px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.panel-logo {
+			
+			img {
+				max-width: 80%;
+				max-height: 105px;
+			}
+		}
+	}
+	
+	.my-card {
+		background: #fff;
+		padding: 1.5rem 2rem;
+		border-radius: 12px;
+		position: relative;
+		margin: 1rem auto -65px;
+		box-shadow: 0 15px 100px rgba($beehive-shadow, .06);
+
+		@media screen and (max-width: 375.98px) {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+		
+		&:before{
+			content: "";
+			background: #fff;
+			width: 90%;
+			height: 95%;
+			border-radius: 12px;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+			bottom: -12px;
+			z-index: -1;
+			box-shadow: 0 15px 100px rgba($beehive-shadow, .06);
+		}
+		
+		.form-title {
+			margin-bottom: .75rem;
+		}
+		
+		.profile-avatar {
+			display: inline-block;
+			position: relative;
+			margin-bottom: .75rem;
+			
+			&:before {
+				content: url("../images/ring.png");
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				top: -6px;
+			}
+			
+			img.avatar {
+				width: 50px;
+				box-shadow: 0 7px 35px rgba($beehive-shadow, 0.1)
+			}
+			
+			&:hover {
+			
+				img.avatar {
+					box-shadow: 0 7px 35px rgba($beehive-shadow, 0.15);
+					transition: all 1s;
+				}
+			}
+		}
+		
+		.profile-name {
+			line-height: 1.5;
+			
+			a {
+				display: block; 
+				font-weight: 600;
+			}
+
+			.name {
+				font-size: 1rem;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 0;
+			}
+
+			@include extra-small-min() {
+				
+				.ellipsis {
+					max-width: 160px;
+				}
+			}
+		}
+		
+		ul.connections {
+			padding-top: .5rem;
+			margin-top: .75rem;
+			border-top: 1px solid $beehive-border;
+			
+			@include small-max() {
+				display: none;
+			}
+		}
+		
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	@media screen and (min-width: 1400px) {
+
+		.panel-block {
+			padding-top: 5rem;
+		}
+
+		.my-card {
+			padding: 2.25rem 2rem;
+			margin-top: 1.5rem;
+		}
+	}
+
+	@media screen and (min-width: 1799.98px) {
+		
+		.my-card {
+			padding-left: 2.25rem;
+			padding-right: 2.25rem;
+		}
+	}
+
+	
+	.panel-menu {
+		
+		ul.navbar-panel {
+			padding: 0 1.75rem;
+			text-align: center;
+			@include flexbox();
+			@include flex-wrap(wrap);
+
+			@include extra-small-max() {
+				padding-left: 1.25rem;
+				padding-right: 1.25rem;
+			}
+			
+			li {
+				list-style: none;
+				width: 100%;
+				max-width: 50%;
+				@include flex(0, 0, 50%);
+
+				&.add-menu {
+					width: 100%;
+					max-width: 100%;
+					@include flex(0 0 100%);
+				}
+				
+				a {
+					display: block;
+					padding: 1rem .25rem;
+					text-decoration: none;
+					
+					&:not(:hover) {
+						color: $beehive-light;
+					}
+					
+					i {
+						display: block;
+						font-size: 1.125rem;
+					}
+				}
+				
+				&.current-menu-item {
+				
+					a {
+						color: $beehive-primary !important;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+	
+	div.navbar-panel {
+	
+		ul {
+			padding: 0;
+			margin: 0;
+			
+			li {
+				list-style: none;
+			}
+		}
+	}
+}
+
+body {
+
+	&.beehive-social-layout {
+
+		&.panel-collapsed {
+
+			.beehive-social-panel {
+
+				@include small-min() {
+					
+					.panel-block {
+						
+						&.dark{
+							padding: 1rem;
+							height: 80px;
+		
+							.panel-logo {
+								@include flexbox();
+								@include justify-content(center);
+								@include align-items(center);
+								height: 100%;
+		
+								img {
+									max-height: 100%;
+									max-width: 100%;
+								}
+							}
+						}
+						
+						&.light {
+							padding: 2rem 1rem 2rem;
+						}
+					}
+					
+					.my-card {
+						display: none;
+					}
+					
+					.panel-menu {
+				
+						ul.navbar-panel {
+							padding: 0;
+							
+							li {
+								max-width: 100%;
+								@include flex(0, 0, 100%);
+								
+								a {
+									position: relative;
+									padding: .75rem .25rem;
+									
+									i {
+										margin: 0;
+									}
+		
+									i + span.nav-link-text {
+										z-index: 1;
+										background-color: $beehive-dark;
+										color: #fff;
+										font-size: 90%;
+										padding: .15rem .75rem;
+										border-radius: 12px;
+										position: fixed;
+										transform: translate(24px, -28px);
+										white-space: nowrap;
+										visibility: hidden;
+										opacity: 0;
+
+										&::before {
+											content: "";
+											width: 0;
+											height: 0;
+											border-top: 9px solid transparent;
+											border-bottom: 9px solid transparent;
+											border-right: 9px solid $beehive-dark;
+											position: absolute;
+											left: -6px;
+											top: 50%;
+											transform: translateY(-50%);
+										}
+									}
+
+									&:hover {
+
+										i + span.nav-link-text {
+											visibility: visible;
+											opacity: 1;
+											transition: all .5s;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			} 
+		}
+	}
+}

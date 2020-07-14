@@ -1,0 +1,32 @@
+//
+// Social
+//
+// @version 1.0.0
+//
+// Outputs social dynamic styles
+
+ul.social-links {
+	
+	li.list-inline-item {
+		
+		a {
+			
+			&:hover {
+				border: 1px solid $primary;
+			}
+		}
+	}
+}
+
+ul.social-share {
+
+	li {
+		
+		a {
+			
+			&:hover {
+				border: 1px solid $primary;
+			}
+		}
+	}
+}

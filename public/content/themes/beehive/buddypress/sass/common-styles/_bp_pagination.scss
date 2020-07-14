@@ -1,0 +1,43 @@
+// BP pagination  - generic styling for all screens
+// @version 3.0.0
+.buddypress-wrap {
+
+	.bp-pagination {
+
+		background: transparent;
+		border: 0;
+		float: left;
+		position: relative;
+		width: 100%;
+
+		.pag-count {
+			float: left;
+			font-size: 90%;
+		}
+
+		p {
+			margin: 0;
+		}
+		
+		&.top {
+			margin-bottom: .5rem;
+			display: none;
+			
+			.bp-pagination-links {
+				display: none;
+			}
+		}
+		&.bottom {
+		
+			.pag-count {
+				display: none
+			}
+			
+			.bp-pagination-links {
+				float: none;
+			}
+		}
+
+	} // close .bp-pagination
+
+}

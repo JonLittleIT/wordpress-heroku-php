@@ -1,0 +1,25 @@
+//
+// Miscellaneous
+//
+// @version 1.0.0
+//
+// Miscellaneous dynamic styles
+
+.background-primary-09 {
+	background-color: rgba($primary, .8);
+}
+
+.beehive-preloader {
+
+	> span {
+		border: 2px $primary solid;
+
+		&::before {
+			background-color: $primary;
+		}
+
+		&::after {
+			background-color: $primary;
+		}
+	}
+}

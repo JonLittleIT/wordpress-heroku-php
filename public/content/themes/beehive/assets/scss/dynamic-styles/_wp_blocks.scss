@@ -1,0 +1,251 @@
+//
+// WP blocks
+//
+// @version 1.0.0
+//
+// Outputs wp blocks dynamic styles
+
+// Color pallete
+.has-primary-color-color {
+	color: $primary !important;
+}
+
+.has-primary-color-background-color {
+	background-color: $primary !important;
+}
+
+.has-secondary-color-color {
+	color: $secondary;
+}
+
+.has-secondary-color-background-color {
+	background-color: $secondary !important;
+}
+
+// Paragraph
+.has-drop-cap {
+
+  &:not(.has-background) {
+
+    &:not(:focus)::first-letter {
+      color: $primary;
+    }
+  }
+}
+
+// Blockquotes
+blockquote,
+.wp-block-quote {
+  border-color: $primary;
+
+  a {
+    color: $primary;
+  }
+  
+  &.has-text-align-right,
+  &[style*="text-align:right"], 
+  &[style*="text-align: right"] {
+    border-color: $primary;
+  }
+}
+
+.wp-block-quote {
+
+  a {
+    color: $primary;
+  }
+}
+
+// Pullquote
+.wp-block-pullquote {
+	
+	&.is-style-solid-color {
+		
+		&:not([class*="background-color"]) {
+			background-color: $primary;
+		}
+	}
+}
+
+// Gallery
+.wp-block-gallery {
+
+  .blocks-gallery-caption {
+
+    a {
+      color: $primary;
+    }
+  }
+}
+
+// Audio
+.wp-block-audio {
+
+  figcaption {
+
+    a {
+      color: $primary;
+    }
+  }
+}
+
+// Video 
+.wp-block-video {
+
+  figcaption {
+
+    a {
+      color: $primary;
+    }
+  }
+}
+
+// File
+.wp-block-file {
+
+  a:not(.wp-block-file__button) {
+    color: $primary;
+  }
+
+  .wp-block-file__button {
+    background: $primary;
+  }
+}
+
+// Code
+.wp-block-code {
+  border-color: $primary;
+
+  code {
+    color: $primary;
+  }
+}
+
+// Verse 
+.wp-block-verse {
+  font-family: '#{$body-font-family}', Arial, sans-serif;
+}
+
+// Table
+.wp-block-table {
+	
+	a {
+    color: $primary;
+  }
+}
+
+// Button
+.wp-block-button {
+
+  &:not(.is-style-outline) {
+
+    .wp-block-button__link {
+
+      &:not(.has-background) {
+        background-color: $primary;
+        background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+        box-shadow: 0 1px 2px 0 rgba($primary, .5);
+  
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: lighten($primary, 10%);
+          box-shadow: 0 1px 3px 0 rgba($primary, .5);
+        }
+      }
+    }
+  }
+
+  &.is-style-outline {
+
+    .wp-block-button__link {
+      
+      &:not(.has-text-color) {
+				color: $primary;
+        border-color: $primary;
+        
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: $primary !important;
+        }
+			}
+    }
+  }
+}
+
+// Media and texts
+.wp-block-media-text {
+
+	.wp-block-media-text__content {
+
+    > p {
+
+      > a {
+        color: $primary;
+      }
+    }
+  }
+}
+
+// Archives
+.wp-block-archives {
+
+  a {
+    color: $primary;
+  }
+}
+
+// Calendar
+.wp-block-calendar {
+
+  a {
+    color: $primary;
+    font-weight: normal;
+  }
+  tfoot {
+
+    a {
+        color: $primary;
+    }
+  }
+}
+
+// Categories
+.wp-block-categories {
+
+  a {
+    color: $primary;
+  }
+}
+
+// Posts
+.wp-block-latest-posts {
+
+  a {
+    color: $primary;
+  }
+}
+
+// Rss feed
+.wp-block-rss {
+
+  .wp-block-rss__item-title {
+
+      a {
+          color: $primary;
+      }
+  }
+}
+
+// Embed
+
+.wp-block-embed {
+
+  figcaption {
+
+    a {
+      color: $primary;
+    }
+  }
+}

@@ -1,0 +1,176 @@
+//
+// Job manager
+//
+// @version 1.0.0
+//
+// Outputs job manager dynamic styles
+
+a {
+
+	&.load_more_jobs {
+		color: $primary;
+		
+		strong{
+			color: $primary;
+		}
+	}
+}
+
+.google_map_link {
+	color: $primary;
+}
+
+.post-overview {
+
+	.application_button {
+		background: $primary; 
+		
+		&:hover,
+		&:active,
+		&.focus {
+			background: lighten($primary, 10%);
+		}
+	}
+}
+
+.job_listing_preview_title {
+
+	form {
+		
+		input[type="submit"].edit {
+			color: $primary;
+			border: 1px solid $primary;
+		}
+	}
+}
+
+.application {
+
+	.application_details {
+		
+		a {
+			color: $primary;
+		}
+	}
+}
+
+.job-manager-error
+.job-manager-info
+.job-manager-message {
+
+	a {
+		color: $primary
+	}
+}
+
+#job-manager-job-dashboard {
+	
+	table {
+		
+		tbody {
+			
+			.filled {
+				color: $secondary;
+			}
+		}
+	}	
+}
+
+.job-manager-error,
+.job-manager-info,
+.job-manager-message {
+	
+	&.job-manager-message {
+		border-top-color: $success-color;
+		
+		&:before {
+			color: $success-color;
+		}
+		
+		a {
+			color: $success-color;
+			
+			&.button {
+				color: $success-color;
+				border-color: $success-color;
+				
+				&:hover {
+					background: $success-color;
+				}
+			}
+		}
+	}
+	
+	&.job-manager-info {
+		border-top-color: $info-color;
+		
+		&:before {
+			color: $info-color;
+		}
+		
+		a {
+			color: $info-color;
+			
+			&.button {
+				color: $info-color;
+				border-color: $info-color;
+				
+				&:hover {
+					background: $info-color;
+				}
+			}
+		}
+	}
+	
+	&.job-manager-error {
+		border-top-color: $error-color;
+		
+		&:before {
+			color: $error-color;
+		}
+		
+		a {
+			color: $error-color;
+			
+			&.button {
+				color: $error-color;
+				border-color: $error-color;
+				
+				&:hover {
+					background: $error-color;
+				}
+			}
+		}
+	}
+}
+
+fieldset.fieldset-logged_in {
+
+	&.job-manager-message {
+		border-left-color: $success-color;
+	}
+}
+
+fieldset.fieldset-login_required {
+
+	&.job-manager-message.job-manager-info {
+		border-left-color: $primary;
+	}
+} 
+
+body.rtl {
+
+	fieldset.fieldset-logged_in {
+
+		&.job-manager-message {
+			border-right-color: $success-color;
+		}
+	}
+
+	fieldset.fieldset-login_required {
+
+		&.job-manager-message.job-manager-info {
+			border-right-color: $primary;
+		}
+	}
+}

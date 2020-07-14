@@ -1,0 +1,49 @@
+// BP Generic elements, Typography and Images.
+// @version 4.0.0
+
+// ========= Generic Sitewide elements ========
+body {
+
+	#buddypress { // needs the weight of the id here
+	
+		// CSS Box Model - some themes will set all blocks to border box
+		// some will cherry pick - we will set elements as we need to,
+		// ( setting a global change might be better)
+		// box-modal() defaults to 'border-box' if no param passed
+		.bp-list .action {
+
+			@include box-model();
+		}
+		
+		.bp-screen-title,
+		.screen-heading	{ 
+			position: relative;
+			font-size: 1.616em;
+		}
+		
+		.bp-help-text{
+			margin-bottom: 1rem;
+		}
+		
+		.profile-edit-link {
+			margin-bottom: 1.5rem;
+		}
+		
+	}
+}
+
+// Ensure the .bp-wrap element always contains it's children,
+// this may cause issues but groups single requires it.
+
+/* Ensure .bp-wrap encloses it's children */
+
+@include clearfix-element(".bp-wrap");
+
+// General site avatars round or square ?
+// User set
+.buddypress-wrap.round-avatars {
+
+	.avatar {
+		border-radius: 50%;
+	}
+}

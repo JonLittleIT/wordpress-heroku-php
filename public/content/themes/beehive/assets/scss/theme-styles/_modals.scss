@@ -1,0 +1,163 @@
+//
+// Beehive Modals
+//
+// @version 1.0.0
+//
+// Modals style output for beehive theme
+
+.modal {
+	z-index: 99999;
+	
+	.modal-content {
+		padding: 2rem;
+		border-radius: 12px;
+	}
+	
+	&.login-modal {
+		text-align: center;
+		padding-right: 0 !important;
+		
+		.modal-dialog {
+			max-width: 430px;
+			margin: auto;
+		}
+
+		.modal-header {
+			background-color: $beehive-primary;
+			background-image: url('../images/geo-bg.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: top center;
+			position: relative;
+			min-height: 90px;
+			border: none; 
+			border-radius: 8px;
+			
+			.inner {
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%);
+				bottom: -25px;
+			}
+		
+			img.avatar {
+				width: 80px;
+			}
+		}
+		
+		.modal-body {
+			padding: 2.5rem 2.5rem 0;
+			
+			.modal-title {
+				margin-bottom: .75rem;
+			}
+			
+			.modal-login-form {
+				
+				.form-group {
+					
+					span.icon {
+						background: #fff;
+						display: block;
+						width: calc(2.5rem - 4px);
+						height: calc(2.5rem - 4px);
+						border-radius: 50%;
+						text-align: center;
+						position: absolute;
+						left: 2px;
+						top: 2px;
+						z-index: 1;
+						
+						i {
+							line-height: 2.125rem;
+						}
+					}
+					
+					input {
+						padding-left: calc(2.125rem + 10px);
+						border-radius: 50px;
+					}
+				}
+				
+				.modal-options {
+					text-align: initial;
+					font-size: 90%;;
+					
+					.forgetmenot {
+						text-align: left;
+
+						label {
+							font-weight: normal;
+						}
+					}
+					
+					.forgot-password {
+						text-align: right;
+						
+						a {
+							color: $beehive-text;
+						}
+					}
+				}
+				
+				div.submit {
+					margin-top: .5rem;
+					margin-bottom: .5rem;
+					padding-top: 0;
+					border: none;
+					
+					input[type="submit"],
+					button[type="submit"] {
+						width: 100%;
+					}
+				}
+
+				.register-link {
+
+					p {
+						margin: 0;
+					}
+				}
+			}
+			
+			@include small-max() {
+				padding: 2rem 2rem 1rem;
+				
+			}
+
+			@include extra-small-max() {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+
+		button.close {
+			min-height: initial;
+			height: 25px;
+			width: 25px;
+			line-height: 25px;
+			border: none;
+			padding: 0;
+			font-size: 1em;
+			text-align: center;
+			color: #fff;
+			opacity: 1;
+			position: absolute;
+			right: 30px;
+			top: 30px;
+			text-shadow: none;
+			box-shadow: none;
+			
+			&:hover,
+			&:active, 
+			&:focus {
+				background: #fff;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.modal-backdrop {
+	z-index: 99997;
+}

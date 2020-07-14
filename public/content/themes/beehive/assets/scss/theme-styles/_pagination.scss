@@ -1,0 +1,105 @@
+//
+// Pagination
+//
+// @version 1.0.0
+//
+// Provides styles for paginations
+
+.beehive-pagination,
+.bp-pagination,
+.rtm-paginate {
+	position: relative;
+	margin: 30px -2px 0;
+	font-size: 0;
+	
+	a,
+	span {
+		background-color: #f9f9f9;
+		display: inline-block;
+		min-width: 2.25rem;
+		height: 2.25rem;
+    	padding: .25rem .75rem;
+		margin: 2px;
+		border: 1px solid transparent;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 20px;
+		font-size: 14px;
+
+		&.current {
+			background-color: $beehive-primary;
+			background-image: linear-gradient(90deg, $beehive-primary 0, lighten($beehive-primary, 15%) 50%, $beehive-primary 100%);
+			background-size: 200%;
+			color: #fff;
+			font-weight: 600;
+			box-shadow: 0 1px 3px 0 rgba($beehive-primary, .5);
+		}
+
+		&:not(.current) {
+			
+			&:hover {
+				color: $beehive-primary;
+			}
+		}
+	}
+	
+	ul {
+		padding: 0;
+		margin: 0;
+		font-size: inherit;
+		
+		li {
+			display: inline-block;
+		}
+	}
+	
+	p {
+		margin: 0;
+	}
+
+	@include small-max () {
+		text-align: center;
+	}
+	
+}
+
+.bp-list.grid + .bp-pagination {
+	margin-top: 0;
+}
+
+.page-links {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	
+	a, 
+	span {
+		display: inline-block;
+	}
+	
+	span.page-number {
+		height: 35px;
+		width: 35px;
+		border-radius: 50%;
+		line-height: 35px;
+		text-align: center;
+		border: 1px solid $beehive-border;
+		margin-left: 1px;
+
+		&:hover {
+			color: $beehive-primary;
+			border-color: $beehive-primary;
+		}
+	}
+
+	.post-page-numbers {
+
+		&.current {
+
+			span.page-number {
+				color: $beehive-primary;
+				border-color: $beehive-primary;
+				box-shadow: 0 10px 15px -7px rgba($beehive-shadow, 0.1);
+			}
+		}
+	}
+}

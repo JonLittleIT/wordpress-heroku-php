@@ -1,0 +1,76 @@
+//
+// Miscellaneous
+//
+// @version 1.0.0
+//
+// Miscellaneous styles
+
+.background-primary-09 {
+	background-color: rgba($beehive-primary, .8);
+}
+
+.beehive-preloader {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999999999;
+	text-align: center;
+
+	> span {
+		display: block;
+		width: 32px;
+		height: 32px;
+		border: 2px $beehive-primary solid;
+		border-radius: 100%;
+		overflow: hidden;
+		z-index: 1;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+		}
+
+		&::before {
+			width: 32px;
+			height: 10px;
+			background-color: $beehive-primary;
+			top: 20px;
+			left: -2px;
+		}
+
+		&::after {
+			width: 14px;
+			height: 2px;
+			top: 20px;
+			-webkit-transform-origin: 1px 1px;
+			-moz-transform-origin: 1px 1px;
+					transform-origin: 1px 1px;
+			background-color: $beehive-primary;
+			-webkit-animation: dashboard_hand 500ms linear infinite alternate;
+			-moz-animation: dashboard_hand 500ms linear infinite alternate;
+					animation: dashboard_hand 500ms linear infinite alternate;
+		}
+	}
+}
+
+.beehive {
+
+	.drag-drop #drag-drop-area {
+		border: 2px dashed $beehive-border;
+		border-radius: 12px;
+		
+		input[type="button"] {
+			display: inline-block;
+			width: auto;
+		}
+	}
+}

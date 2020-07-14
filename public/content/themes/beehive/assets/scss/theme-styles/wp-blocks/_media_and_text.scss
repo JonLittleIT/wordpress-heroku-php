@@ -1,0 +1,60 @@
+//
+// Media and text
+//
+// @version 1.0.0
+//
+// Outputs wp-block-media-text styles
+
+.wp-block-media-text {
+
+  .wp-block-media-text__media {
+
+    img {
+      border-radius: 12px;
+    }
+  }
+
+  .wp-block-media-text__content {
+
+    > p {
+
+      > a {
+        color: $beehive-primary;
+      }
+    }
+  }
+	
+	&[class*="-background-color"] {
+		padding: 2rem;
+    border-radius: 12px;
+  }
+}
+
+body {
+
+  &.full-width {
+
+    .wp-block-media-text {
+
+      &[class*="-background-color"] {
+
+        &.alignfull {
+          border-radius: 0;
+        }
+      }
+
+      &.alignfull {
+
+        &:not([class*="-background-color"]) {
+    
+          .wp-block-media-text__media {
+    
+            img {
+              border-radius: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

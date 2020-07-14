@@ -1,0 +1,81 @@
+//
+// Button
+//
+// @version 1.0.0
+//
+// Outputs wp-block-button styles
+
+.wp-block-button {
+
+  .wp-block-button__link {
+    font-size: 1em;
+    padding: .375rem 2rem;
+    border-radius: 30px;
+    min-height: 2.5rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 750ms ease;
+  }
+
+  &:not(.is-style-outline) {
+
+    .wp-block-button__link {
+      padding-top: calc(.375rem + 1px);
+      padding-bottom: calc(.375rem + 1px);
+  
+      &:not(.has-background) {
+        background-color: $beehive-primary;
+        background-image: linear-gradient(90deg, $beehive-primary 0, lighten($beehive-primary, 15%) 50%, $beehive-primary 100%);
+        background-size: 200%;
+        box-shadow: 0 1px 2px 0 rgba($beehive-primary, .5);
+
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: lighten($beehive-primary, 10%);
+          box-shadow: 0 1px 3px 0 rgba($beehive-primary, .5);
+          background-position: right center;
+        }
+      }
+  
+      &:not(.has-text-color) {
+        color: #fff;
+      }
+    }
+  }
+
+  &.is-style-outline {
+
+    .wp-block-button__link {
+      background-color: transparent;
+      line-height: 26px;
+      box-shadow: 0 2px 5px 0 rgba($beehive-shadow, 0.08);
+      border-width: 1px;
+      border-style: solid;
+
+      &.has-background {
+        background-color: transparent !important;
+      }
+
+      &:not(.has-text-color) {
+				color: $beehive-primary;
+        border-color: $beehive-primary;
+        
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: $beehive-primary !important;
+          color: #fff !important;
+        }
+			}
+    }
+  }
+
+  &.is-style-squared {
+
+    .wp-block-button__link {
+      border-radius: 0;
+    }
+  }
+}

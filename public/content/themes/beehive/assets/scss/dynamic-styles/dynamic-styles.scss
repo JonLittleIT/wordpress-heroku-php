@@ -1,0 +1,49 @@
+//
+// Beehive dynamic SCSS
+//
+// This file compiles dynamic css
+// @version 1.0.0
+//
+
+// Import mixins
+@import "../_mixins";
+
+body {
+	font-family: '#{$body-font-family}', Arial, sans-serif;
+	font-size: $body-font-size;
+	font-weight: $body-font-weight;
+	line-height: $body-line-height;
+}
+
+// Import various parts of theme styles
+@import "_common";
+@import "_forms";
+@import "_navigations";
+@import "_buttons";
+@import "_tables";
+@import "_social_panel";
+
+@import "_social";
+@import "_widgets";
+@import "_posts";
+@import "_wp_blocks";
+
+@import "_pagination";
+
+@import "_comments";
+@import "_mejs_player";
+@import "_elements";
+
+
+@import "_modals";
+
+@import "_miscellaneous";
+
+@import "_info_messages";
+@import "_buddypress";
+@import "_buddychat";
+@import "_rtmedia";
+@import "_woocommerce";
+@import "_job_manager";
+@import "_wpadverts";
+@import "_bbpress";

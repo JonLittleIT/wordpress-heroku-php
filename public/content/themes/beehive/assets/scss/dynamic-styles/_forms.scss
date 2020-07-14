@@ -1,0 +1,86 @@
+//
+// Forms
+//
+// @version 1.0.0
+//
+// Outputs forms dynamic styles
+
+// label,
+// legend {
+// 	font-size: calc(#{$body-font-size} - 1px);
+// }
+
+.form-control {
+	font-size: $body-font-size;
+	
+	&:focus {
+		border: 1px solid $primary;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+select,
+textarea {
+
+	&:focus {
+		border: 1px solid $primary;
+	}
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  color: $primary;
+	
+	&:checked {
+		border-color: $primary;
+		
+		&::after {
+			background-color: $primary;
+		}
+	}
+}
+
+input[type="radio"] {
+
+	&:checked {
+		
+		&::before {
+			background-color: $primary;
+		}
+	}
+}
+
+.beehive-login-form {
+
+	.beehive-login-result {
+
+		a {
+			color: $primary;
+		}
+	}
+}
+
+body.beehive .select2-container--open .select2-selection--single,
+body.beehive .select2-container--default.select2-container--focus .select2-selection--multiple,
+body.beehive .select2-container--default.select2-container--open .select2-dropdown,
+body.beehive .select2-container--classic.select2-container--open .select2-dropdown,
+body.beehive .select2-container--classic .select2-selection--single:focus,
+body.beehive .select2-container--classic.select2-container--open .select2-selection--multiple,
+body.beehive .select2-container--classic .select2-selection--multiple:focus {
+	border-color: $primary !important;
+}
+
+body.beehive .select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background: $primary;
+}

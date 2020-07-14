@@ -1,0 +1,18 @@
+//
+// Preformatted
+//
+// @version 1.0.0
+//
+// Outputs wp-block-preformatted styles
+
+.wp-block-preformatted {
+  background: $beehive-pale__2;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+
+  a {
+    text-decoration: underline;
+  }
+}

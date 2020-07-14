@@ -1,0 +1,47 @@
+//
+// Video
+//
+// @version 1.0.0
+//
+// Outputs wp-block-video styles
+
+.wp-block-video {
+
+  video {
+    margin-bottom: -10px;
+    width: 100%;
+		border-radius: 12px;
+  }
+
+  figcaption {
+    font-size: 90%;
+    color: inherit;
+    margin-bottom: 0;
+    text-align: center;
+
+    a {
+      color: $beehive-primary;
+    }
+  }
+
+  &.alignleft,
+  &.alignright {
+    width: 100%;
+  }
+}
+
+body {
+
+  &.full-width {
+
+    .wp-block-video {
+
+      &.alignfull {
+
+        video {
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}

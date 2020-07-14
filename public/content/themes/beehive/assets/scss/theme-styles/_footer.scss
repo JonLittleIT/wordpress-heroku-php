@@ -1,0 +1,191 @@
+//
+// Site footer
+//
+// @version 1.0.0
+//
+// Provides styles for theme site footer
+
+footer.site-footer {
+	background: #fff;
+
+	.find-us-on {
+		background-color: #fafafd;
+		padding: 2.5rem 0;
+		text-align: center;
+	
+		.social-links {
+			
+			li {
+				flex-grow: 1;
+
+				a {
+					background: none;
+					border: none;
+					display: inline-block;
+					font-size: 1.25rem;
+				}
+			}
+		}
+	}
+	
+	.footer-widget-area {
+		padding: 50px 0 40px;
+
+		.widget-area {
+			@include flexbox();
+			@include flex-wrap(wrap);
+			@include justify-content(center);
+			@include align-items(flex-start);
+
+			> .widget {
+				background: none;
+				padding: 15px 75px;
+				margin: 0;
+
+				.widget-title {
+					padding: 0;
+					text-transform: unset;
+					font-size: 1rem;
+
+					&::after {
+						content: none;
+					}
+				}
+
+				ul {
+
+					li {
+						border: none !important;
+
+						&::before {
+							content: none;
+						}
+					}
+
+					> li {
+						padding-left: 0;
+					}
+
+					&.menu {
+
+						li {
+
+							a {
+								color: $beehive-text;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.footer-menu-area {
+		padding: 50px 0 40px;
+
+		.menu-area {
+			@include flexbox();
+			@include flex-wrap(wrap);
+			margin-left: -15px;
+			margin-right: -15px;
+
+			.footer-nav-menu {
+				@include flex(0 0 100%);
+				max-width: 100%;
+				padding: 15px;
+			}
+		}
+
+		.menu-title {
+			font-size: 1.359em;
+			margin-bottom: 1rem;
+		}
+
+		.footer-menu-list {
+			padding: 0;
+			margin: 0;
+
+			li {
+				list-style: none;
+
+				> a {
+					display: inline-block;
+					padding: .25rem 0;
+				}
+			}
+		}
+
+		@include extra-small-min() {
+
+			.menu-area {
+
+				.footer-nav-menu {
+					@include flex(0 0 50%);
+					max-width: 50%;
+				}
+			}
+		}
+
+		@include small-min() {
+
+			.menu-area {
+
+				.footer-nav-menu {
+					@include flex(0 0 25%);
+					max-width: 25%;
+					padding: 15px;
+				}
+			}
+		}
+
+		@include medium-min() {
+
+			.menu-area {
+				@include justify-content(center);
+
+				.footer-nav-menu {
+					max-width: 25%;
+					padding: 15px;
+				}
+			}
+		}
+
+		@include large-min() {
+
+			.menu-area {
+				@include flex-wrap(nowrap);
+
+				.footer-nav-menu {
+					@include flex(unset);
+					padding: 15px 75px;
+				}
+			}
+		}
+	}
+	
+	.colophon {
+		text-align: center;
+		border-top: 1px solid $beehive-border;
+		
+		.copyright-text {
+			padding: 1.5rem 0;
+		}
+	}
+
+	.footer-widget-area + .colophon,
+	.footer-menu-area + .colophon {
+		border: none;
+
+		.copyright-text {
+			border-top: 1px solid $beehive-border;
+		}
+	}
+
+	.find-us-on + .colophon {
+		border: none;
+	}
+	
+	p {
+		margin-bottom: 0;
+	}
+}

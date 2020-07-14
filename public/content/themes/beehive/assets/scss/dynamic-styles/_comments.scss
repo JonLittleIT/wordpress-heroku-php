@@ -1,0 +1,71 @@
+//
+// Comments
+//
+// @version 1.0.0
+//
+// Outputs comments dynamic styles
+
+.comments-area {
+
+	.comment-list {
+	
+		.comment-body {
+		
+			.comment-meta {
+				
+				.comment-metadata {
+				
+					.edit-link {
+					
+						a {
+							color: $primary;
+						}
+					}
+				}
+			}
+			
+			.comment-content {
+			
+				a {
+					color: $primary;
+				}
+			}
+		}
+
+		.comment {
+
+			&.bypostauthor {
+
+				.comment-meta {
+			
+					.comment-author {
+
+						.avatar {
+							border-color: $primary;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.comments-pagination {
+
+	.nav-links {
+
+		.page-numbers {
+
+			&:hover,
+			&:active,
+			&:focus {
+				border-color: $primary;
+			}
+
+			&.current {
+				background-color: $primary;
+				border-color: $primary;
+			}
+		}
+	}
+}

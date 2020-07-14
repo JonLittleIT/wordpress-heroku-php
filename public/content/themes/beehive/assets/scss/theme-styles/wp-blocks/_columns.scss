@@ -1,0 +1,53 @@
+//
+// columns
+//
+// @version 1.0.0
+//
+// Outputs wp-block-columns styles
+
+.wp-block-columns {
+  margin-left: -.75rem;
+  margin-right: -.75rem;
+
+  .wp-block-column {
+    padding-left: .75rem;
+    padding-right: .75rem;
+    margin: 0;
+
+    > * {
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media all and (max-width: 600px) {
+
+    .wp-block-column {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+body {
+
+  &.full-width {
+
+    .wp-block-columns {
+
+      @media all and (min-width: 600px) {
+        flex-wrap: nowrap;
+    
+        &.alignfull {
+          padding-left: 46px;
+          padding-right: 46px;
+        }
+      }
+    }
+  }
+}

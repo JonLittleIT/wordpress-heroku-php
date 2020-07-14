@@ -1,0 +1,211 @@
+//
+// WP Adverts
+//
+// @version 1.0.0
+//
+// Outputs wp adverts dynamic styles
+
+.advert-item-col-1 {
+	
+	&.advert-is-featured {
+		
+		.action {
+			
+			a {
+				background: $primary;
+			}
+		}
+	}
+}
+
+.adverts-button {
+	background-color: $primary;
+	background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+	color: #fff !important;
+	box-shadow: 0 1px 2px 0 rgba($primary, 0.5);
+	
+	&:hover {
+		background-color: lighten($primary, 10%);
+		color: #fff;
+	}
+}
+
+#adverts-plupload-upload-ui-gallery {
+
+	.adverts-button {
+		color: $primary !important;
+		border: 1px solid $primary;
+	}
+}
+
+.advert-manage-item {
+	
+	&.advert-manage-deleted {
+		
+		a {
+			color: $primary;
+		}
+	}
+}
+
+.advert-overview {
+	
+	.advert-img {
+		
+		.featured-advert {
+			background: $secondary;
+		}
+	}
+}
+
+.adverts-single-actions {
+
+	.adverts-button {
+		color: $primary !important;
+		border: 1px solid $primary;
+		
+		&::before {
+			background: $primary;
+			border: 1px solid $primary;
+		}
+		
+		a {
+			color: $primary;
+		}
+	}
+}
+
+.adverts-form {
+	
+	.adverts-control-group {
+		
+		> div {
+			
+			a {
+				color: $primary;
+			}
+		}
+	}
+}
+
+ul.adverts-tabs {
+	
+	li {
+		
+		&.current {
+			color: $primary;
+			border-bottom: 2px solid $primary;
+		}
+	}
+}
+
+.adverts-widget-categories {
+	
+	.adverts-widget-grid-link {
+		
+		&::before {
+			color: $primary;
+		}
+	}
+}
+
+body.beehive {
+	
+	.adverts-form {
+		
+		.adverts-listing-type-cost {
+			color: $primary;
+		}
+	}
+	
+	.adverts-cute-input input:checked ~ .adverts-cute-input-indicator,
+	.adverts-cute-input:hover input:not([disabled]):checked ~ .adverts-cute-input-indicator, 
+	.adverts-cute-input input:checked:focus ~ .adverts-cute-input-indicator {
+		background: $primary;
+	}
+}
+
+.als-nav-wrap {
+
+	.als-prev,
+	.als-next {
+
+		> span {
+			color: $primary;
+		}
+	}
+}
+
+.adverts-widget-recent {
+
+	.advert-widget-recent-price {
+		color: $primary;
+	}
+}
+
+div.adverts-flash-messages {
+	border-top: 2px solid $info-color; 
+	
+	&.adverts-flash-info {
+		border-top-color: $info-color;
+		
+		a {
+			color: $info-color;
+			
+			&.button {
+				color: $info-color;
+				border-color: $info-color;
+				
+				&:hover {
+					background: $info-color;
+				}
+			}
+		}
+		
+		.adverts-flash-message-icon::before {
+			color: $info-color;
+		}
+	}
+	
+	&.adverts-flash-warn {
+		border-top-color: $warn-color;
+		
+		a {
+			color: $warn-color;
+			
+			&.button {
+				color: $warn-color;
+				border-color: $warn-color;
+				
+				&:hover {
+					background: $warn-color;
+				}
+			}
+		}
+		
+		.adverts-flash-message-icon::before {
+			color: $warn-color;
+		}
+	}
+	
+	&.adverts-flash-error {
+		border-top-color: $error-color;
+		
+		a {
+			color: $error-color;
+			
+			&.button {
+				color: $error-color;
+				border-color: $error-color;
+				
+				&:hover {
+					background: $error-color;
+				}
+			}
+		}
+		
+		.adverts-flash-message-icon::before {
+			color: $error-color;
+		}
+	}
+}

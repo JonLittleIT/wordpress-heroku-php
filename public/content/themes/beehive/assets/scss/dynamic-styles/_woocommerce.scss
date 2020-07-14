@@ -1,0 +1,251 @@
+//
+// Woocommerce
+// @version 1.0.0
+//
+// Outputs wp adverts dynamic styles
+
+p.demo_store,
+.woocommerce-store-notice {
+	background-color: $primary;
+}
+
+.woocommerce {
+
+	div.product {
+
+		.woocommerce-product-rating {
+
+			a {
+				color: $primary;
+			}
+		}
+	}
+	
+	ul.products {
+		
+		li.product {
+			
+			.price {
+				color: $primary;
+			}
+		}
+	}
+	
+	div.product {
+		
+		span.price,
+		p.price {
+			color: $primary;
+		}
+		
+		.stock {
+			color: $secondary;
+		}
+		
+		.product_meta {
+			
+			& > span {
+				
+				a {
+					color: $primary;
+				}
+			}
+		}
+		
+		.woocommerce-tabs {
+			
+			ul.tabs {
+				
+				li.active {
+					border-bottom: 2px solid $primary;
+					
+					a {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+	
+	.star-rating {
+		
+		span {
+			color: $secondary;
+		}
+	}
+	
+	p.stars {
+	
+	 	a {
+		
+			color: $secondary;
+		}
+	}
+	
+	form.login {
+		
+		a {
+			color: $primary;
+		}
+	}
+	
+	form.register {
+
+		a {
+			color: $primary;
+		}
+	}
+	
+	.woocommerce-MyAccount-content {
+
+		> p {
+
+			a {
+				color: $primary;
+			}
+		}
+	}
+	
+	.widget_price_filter {
+		
+		.ui-slider {
+			
+			.ui-slider-handle {
+				background: linear-gradient(135deg, lighten($primary,25%) 0%, $primary 75%);
+			}
+		}
+	}
+}
+
+.woocommerce-Address-title {
+
+	a.edit {
+		color: $primary;
+	}
+}
+
+.shop-filters {
+	
+	#shop_filter_widgets {
+		
+		.widget-wrapper {
+			
+			.widget-title {
+				
+				&::after {
+					background: $primary;
+				}
+			}
+		}
+	}
+}
+
+.woocommerce-Price-amount {
+	
+	&.amount {
+		color: $primary;
+	}
+}
+
+.shipping-calculator-button,
+.woocommerce-product-gallery__trigger {
+	color: $primary;
+}
+
+.woocommerce-cart, 
+.woocommerce-checkout, 
+#add_payment_method {
+
+	.cart-collaterals {
+		
+		.cart_totals {
+			
+			.discount td {
+				color: $secondary;
+			}
+		}
+	}
+	
+	#payment {
+		border: 1px solid $primary;
+		
+		a {
+			color: $primary;
+		}
+	}
+}
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+	border-top: 2px solid $info-color;
+}
+
+.woocommerce-message {
+	border-top-color: $success-color;
+
+	&::before {
+		color: $success-color;
+	}
+
+	a {
+		color: $success-color;
+
+		&.button {
+			color: $success-color;
+			border-color: $success-color;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background: $success-color;
+			}
+		}
+	}
+}
+
+.woocommerce-error {
+	border-top-color: $error-color;
+
+	&::before {
+		color: $error-color;
+	}
+
+	a {
+		color: $error-color;
+
+		&.button {
+			color: $error-color;
+			border-color: $error-color;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background: $error-color;
+			}
+		}
+	}
+}
+
+.woocommerce-info {
+	border-top-color: $info-color;
+
+	&::before {
+		color: $info-color;
+	}
+
+	a {
+		color: $info-color;
+
+		&.button {
+			color: $info-color;
+			border-color: $info-color;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background: $info-color;
+			}
+		}
+	}
+}

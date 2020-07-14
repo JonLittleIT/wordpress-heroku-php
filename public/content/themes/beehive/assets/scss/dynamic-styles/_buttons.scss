@@ -1,0 +1,270 @@
+//
+// Buttons
+//
+// @version 1.0.0
+//
+// Outputs buttons dynamic styles
+
+a.button,
+.generic-button a,
+input[type="button"],
+input[type="reset"],
+button {
+	background-color: transparent;
+	color: $primary;
+	fill: $primary;
+	border-color: $primary;
+	
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: $primary;
+		color: #fff;
+	}
+	
+	&.button-filter {
+	
+		&:hover,
+		&:active,
+		&:focus {
+			color: $primary;
+			border-color: $primary;
+		}
+	}
+}
+
+.text-button.text-button {
+	color: $primary;
+	
+	&:hover,
+	&:active,
+	&:focus {
+		color: $primary;
+	}
+}
+
+input[type="submit"],
+button[type="submit"] {
+	background-color: $primary;
+	background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+	box-shadow: 0 1px 2px 0 rgba($primary, .5);
+	color: #fff;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: lighten($primary, 10%);
+		box-shadow: 0 1px 3px 0 rgba($primary, .5);
+		color: #fff;
+	}
+}
+
+a.button,
+input,
+button {
+
+	&.button-primary {
+		background-color: $primary;
+		background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+		color: #fff;
+		box-shadow: 0 1px 2px 0 rgba($primary, .5);
+		
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($primary, 10%);
+			color: #fff;
+			box-shadow: 0 1px 3px 0 rgba($primary, .5);
+		}
+
+		&.success {
+			background-color: $success-color;
+			background-image: linear-gradient(90deg, $success-color 0, lighten($success-color, 15%) 50%, $success-color 100%);
+			box-shadow: 0 1px 2px 0 rgba($success-color, .5);
+			color: #fff;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($success-color, 10%);
+				box-shadow: 0 1px 3px 0 rgba($success-color, .5);
+				color: #fff;
+			}
+		}
+
+		&.warning {
+			background-color: $warn-color;
+			background-image: linear-gradient(90deg, $warn-color 0, lighten($warn-color, 15%) 50%, $warn-color 100%);
+			box-shadow: 0 1px 2px 0 rgba($warn-color, .5);
+			color: #fff;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($warn-color, 10%);
+				box-shadow: 0 1px 3px 0 rgba($warn-color, .5);
+				color: #fff;
+			}
+		}
+
+		&.danger {
+			background-color: $error-color;
+			background-image: linear-gradient(90deg, $error-color 0, lighten($error-color, 15%) 50%, $error-color 100%);
+			box-shadow: 0 1px 2px 0 rgba($error-color, .5);
+			color: #fff;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($error-color, 10%);
+				box-shadow: 0 1px 3px 0 rgba($error-color, .5);
+				color: #fff;
+			}
+		}
+	}
+
+	&.button-outline {
+		background-color: transparent;
+		background-image: none;
+		color: $primary;
+		fill: $primary;
+		border-color: $primary;
+		box-shadow: 0 2px 5px 0 rgba(58, 46, 68, 0.08);
+
+		&:hover,
+		&:focus,
+		&.focus {
+			background-color: $primary;
+			box-shadow: 0 2px 5px 0 rgba(58, 46, 68, 0.08);
+			color: #fff;
+		}
+
+		&.success {
+			color: $success-color;
+			fill: $success-color;
+			border-color: $success-color;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $success-color;
+				color: #fff;
+			}
+		}
+
+		&.warning {
+			color: $warn-color;
+			fill: $warn-color;
+			border-color: $warn-color;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $warn-color;
+				color: #fff;
+			}
+		}
+
+		&.danger {
+			color: $error-color;
+			fill: $error-color;
+			border-color: $error-color;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: $error-color;
+				color: #fff;
+			}
+		}
+	}
+
+	&.button-transparent {
+
+		&.success {
+			background-color: rgba($success-color, .1);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: rgba($success-color, .2);
+			}
+		}
+
+		&.warning {
+			background-color: rgba($warn-color, .1);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: rgba($warn-color, .2);
+			}
+		}
+
+		&.danger {
+			background-color: rgba($error-color, .1);
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: rgba($error-color, .2);
+			}
+		}
+	}
+
+	&.button-solid {
+		background-color: $primary;
+		color: #fff;
+		box-shadow: 0 1px 2px 0 rgba($primary, .5);
+		
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: lighten($primary, 10%);
+			color: #fff;
+			box-shadow: 0 1px 3px 0 rgba($primary, .5);
+		}
+
+		&.success {
+			background-color: $success-color;
+			box-shadow: 0 1px 2px 0 rgba($success-color, .5);
+			color: #fff;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($success-color, 10%);
+				box-shadow: 0 1px 3px 0 rgba($success-color, .5);
+				color: #fff;
+			}
+		}
+
+		&.warning {
+			background-color: $warn-color;
+			box-shadow: 0 1px 2px 0 rgba($warn-color, .5);
+			color: #fff;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($warn-color, 10%);
+				box-shadow: 0 1px 3px 0 rgba($warn-color, .5);
+				color: #fff;
+			}
+		}
+
+		&.danger {
+			background-color: $error-color;
+			box-shadow: 0 1px 2px 0 rgba($error-color, .5);
+			color: #fff;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: lighten($error-color, 10%);
+				box-shadow: 0 1px 3px 0 rgba($error-color, .5);
+				color: #fff;
+			}
+		}
+	}
+}

@@ -1,0 +1,251 @@
+// Single Groups Management screens
+// @version 3.0.0
+
+// Groups settings screen
+.buddypress-wrap {
+
+	#group-settings-form {
+
+		> h2,
+		> h3,
+		> h4,
+		.rtmedia-group-media-settings > h4 {
+			font-size: 1.616em;
+		}
+
+		.rtmedia-group-media-settings {
+			margin-bottom: 1.5rem;
+
+			hr {
+				display: none;
+			}
+		}
+	}
+
+	.group-settings-selections {
+		
+		fieldset {
+			border: 1px solid $bp-border-color;
+			padding: .5rem 2rem 2rem;
+			border-radius: 12px;
+			
+			&:not(:last-of-type) {
+				margin-bottom: 1rem;
+			}
+			
+			label,
+			legend {
+				font-size: 1em;
+			}
+			
+			legend {
+				padding: .5rem;
+			}
+			
+		}
+	}
+
+	.group-status-type {
+		
+		> label {
+			margin-bottom: .5rem;
+		}
+
+		&.radio {
+
+			label {
+				font-weight: 600;
+			}
+		}
+
+		ul {
+			margin: 0 0 1rem 0;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+// ==== Members manage ====
+
+.groups-manage-members-list {
+
+	dd {
+		margin: 0;
+	}
+
+	.section-title {
+		padding: .5rem 0;
+		border-top: 1px solid $bp-border-color;
+		border-bottom: 1px solid $bp-border-color;
+		
+		@include medium-small-max() {
+			text-align: center;
+		}
+	}
+
+	ul {
+		list-style: none;
+		margin-bottom: 0;
+		padding: 0;
+
+		li {
+			border-bottom: 1px solid $bp-border-color;
+			padding: 1rem 0;
+			position: relative;
+			min-height: calc(50px + 2rem);
+		}
+		
+		@include medium-small-up() {
+		
+			li {
+				padding-left: 60px;
+			}
+		}
+
+		li:only-child,
+		li:last-child {
+			border-bottom: 0;
+		}
+
+		.member-name {
+			margin-bottom: 0;
+			text-align: center;
+			font-weight: 600;
+		}
+
+		img {
+			display: block;
+			margin: 0 auto;
+			width: 100px;
+		}
+
+		@include medium-small-up() {
+
+			.member-name {
+				text-align: left;
+			}
+
+			img {
+				width: 50px;
+				position: absolute;
+				left: 0;
+			}
+		}
+		
+		.action {
+			font-size: 90%;
+			line-height: 1;
+			
+			a.button{
+				min-height: initial !important;
+				
+				@include medium-small-up() {
+					padding-top: 0 !important;
+					padding-bottom: 0 !important;
+					font-weight: normal;
+				}
+				
+				@include medium-small-max() {
+					border: 1px solid $bp-border-color !important;
+					display: block !important;
+					margin-bottom: $marg-sml;
+				}
+				
+			}
+		}
+
+		@include clearfix-element(".members-manage-buttons");
+
+		.members-manage-buttons {
+			margin: 0;
+
+			a.button {
+				display: block;
+				min-height: initial;
+			}
+
+			@include medium-small-up() {
+
+				a.button {
+					display: inline-block;
+				}
+			}
+			
+		}
+		
+		
+
+		.members-manage-buttons.text-links-list {
+			margin-bottom: 0;
+
+			@include medium-small-up() {
+			
+				a.button {
+					border: none;
+					padding: 0;
+					margin-right: .5rem;
+				}
+			}
+			
+		}
+
+		.action:not(.text-links-list) {
+
+			a.button {
+
+				@include font-size(12);
+			}
+		}
+		
+		@include medium-up() {
+
+			li {
+			
+				.action {
+					clear: both;
+				}
+
+			}
+		} // close @media
+
+	}
+	
+	p {
+		margin: 0;
+	}
+
+} //close .groups-manage-members-list
+
+#group-members-list-table {
+
+	img {
+
+		&.avatar {
+			border-radius: 50%;
+			width: 50px;
+			height: auto;
+		}
+
+		&.alignleft {
+			margin: 0 .5rem 0 0;
+			float: left;
+		}
+
+		&.alignright {
+			margin: 0 0 0 .5rem;
+			float: right;
+		}
+	}
+
+	.group-member {
+		font-weight: 600;
+	}
+
+	.group-member-actions {
+		font-size: 90%;
+		padding-left: calc(50px + .5rem);
+	}
+} //close #group-members-list-table

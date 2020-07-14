@@ -1,0 +1,114 @@
+//
+// Common styles
+//
+// @version 1.0.0
+//
+// Outputs common dynamic styles
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: '#{$heading-font-family}', Verdana, sans-serif;
+	font-weight: $heading-font-weight;
+}
+
+a {
+	
+	&:hover {
+		color: $primary;
+	}
+	
+	&.read-more {
+		color: $primary;
+	}
+}
+
+blockquote {
+	border-color: $primary;
+}
+
+code {
+	color: $primary;
+}
+
+address {
+
+	a {
+		color: $primary;
+	}
+}
+
+.color-primary {
+	
+	color: $primary;
+	
+	a,
+	& > span {
+		color: $primary;
+	}
+}
+
+.morelink {
+	color: $primary;
+}
+
+.background-primary {
+	background: $primary;
+}
+
+.color-secondary {
+	color: $secondary;
+}
+
+.hover-primary {
+	
+	&:hover {
+		color: $primary;
+	}
+}
+
+.small {
+
+	a {
+		color: $primary;
+	}
+}
+
+.block-title {
+
+	h1, h2, h3, h4, h5, h6 {
+	
+		&:after {
+			background: $primary;
+		}
+	}
+}
+
+dl {
+
+	a {
+		color: $primary;
+	}
+}
+
+ul.list-inline {
+	
+	li {
+		font-size: $body-font-size;
+	}
+}
+
+figcaption,
+.wp-caption-text {
+
+	a {
+		color: $primary;
+	}
+}
+
+.featured-ribbon {
+	background: $secondary;
+}
+
+.swiper-pagination-bullet {
+	background-color: $primary;
+} 

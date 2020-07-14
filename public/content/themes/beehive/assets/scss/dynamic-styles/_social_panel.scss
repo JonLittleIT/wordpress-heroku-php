@@ -1,0 +1,33 @@
+//
+// Buttons
+//
+// @version 1.0.0
+//
+// Outputs social panel dynamic styles
+
+.beehive-social-panel {
+
+	.panel-block {
+
+		&.dark {
+			background-color: $panel-bg;
+			background-image: linear-gradient(135deg, lighten($panel-bg, 10%) 0%, $panel-bg 50%);
+		}
+	}
+	
+	.panel-menu {
+
+		ul.navbar-panel {
+		
+			li {
+				
+				&.current-menu-item {
+				
+					a {
+						color: $primary !important;
+					}
+				}
+			}
+		} 
+	}
+}

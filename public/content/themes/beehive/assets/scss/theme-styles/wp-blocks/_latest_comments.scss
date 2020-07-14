@@ -1,0 +1,52 @@
+//
+// Latest comments
+//
+// @version 1.0.0
+//
+// Outputs wp-block-latest-comments styles
+
+.wp-block-latest-comments {
+  padding: 0;
+
+  &__comment-meta {
+    line-height: 1.75;
+  }
+
+  &__comment-author {
+    font-weight: 600;
+  }
+
+  &__comment-link {
+    font-weight: normal;
+    text-decoration: underline;
+  }
+
+  &__comment {
+    font-size: 1em;
+    margin-bottom: 1rem;
+    line-height: inherit;
+  }
+
+  &__comment-date {
+    color: $beehive-mute;
+    font-size: 85%;
+  }
+
+  &.aligncenter,
+  &.alignwide,
+  &.alignfull {
+    text-align: center;
+
+    .avatar, 
+    &__comment-avatar {
+      float: none;
+      display: inline-block;
+      margin: 0 auto .5rem;
+    }
+
+    .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt, 
+    .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta {
+      margin-left: 0;
+    }
+  }
+}

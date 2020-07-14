@@ -1,0 +1,318 @@
+// BP Lists Global Styles.
+// @version 3.0.0
+
+// @todo decide whether using .buddypress quasi namespace parent
+// is useful, causing issue with specificity on other
+// lists if they do not use it.
+
+@include clearfix-element(".bp-list");
+
+.bp-list {
+
+	@include box-model();
+	clear: both;
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	// these clearfix rules simply because the element can't be classed
+	li:before,
+	li:after {
+		content: " ";
+		display: table;
+	}
+
+	li:after {
+		clear: both;
+	}
+
+	li {
+		list-style: none;
+		position: relative;
+
+		.list-wrap {
+			overflow: hidden;
+		}
+		
+		.item-avatar {
+			text-align: center;
+
+			img.avatar {
+				display: inline;
+			}
+		}
+
+		.item {
+
+			.list-title {
+				font-size: 1.359em;
+				clear: none; // some WP themes state clear:both
+			}
+
+			@include medium-up() {
+
+				.list-title a,
+				.meta,
+				.item-meta,
+				.item-meta > span.activity {
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					width: 100%;
+					max-width: 200px;
+					display: block;
+					overflow: hidden;
+				}
+			}
+
+			@media screen and (max-width: 1299.98px) and (min-width: 1199.98px) {
+
+				.list-title a,
+				.meta,
+				.item-meta,
+				.item-meta > span.activity {
+					max-width: 160px;
+				}
+			}
+			
+			.meta,
+			.item-meta {
+				margin-bottom: $marg-sml;
+				margin-top: -.375rem;
+			}
+		}
+
+		.last-post {
+			text-align: center;
+		}
+
+		.action {
+			padding: 0;
+
+			.generic-button {
+				display: inline-block;
+				
+				a,
+				button{
+					margin: 0;
+				}
+			}
+		}
+
+		h5 {
+			margin-bottom: .5rem;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+	} // close li
+
+	&.grid {
+
+		li {
+
+			.item {
+
+				.list-title a,
+				.meta,
+				.item-meta,
+				.item-meta > span.activity {
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					width: 100%;
+					max-width: 200px;
+					display: block;
+					overflow: hidden;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		}
+	}
+	
+	&:not(.grid) {
+		
+		&:not(.activity-list) {
+		
+			> li {
+				width: 100%;
+			
+				&:not(:last-child) {		
+					border-bottom: 1px solid $bp-border-color;
+					padding-bottom: 1.5rem;
+					margin-bottom: 1.5rem;		
+				}
+			}
+			
+			li {
+				
+				.item-avatar{
+					img.avatar{
+						width: 100px;
+						height: auto;
+					}
+				}
+				
+				.action {
+				
+					.generic-button {
+						button,
+						a{
+							min-height: initial;
+							font-size: 95%;
+							line-height: 1.5;
+							padding-left: 1.25rem;
+							padding-right: 1.25rem;
+						}
+					}
+					
+				}
+				
+				@include medium-up() {
+				
+					.action {
+						position: absolute;
+						right: 0;
+						top: 0;
+					}
+					
+				}
+				
+				@include medium-up() {
+				
+					.item{
+						float: left;
+					}
+					
+					.item-avatar{
+						float: left;
+						margin-right: 1rem;
+						
+						img.avatar{
+							width: 75px;
+						}
+					}
+					
+				}
+				
+				@include medium-max() {
+					
+					text-align: center;
+			
+					.item-avatar {
+						margin-bottom: .5rem;
+					}
+				}
+			}
+		}
+		
+		p.latest-update{
+			margin-top: -.5rem;
+			
+			@include extra-large-max() {
+				margin-bottom: .5rem;
+			}
+			
+			a{
+				display: none !important;
+			}
+		}
+	
+	}
+
+	&:not(.grid) {
+
+		img.avatar {
+
+			&:hover {
+				transform: initial;
+			}
+		}
+	}
+
+} // close .bp-list
+
+.item-list {
+	padding: 0;
+}
+
+.friends-list {
+	list-style-type: none;
+}
+
+.friends-request-list,
+.membership-requests-list {
+
+	@include medium-up() {
+		
+		li {
+
+			.item-avatar {
+				width: 50px;
+
+				.avatar {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+// Member request loop for private groups || razor
+#request-list.membership-requests-list {
+	
+	li {
+		
+		.item-meta {
+			
+			span {
+				display: block;
+			}
+			
+		}
+	}
+}
+
+#group-list {
+		
+	li {
+		.desc {
+			display: none;
+		}
+	}
+	
+	@include medium-up() {
+	
+		.item-avatar {
+
+			img.avatar {
+				width: 50px;
+				height: auto;
+			}
+		}
+	}
+	
+}
+
+#notifications-user-list {
+	clear: both;
+}
+
+// If logged out we don't display action buttons
+// so lets remove the margin right creating the white-space
+// for the buttons - max out the item element width.
+body:not(.logged-in) {
+
+	.bp-list {
+
+		@include medium-up() {
+
+			.item {
+				margin-right: 0;
+			}
+		}
+	}
+}
+

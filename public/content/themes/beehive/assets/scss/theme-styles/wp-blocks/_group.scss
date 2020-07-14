@@ -1,0 +1,53 @@
+//
+// Groups
+//
+// @version 1.0.0
+//
+// Outputs wp-block-archives styles
+
+.wp-block-group {
+	
+	&.has-background {
+		padding: 1.5rem 2rem;
+		border-radius: 12px;
+	}
+	
+	&__inner-container {
+		
+		> [class^="wp-block-"] {
+			margin-bottom: 1.5rem;
+		}
+		
+		> *:first-child {
+			margin-top: 0;
+		}
+		
+		> *:last-child {
+			margin-bottom: 0;
+		}
+		
+		> p, > h1, > h2, > h3, > h4, > h5, > h6 {
+
+			+ [class^="wp-block-"] {
+				margin-top: 1.5rem;
+		
+				&.alignleft,
+				&.alignright {
+		
+					+ * {
+						margin-top: 0;
+					}
+				}
+			}
+
+			+ .wp-block-archives-list,
+			+ .wp-block-categories-list,
+			+ .wp-block-latest-comments,
+			+ .wp-block-latest-posts:not(.is-grid),
+			+ .wp-block-rss,
+			+ .wp-block-tag-cloud {
+				margin-top: 0;
+			}
+		}
+	}
+}

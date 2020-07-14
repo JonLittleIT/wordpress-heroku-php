@@ -1,0 +1,93 @@
+//
+// Widgets
+//
+// @version 1.0.0
+//
+// Outputs widgets dynamic styles
+
+aside {
+
+	&.widget-area {
+
+		> .widget {
+			background: rgba($primary, .02); 
+			background: linear-gradient(135deg, rgba($primary, .04) 0%,rgba(#fff, 0) 25%,rgba($primary, .07) 100%);
+			
+			.widget-title {
+				
+				&:after {
+					background: $primary;
+				}
+			}
+		}
+	}
+}
+
+body {
+
+	&.left-sidebar,
+	&.right-sidebar {
+		
+		aside {
+
+			&.widget-area {
+		
+				> .widget {
+					background: linear-gradient(135deg, rgba($primary, .05) 0%,rgba(#fff, 0) 25%,rgba($primary, .07) 100%);
+				}
+			}
+		}
+	}
+}
+
+.widget_nav_menu,
+.widget_recent_entries,
+.widget_archive,
+.widget_categories,
+.widget_pages,
+.widget_meta,
+.widget_recent_comments,
+.widget_rss,
+.widget_display_forums,
+.widget_display_topics,
+.widget_display_replies,
+.widget_display_views,
+.widget_product_categories,
+.beehive-activity-widget,
+.widget_bp_blogs_widget,
+.widget_layered_nav {
+
+	li {
+
+		&:before {
+			color: $primary;
+		}
+	}
+}
+
+.widget_calendar {
+
+	a {
+		color: $primary;
+	}
+
+	#today {
+		background-color: $primary;
+		box-shadow: 0 1px 2px 0 rgba($primary, 0.5);
+	}
+}
+
+.widget_tag_cloud,
+.widget_product_tag_cloud {
+
+	.tagcloud a:hover {
+		border-color: $primary;
+	}
+}
+
+.widget_text {
+
+	a {
+		color: $primary;
+	}
+}

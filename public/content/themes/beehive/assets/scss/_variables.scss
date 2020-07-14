@@ -1,0 +1,31 @@
+//
+// Beehive variables
+//
+// @version 1.0.0
+//
+// This files allows us to control scss variables
+
+// Fonts
+$beehive-body-font-family:  Arial, sans-serif;    // Body font-family
+$beehive-body-font-size:    14px;
+$beehive-body-line-height:  26px;
+
+// Colors
+$beehive-primary:          #5561e2;               // Primary color
+$beehive-secondary:        #ff7544;               // Secondary color for various elements such as span qnt indications
+$beehive-anchor:           #29292d;               // Anchor color
+$beehive-heading:          #4f515b;               // Heading color
+$beehive-text:             #626c72;               // Text color
+$beehive-light:            #838daa;               // Light color
+$beehive-mute:             #bbbbdc;               // Mute color
+$beehive-border:           #e7edf2;               // Border color
+$beehive-shadow:           #3a2e44;               // Shadow color
+$beehive-red:              red;                   // Red warning
+$beehive-green:            #2ed573;               // Green
+$beehive-pale__1:          #fefefe;               // Pale 1 Background color
+$beehive-pale__2:          #f8f9fb;               // Pale 2 background color
+$beehive-dark:             #383a45;               // Dark background color
+$beehive-input:            #f7f7f7;               // Input
+
+// Transitions
+$beehive-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);

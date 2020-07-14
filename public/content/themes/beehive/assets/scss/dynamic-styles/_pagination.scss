@@ -1,0 +1,51 @@
+//
+// pagination
+//
+// @version 1.0.0
+//
+// Outputs pagination dynamic styles
+
+.beehive-pagination,
+.bp-pagination,
+.rtm-paginate {
+	
+	a,
+	span {
+	
+		&.current {
+			background-color: $primary;
+			background-image: linear-gradient(90deg, $primary 0, lighten($primary, 15%) 50%, $primary 100%);
+			color: #fff;
+			box-shadow: 0 1px 3px 0 rgba($primary, .5);
+		}
+		
+		&:not(.current) {
+			
+			&:hover {
+				color: $primary;
+			}
+		}
+	}	
+}
+
+.page-links {
+	
+	span.page-number {
+
+		&:hover {
+			color: $primary;
+			border-color: $primary;
+		}
+	}
+
+	.post-page-numbers {
+
+		&.current {
+
+			span.page-number {
+				color: $primary;
+				border-color: $primary;
+			}
+		}
+	}
+}

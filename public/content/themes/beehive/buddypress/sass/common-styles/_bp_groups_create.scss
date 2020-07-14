@@ -1,0 +1,81 @@
+// Group Creation Steps - Screens
+// @version 3.0.0
+
+#group-create-body {
+
+	.avatar-nav-items {
+		margin-top: $marg-med;
+	}
+	
+	div.submit {
+		@include flex-box-dir();
+
+		input {
+			min-width: 210px;
+		}
+		
+		input[type="submit"] {
+			width: auto;
+		}
+		
+		input[type="button"] {
+			margin-right: auto;
+		}
+
+		@include medium-small-max() {
+
+			@include flex-box-dir(column, wrap);
+
+			input {
+				min-width: 100%;
+				margin-bottom: .25rem;
+			}
+		}
+	}
+	
+}
+
+#create-group-form,
+#group-settings-form {
+	
+	textarea {
+		min-height: 80px;
+	}
+	
+	#bp-delete-cover-image {
+		border: none;
+		color: $bp-red;
+		padding: 0;
+		min-height: initial;
+		box-shadow: none;
+		
+		&:hover,
+		&:active,
+		&:focus {
+			background: none;
+			color: $bp-red;
+			border: none;
+			text-decoration: underline;
+		}
+	}
+}
+
+body.group-create.forum {
+
+	#group-create-body > h2,
+	#group-create-body > h4 {
+		font-size: 1.616em;
+	}
+}
+
+body.group-admin.forum {
+	
+	#group-settings-form > h2
+	#group-settings-form > h4 {
+		display: inline-block;
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+		border-bottom: 2px solid $bp-primary;
+		font-size: 1.5rem;
+	}
+}

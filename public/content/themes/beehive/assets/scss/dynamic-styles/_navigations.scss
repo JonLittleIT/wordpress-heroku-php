@@ -1,0 +1,158 @@
+//
+// Navbar
+//
+// @version 1.0.0
+//
+// Outputs navbar dynamic styles
+
+.dropdown-menu {
+
+	.active,
+	.current,
+	.selected,
+	.current-menu-item {
+	
+		> a {
+			color: $primary;
+		}
+	}
+}
+
+a.dropdown-item {
+
+	&.active {
+		color: $primary;
+	}
+	
+	&:hover {
+		color: $primary;
+	}
+}
+
+li {
+
+	&.current_page_item {
+
+		> a {
+
+			color: $primary;
+		}
+	}
+}
+
+nav.beehive-navbar { 
+	
+	.navbar-nav {
+
+		.nav-item {
+
+			&.current_page_ancestor,
+			&.current_page_item {
+
+				> .nav-link {
+					color: $primary;
+				}
+			}
+		}
+	}
+	
+	ul.navbar-user {
+		
+		.nav-item {
+			
+			.nav-link {
+				
+				span.count {
+					background-color: $primary;
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	&.default {
+
+		.js-hiraku-offcanvas {
+
+			&:not(.js-hiraku-offcanvas-active) {
+
+				.navbar-main {
+
+					> li {
+
+						.dropdown-menu {
+							border-color: $primary;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.beehive-toggler {
+
+	.icon-bar {
+		background: $primary;
+	}
+}
+
+body {
+	
+	&.beehive-social-layout.logged-in {
+		
+		.mobile-header {
+		
+			nav.beehive-navbar {
+				
+				&.social {
+					
+					@include small-max {
+						
+						.nav-top-bar {
+							background-color: $primary;
+							background-image: linear-gradient(135deg, lighten($primary,15%) 0%, $primary  55%, lighten($primary,25%)  110%);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.nav-component {
+	
+	.nav-component-list {
+		
+		> li {
+
+			&.flexMenu-viewMore {
+
+				&.has-current {
+
+					> a {
+						color: $primary;
+					}
+				}
+			}
+			
+			> a {
+				
+				&:hover {
+					color: $primary;
+				}
+			}
+			
+			&.is-active,
+			&.selected,
+			&.current,
+			&.current_page_item {
+				border-bottom: 2px solid $primary;
+				
+				> a {
+					color: $primary;
+				}
+			}
+		}
+	}
+}

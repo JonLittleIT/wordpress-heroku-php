@@ -1,0 +1,405 @@
+// BP Layouts
+// Layouts provides classes to handle specific module
+// layouts on a user selectable basis.
+// The sheet also adds layout properties such as border-box
+// @version 3.0.0
+
+#item-body,
+.single-screen-navs {
+
+	@include box-model();
+}
+
+
+// ==== The Grid Layout Classes ====
+
+// BP Lists (loops) may be suited to a grid layout e.g members loops
+// These classes added to the elements will provide these styles.
+
+.grid {
+	// the parent element (usually the ul)
+
+	> li,
+	> li .generic-button a {
+
+		@include box-model( border-box );
+	}
+
+	> li {
+		border-bottom: 0;
+		padding-bottom: 30px;
+		padding-top: 0;
+
+		.list-wrap {
+			position: relative;
+			overflow: hidden;
+		}
+
+	} // close > li
+	
+	ul{
+		padding: 0;
+	}
+
+
+} // close .grid
+
+/* Build the two column class small up */
+
+@include medium-small-up() {
+
+	// Set the column  or item numbers to span horizontally
+	.grid {
+
+		> li.item-entry {
+			float: left;
+			margin: 0;
+		}
+
+		&.two,
+		&.three,
+		&.four {
+
+			> li {
+				width: 50%;
+				padding-bottom: 30px;
+
+				&:nth-child(odd) {
+					padding-right: 15px;
+				}
+
+				&:nth-child(even) {
+					padding-left: 15px;
+				}
+
+			} // close > li
+		}
+	}
+}
+
+/* Build the three column class large up */
+@include large-up() {
+
+	.grid {
+
+		// Set three to a row
+		&.three	{
+
+			> li {
+				padding-top: 0;
+				width: 33.333333%;
+				width: calc(100% / 3);
+				padding-bottom: 20px;
+
+				&:nth-child(1n+1) {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+
+				&:nth-child(3n+3) {
+					padding-left: 10px;
+					padding-right: 0;
+				}
+
+				&:nth-child(3n+1) {
+					padding-left: 0;
+					padding-right: 10px;
+				}
+
+			} // close >li
+		}
+	} // .grid
+} // close @media
+
+
+/* Build the four column class large up */
+
+@include large-up() {
+
+	// Set four to a row
+	.grid {
+
+		&.four {
+
+			> li {
+				width: 25%;
+				padding-bottom: 10px;
+
+				&:nth-child(1n+1) {
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+
+				&:nth-child(4n+4) {
+					padding-left: 5px;
+					padding-right: 0;
+				}
+
+				&:nth-child(4n+1) {
+					padding-left: 0;
+					padding-right: 5px;
+				}
+
+			} // close > li
+		}
+	} // .grid
+} // close @media
+
+// This block styles the loop items for a grid layout
+// The block might be better located in the generic bp-lists section
+
+// Style the .bp-list li elements if a 'grid' class is set on the ul
+
+// if grid is set & this is a member, group or blog loop
+// we want to re-style some of the elements in the item
+.buddypress-wrap {
+
+	.grid.bp-list {
+		text-align: center;
+
+		> li {
+			border: none;
+
+			.list-wrap {
+				background-color: #fff;
+				padding: 2rem;
+				border-radius: 12px;
+				box-shadow: 15px 15px 20px rgba($bp-shadow,0.04);
+			}
+
+			&:hover {
+
+				.list-wrap {
+					box-shadow: 15px 15px 20px rgba($bp-shadow, 0.08);
+					transition: all .5s;
+				}
+			}
+			
+
+			.item-avatar {
+				margin-bottom: .75rem;
+			}
+
+			.action {	
+				margin-top: .75rem;
+
+				.generic-button {
+					display: block;
+					
+					a,
+					button {
+						width: 100%;
+						max-width: 210px;
+						margin-left: auto;
+						margin-right: auto;
+						padding-left: 1.25rem;
+						padding-right: 1.25rem;
+						white-space: nowrap;
+						text-overflow: ellipsis;
+						width: 100%;
+						display: block;
+						overflow: hidden;
+					}
+				}
+			}
+
+		} // close > li
+	} // close .grid.bp-list
+
+
+} // close .buddypress-wrap
+
+
+// ==== Vertical Navigation Classes ====
+
+// These classes added to the BP user navigation elements
+// will provide rules to modify the layout to present the
+// parent object navigation in a vertical column & sub navs
+// horizontally across the item-body
+
+@include large-up() {
+
+	.bp-single-vert-nav { // described for the #buddypress element
+
+		.bp-navs.vertical {
+			overflow: visible;
+
+			ul {
+				border-bottom: 0;
+				float: left;
+				width: 23%;
+				padding-top: 90px;
+				text-align: center;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+
+			li {
+				float: none;
+				
+				.count {
+					display: none;
+				}
+				
+				a:before {
+					content: none !important;
+					display: inline-block;
+					font-size: 1rem;
+					margin-right: .375rem;
+				}
+				
+				span.nav-link-text {
+					display: inline-block;
+					padding: 0;
+					border: none !important;
+				}
+			} // li
+		}
+
+		.bp-navs.vertical.tabbed-links {
+
+			li.selected {
+
+				a {
+					padding-left: 0;
+				}
+			}
+		}
+
+		// re-factor the related elements like the #item-body so it sits
+		// to the side(floated)
+		.bp-wrap {
+
+			.user-nav-tabs.users-nav,
+			.group-nav-tabs.groups-nav {
+
+				ul {
+
+					li {
+						left: 1px;
+						position: relative;
+					}
+				}
+			}
+		}
+
+		.item-body:not(#group-create-body) {
+			border-left: 1px solid $bp-border-color;
+			float: right;
+			margin: 0;
+			min-height: 400px;
+			padding: 30px 0 0 30px;
+			width: 77%;
+			
+		}
+	}
+
+	// Set the directory screens main navs as vertical aligned
+	// medium breakpoint up only
+
+	.bp-dir-vert-nav { // described for the #buddypress element
+
+		.dir-navs {
+			float: left;
+			position: relative;
+			width: 25%;
+			padding-right: 1rem;
+			overflow: initial;
+
+			ul {
+				border-bottom: none;
+				white-space: initial;
+				overflow: initial;
+
+				li {
+					float: none;
+					display: block;
+					overflow: hidden;
+					width: auto;
+					border-bottom: 1px solid $bp-border-color;
+					
+					// &:first-child{
+
+					// 	a{
+					// 		//padding-top: 0;
+					// 	}
+					// }
+					
+					&:last-child{
+						border-bottom: none;
+						
+						&.selected{
+							border-bottom: none !important;
+						}
+					}
+
+					&.selected {
+						border-bottom: 1px solid $bp-border-color !important;
+
+						a {
+							font-weight: 600;
+						}
+					} // close .selected
+					
+					a{
+						padding: 0.5rem 0;
+					}
+				}
+
+			}
+			
+			&.activity-nav-tabs,
+			&.sites-nav-tabs,
+			&.groups-nav-tabs,
+			&.members-nav-tabs {
+				
+				ul {
+					
+					li {
+						
+						a {
+							padding: 0.5rem;
+						}
+					}
+				}
+			}
+			
+		} // close .dir-navs
+
+		.screen-content {
+			border-left: 1px solid $bp-border-color;
+			margin-left: 20%;
+			overflow: hidden;
+			padding: 0 0 $pad-lrg $pad-med;
+
+			.subnav-filters {
+				margin-top: 0;
+			}
+		}
+	}
+
+	// Style main navs as visual tabs effect
+	// if user selects options in the Customizer
+	// and classes are set.
+	// N.B This is in addition to the  standalone visual tab style classes/mixin
+	// provided so any elements may be styled to represent tabs.
+
+	.buddypress-wrap {
+
+		&.bp-vertical-navs {
+
+			.dir-navs.activity-nav-tabs,
+			.dir-navs.sites-nav-tabs,
+			.dir-navs.groups-nav-tabs,
+			.dir-navs.members-nav-tabs,
+			.main-navs.user-nav-tabs,
+			.main-navs.group-nav-tabs {
+
+				@include primary-navs-vert-tabs();
+			}
+		}
+	}
+
+} // close @media
+
+

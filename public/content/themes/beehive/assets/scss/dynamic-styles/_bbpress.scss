@@ -1,0 +1,267 @@
+//
+// bbPress
+// @version 1.0.0
+//
+// Outputs bbPress dynamic styles
+
+.bbp-title-icon.forum-icon {
+	background-color: rgba($primary, 0.05);
+}
+
+a {
+		
+	&.subscription-toggle, 
+	&.favorite-toggle {
+		color: $primary;
+	}
+}
+
+#bbpress-forums {
+
+	div.bbp-breadcrumb {
+		
+		a {
+			color: $primary;
+		}
+	}
+	
+	.bbp-forums-list {
+		
+		li {
+			
+			&::before {
+				color: $primary;
+			}
+		}
+	}
+	
+	div.bbp-topic-tags {
+	
+		&::before {
+			color: $primary;
+		}
+		
+		a {
+			color: $primary;
+		}
+	}
+	
+	.type-topic {
+		
+		div.bbp-topic-content {
+			
+			a {
+				color: $primary;
+			}
+		}
+		
+		div.bbp-reply-content {
+			
+			a {
+				color: $primary;
+			}
+		}
+	}
+	
+	.type-reply {
+	
+		div.bbp-reply-content {
+			
+			a {
+				color: $primary;
+			}
+		}
+	}
+	
+	p.bbp-topic-meta {
+		
+		.bbp-topic-started-by,
+		.bbp-topic-started-in {
+			
+			a {
+				color: $primary;
+			}
+		}
+	}
+
+	#bbp-single-user-details {
+	
+		#bbp-user-navigation {
+
+			li {
+
+				&.current {
+					
+					a {
+						color: $primary;
+					}
+				}
+
+				&.flexMenu-viewMore.has-current {
+
+					> a {
+						color: $primary;
+					}
+				}
+			}
+			
+			@include medium-min() {
+
+				> ul {
+
+					> li {
+					
+						&.current {
+							border-color: $primary;	
+						}
+					}
+				}
+			}
+
+			@include medium-max() {
+				
+				> ul {
+
+					> li.current {
+						border-color: $primary;
+					}
+				} 
+			}
+		}
+	}
+}
+
+#bbp-your-profile {
+
+	fieldset.bbp-form{
+
+		#password {
+
+			button.wp-generate-pw {
+				color: $primary;
+			}
+		}
+	}
+}
+
+.bbp-user-profile {
+
+	.bbp-user-section {
+
+		.bbp-user-website {
+
+			a {
+				color: $primary;
+			}
+		}
+	}
+}
+
+.bbp-forum-header {
+	
+	a.bbp-forum-permalink {
+		color: $primary;
+	}
+}
+
+.bbp-topic-header {
+	
+	a.bbp-topic-permalink {
+		color: $primary;
+	}
+}
+
+.bbp-reply-header {
+	
+	a.bbp-reply-permalink {
+		color: $primary;
+	}
+}
+
+.bbp-login-form {
+	
+	.bbp-login-links {
+		
+		a {
+
+			&.bbp-register-link {
+				color: $primary;
+			}
+		}
+	}
+}
+
+.bbp-logged-in {
+	
+	a.button {
+		
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+.bbp-topics-front ul.super-sticky .bbp-title-icon,
+.bbp-topics ul.super-sticky .bbp-title-icon,
+.bbp-topics ul.sticky .bbp-title-icon,
+.bbp-forum-content ul.sticky .bbp-title-icon {
+	background: $secondary;
+}
+
+div.bbp-template-notice,
+div.indicator-hint {
+	border-top: 2px solid $info-color;
+}
+
+.bbp-topic-title .bbp-topic-permalink {
+	font-family: '#{$heading-font-family}', Verdana, sans-serif;	
+}
+
+div.bbp-template-notice {
+
+	a {
+		color: $primary;
+	}
+	
+	&.info {
+		border-top-color: $info-color;
+		
+		a {
+			color: $info-color;
+		}
+	}
+	
+	&.warning {
+		border-top-color: $warn-color;
+		
+		a {
+			color: $warn-color;
+		}
+	}
+	
+	&.error {
+		border-top-color: $error-color;
+		
+		a {
+			color: $error-color;
+		}
+	}
+	
+	&.important {
+		border-top-color: $success-color;
+		
+		a {
+			color: $success-color;
+		}
+	}
+}
+
+.bbp-alert-outer {
+
+	.bbp-alert-actions {
+
+		a {
+			color: $primary;
+		}
+	}
+}

@@ -1,0 +1,73 @@
+//
+// WP block color pallete
+//
+// @version 1.0.0
+//
+// Outputs WP block color pallete
+
+$color_1: $beehive-primary;
+$color_2: $beehive-secondary;
+$color_3: #f78da7;
+$color_4: #cf2e2e;
+$color_5: #ff6900;
+$color_6: #fcb900;
+$color_7: #7bdcb5;
+$color_8: #00d084;
+$color_9: #8ed1fc;
+$color_10: #0693e3;
+$color_11: #eeeeee;
+$color_12: #abb8c3;
+$color_13: #313131;
+$color_14: #ffffff;
+
+$colors: (primary-color, $color_1), (secondary-color, $color_2), (pale-pink, $color_3), (vivid-red, $color_4), (luminous-vivid-orange, $color_5), (luminous-vivid-amber, $color_6), (light-green-cyan, $color_7), (vivid-green-cyan, $color_8), (pale-cyan-blue, $color_9), (vivid-cyan-blue, $color_10), (very-light-gray, $color_11), (cyan-bluish-gray, $color_12), (very-dark-gray, $color_13), (white-color, $color_14);
+
+@each $name, $color in $colors {
+	.has-#{$name}-color {
+		color: $color !important;
+	}
+
+	.has-#{$name}-background-color {
+		background-color: $color !important;
+	}
+
+	// Buttons 
+	.wp-block-button {
+
+		&:not(.is-style-outline) {
+
+			.wp-block-button__link {
+
+				&.has-#{$name}-background-color {
+					background-color: $color !important;
+					box-shadow: 0 1px 2px 0 rgba($color, .5);
+
+					&:hover,
+					&:active,
+					&:focus {
+						background-color: lighten($color, 10%) !important;
+						box-shadow: 0 1px 3px 0 rgba($color, .5);
+					}
+				}
+			}
+		}
+
+		&.is-style-outline {
+
+			.wp-block-button__link {
+
+				&.has-#{$name}-color {
+					color: $color;
+					border-color: $color;
+					
+					&:hover,
+					&:active,
+					&:focus {
+						background-color: $color !important;
+          				color: #fff !important;
+					}
+				} 
+			}
+		}
+	}
+}

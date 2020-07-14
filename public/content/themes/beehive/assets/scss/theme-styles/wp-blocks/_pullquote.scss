@@ -1,0 +1,137 @@
+//
+// Pullquote
+//
+// @version 1.0.0
+//
+// Outputs wp-block-pullquote styles
+
+.wp-block-pullquote {
+  padding: 1.5rem 2rem;
+  // border-top: 2px solid $beehive-primary;
+  // border-bottom: 2px solid $beehive-primary;
+  line-height: 1.55;
+
+  blockquote {
+    padding: 0;
+    margin: 0;
+    border: none;
+
+    &:not([class*="text-color"]) {
+      color: $beehive-text;
+
+      cite {
+        color: $beehive-mute;
+      }
+    }
+  }
+
+  p {
+    font-weight: lighter;
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+
+    em {
+      font-style: normal;
+    }
+  }
+	
+	a {
+    text-decoration: underline;
+  }
+
+  cite {
+		display: block;
+    //font-weight: 600;
+    font-size: 1rem;
+    font-style: normal;
+		//text-transform: uppercase;
+		margin-top: .75rem;
+  }
+
+  &.alignleft,
+  &.alignright {
+    max-width: 50%;
+  }
+	
+	&:not(.is-style-solid-color) {
+    background: none;
+    border: 1px solid $beehive-border;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 8px 6px -6px rgba($beehive-shadow, 0.04);
+
+    &::before {
+      content: ",,";
+      display: block;
+      height: 45px;
+      width: 40px;
+      font-size: 6rem;
+      margin: -1rem auto .5rem;
+      text-align: center;
+      color: $beehive-mute;
+      line-height: 0;
+      letter-spacing: -6px;
+    }
+		
+		&.alignleft,
+		&.alignright {
+      text-align: left;
+      
+      &::before {
+        margin-left: -.25rem;
+        text-align: left;
+      }
+    }
+  }
+  
+  &.is-style-default {
+    background-color: transparent !important;
+  }
+
+  &.is-style-solid-color {
+    padding: 2rem;
+    border-radius: 12px;
+    border: none;
+
+    blockquote {
+      margin: 0;
+      max-width: 100%;
+    }
+		
+		&:not([class*="background-color"]) {
+			background-color: $beehive-primary;
+		}
+    
+    blockquote:not([class*="text-color"]),
+		blockquote:not([class*="text-color"]) p,
+    blockquote:not([class*="text-color"]) a,
+    blockquote:not([class*="text-color"]) cite {
+			color: #fff;
+    }
+  }
+}
+
+body {
+
+  &.full-width {
+
+    .wp-block-pullquote {
+
+      &:not(.is-style-solid-color) {
+
+        &.alignfull {
+          border-left: none;
+          border-right: none;
+          border-radius: 0;
+        }
+      }
+
+      &.is-style-solid-color {
+
+        &.alignfull {
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}

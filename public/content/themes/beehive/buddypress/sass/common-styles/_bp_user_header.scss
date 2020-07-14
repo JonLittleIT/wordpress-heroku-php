@@ -1,0 +1,27 @@
+// BP Single User Specific Header Styles
+// @version 3.0.0
+
+.bp-user {
+
+	.users-header {
+
+		.user-nicename {
+			margin-bottom: 0 !important;
+			margin-right: .5rem !important;
+			font-size: 1.25rem !important;
+			
+			@include large-max() {
+				display: none;
+			}
+		}
+	}
+
+	.member-header-actions {
+		overflow: hidden;
+
+		* > * {
+			display: block;
+		}
+	}
+	
+}

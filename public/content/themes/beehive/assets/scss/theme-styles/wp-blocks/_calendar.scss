@@ -1,0 +1,62 @@
+//
+// Calendar
+//
+// @version 1.0.0
+//
+// Outputs wp-block-calendar styles
+
+.wp-block-calendar {
+
+    table {
+        border-collapse: collapse;
+        margin-bottom: .5rem;
+
+        thead {
+            border: none;
+        }
+
+        tbody {
+            color: inherit;
+        }
+
+        caption {
+            color: inherit;
+            text-align: center;
+            caption-side: top;
+            padding-top: 0;
+            padding-bottom: .5rem;
+        }
+
+        thead th,
+        tbody tr td {
+            padding: .5rem;
+        }
+
+        th {
+            background: none;
+        }
+    }
+
+    a {
+        color: $beehive-primary;
+        font-weight: normal;
+    }
+
+    tfoot {
+
+        a {
+            color: $beehive-primary;
+        }
+    }
+
+    tbody td,
+    th {
+        padding: .5rem;
+        border-color: $beehive-border;
+    }
+
+    &.alignleft,
+    &.alignright {
+        width: 100%;
+    }
+}

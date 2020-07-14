@@ -1,0 +1,138 @@
+//
+// RT media
+// @version 1.0.0
+//
+// Outputs rtmedia dynamic styles
+
+button#rtmedia-add-media-button-post-update {
+	color: $primary;
+	
+	&:hover,
+	&:active,
+	&:focus {
+		color: $primary;
+	}
+}
+
+.rtm-upload-button-wrapper button.rtmedia-comment-media-upload,
+button.rtmedia-comment-media-upload {
+	color: $primary;
+	
+	&:hover,
+	&:active,
+	&:focus {
+		color: $primary;
+	}
+}
+
+.rtmedia-container {
+	
+	.rtmedia-list {
+		
+		.rtmedia-list-item-a:hover {
+			
+			.rtmedia-item-title {
+				
+				h4, h5 {
+					color: $primary;
+				}
+			}
+		}
+	}
+}
+
+.rtm-page-number {
+	
+	a.button {
+		
+		&:hover,
+		&:active,
+		&:focus {
+			color: $primary;
+		}
+	}
+}
+
+#rtm-media-options-list {
+	
+	.rtmedia-delete-album {
+		
+		&:hover,
+		&:active,
+		&:focus {
+			color: $primary;
+		}
+	}
+}
+
+.rtmedia-single-container {
+
+	button.rtmedia-like {
+		color: $primary;
+
+		&:hover,
+		&:active,
+		&:focus {
+			color: $primary;
+		}
+	}
+}
+
+.rtmedia-comment-content {
+
+	p {
+
+		a {
+			color: $primary;
+		}
+	}
+}
+
+.rtmedia-container {
+
+	.rtmedia-image-editor-cotnainer {
+
+		.imgedit-wrap {
+
+			.imgedit-group {
+
+				h2 {
+
+					button.button-link {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+}
+
+.rtmedia-uploader {
+	
+	.drag-drop {
+		
+		.start-media-upload {
+			background: $primary;
+			
+			&:hover,
+			&:active,
+			&:focus {
+				background: lighten($primary, 10%);
+			}
+		}
+		
+		&.dragover {
+			border-color: lighten($primary, 30%);
+		}
+	}
+}
+
+.rtm_bp_default_privacy {
+	
+	.rtm-title {
+		
+		h3::after {
+			background: $primary;
+		}
+	}
+}

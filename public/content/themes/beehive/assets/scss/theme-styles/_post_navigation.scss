@@ -1,0 +1,170 @@
+//
+// Beehive Post Navigation
+//
+// @version 1.0.0
+//
+// Style outputs for the post navigation
+
+.post-navigation {
+	background-color: #fff;
+	margin-bottom: 40px;
+	position: relative;
+	
+	.wrapper {
+		@include flexbox();
+		
+		> div {
+			position: relative;
+			width: 50%;
+			border: 1px solid $beehive-border;
+			
+			&:first-child {
+				border-right: none;
+				border-radius: 12px 0 0 12px;
+			}
+			
+			&:last-child {
+				border-radius: 0 12px 12px 0;
+			}
+		}
+
+		.prev,
+		.next {
+
+			> a {
+				background-color: #fff;
+				padding: .75rem;
+				@include flexbox();
+				@include align-items(center);
+
+				@include extra-small-max() {
+					padding: 1rem;
+				}
+			}
+
+			.nav-icon {
+				background-color: $beehive_pale__2;
+				height: 30px;
+				width: 30px;
+				line-height: 30px;
+				text-align: center;
+				font-size: 1rem;
+				border-radius: 50%;
+
+				i {
+
+					&::before {
+						line-height: 30px;
+					}
+				}
+	
+				@include extra-small-max() {
+					display: none;
+				}
+			}
+		}
+		
+		.prev {
+			position: relative;
+			text-align: left;
+
+			> a {
+				border-radius: 12px 0 0 12px;
+				@include justify-content(flex-start);
+
+				&::before {
+					background-color: transparent;
+					z-index: -1;
+					position: absolute;
+					content: "";
+					top: .75rem;
+					left: 10px;
+					width: 100%;
+					max-width: 300px;
+					box-shadow: 0 35px 30px rgba($beehive-shadow, .5);
+					transform: rotate(-3deg);
+					height: 2px;
+					z-index: -10;
+
+					@include small-max() {
+						top: .5rem;
+					}
+
+					@include extra-small-max() {
+						top: .25rem;
+					}
+				}
+	
+				&:hover {
+	
+					&::before {
+						transform: rotate(-6deg);
+						box-shadow: 0 35px 30px rgba($beehive-shadow, .7);
+						transition: all .5s;
+					}
+				}
+
+				.nav-icon {
+					order: -1;
+					margin-right: .5rem
+				}
+			}
+		}
+		
+		.next {
+			position: relative;
+			text-align: right;
+
+			> a {
+				border-radius: 0 12px 12px 0;
+				@include justify-content(flex-end);
+
+				&::before {
+					background-color: transparent;
+					z-index: -1;
+					position: absolute;
+					content: "";
+					top: .75rem;
+					left: auto;
+					right: 10px;
+					width: 100%;
+					max-width: 300px;
+					box-shadow: 0 35px 30px rgba($beehive-shadow, .5);
+					transform: rotate(3deg);
+					height: 2px;
+					z-index: -10;
+
+					@include small-max() {
+						top: .5rem;
+					}
+
+					@include extra-small-max() {
+						top: .25rem;
+					}
+				}
+	
+				&:hover {
+	
+					&::before {
+						transform: rotate(6deg);
+						box-shadow: 0 35px 30px rgba($beehive-shadow, .7);
+						transition: all .5s;
+					}
+				}
+				.nav-icon {
+					order: 1;
+					margin-left: .5rem
+				}
+			}
+		}
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+	.post-nav-label,
+	p {
+		margin-bottom: 0;
+	}
+}

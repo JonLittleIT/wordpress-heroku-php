@@ -1,0 +1,86 @@
+// BP Members loop.
+// @version 3.0.0
+
+.buddypress-wrap {
+
+	.members-list { // ul
+		
+		li {
+			
+			.member-name {
+				margin-bottom: $marg-sml;
+			}
+
+			.last-activity {
+				clear: left;
+				margin-top: -.375rem;
+			}
+			
+			ul.connections {
+				display: none;
+			}
+
+		} // close li
+		
+		&.grid {
+			
+			> li {
+			
+				.item-avatar {
+					margin: 0;
+
+					img.avatar {
+						width: 90px;
+					}
+				}
+			}
+			
+			li {
+			
+				ul.connections {
+					display: initial;
+				}
+				
+				p.latest-update {
+					display: none;
+				}
+			}
+		}
+
+	} // close .members-list
+
+	// Members group specific list
+	.members-group-list {
+	
+		li {
+			
+			ul.connections {
+				display: none; 
+			}
+		}
+		
+		&.grid {
+			
+			li {
+			
+				.item-avatar {
+					
+					img.avatar{
+						width: 90px;
+					}
+				}
+				
+				ul.connections {
+					display: initial;
+				}
+			
+				p.latest-update{
+				
+					display: none;
+				}
+			}
+		}
+		
+		
+	}
+} // close .buddypress-wrap

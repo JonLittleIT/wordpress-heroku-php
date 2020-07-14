@@ -1,0 +1,248 @@
+//
+// Beehive Title Bar
+//
+// @version 1.0.0
+//
+// Provides css properties for page title bar
+
+.title-wrapper {
+
+	.title {
+		margin: 0;
+	}
+}
+
+.beehive-breadcrumb {
+
+	ul {
+		margin: 0 -.25rem;
+		padding: 0;
+		@include flexbox();
+		
+		li {
+			list-style: none;
+			padding: 0 .25rem;
+			position: relative;
+
+			&:not(:first-of-type) {
+				
+				&::before{
+					content: "/";
+					position: absolute;
+					left: 0;
+					transform: translateX(-50%);
+				}
+			}
+
+			&.trail-end {
+				@include flex(1);
+				min-width: 0;
+				
+				span {
+					@include ellipsis();
+				}
+			}
+		}
+	}
+	
+	a {
+		color: $beehive-text;
+	}
+
+	span.divider {
+		margin-left: 5px;
+		margin-right: 5px;
+		font-size: 10px;
+		font-weight: bold;
+	}
+}
+
+.beehive-title-bar {
+	
+	.title-bar-wrapper {
+		position: relative;
+		@include flexbox();
+		@include flex-direction(column);
+		height: 100%;
+		width: 100%;
+	}
+	
+	&.default {
+
+		.title-bar-wrapper {
+
+			> div {
+				max-width: 100%;
+			}
+
+			.title-wrapper {
+				background-color: #fafafd;
+				background-image: url(../images/pattern.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				padding: 2.5rem 0;
+
+				.title {
+					margin: 0;
+					-ms-word-wrap: break-word;
+					word-wrap: break-word;
+				}
+			}
+
+			.breadcrumb-wrapper {
+				padding: .75rem 0;
+				border-bottom: 1px solid $beehive-border;
+				border-top: 1px solid $beehive-border;
+			}
+
+			.title-wrapper {
+
+				&.no-title {
+					display: none;
+				}
+
+				&:not(.no-title) {
+
+					+ .breadcrumb-wrapper {
+						border-top: none;
+					}
+				}
+			}
+		}
+	}
+	
+	&.social {
+		
+		.title-bar-wrapper {
+			@include justify-content(initial);
+		}
+		
+		.container {
+			max-width: 100%;
+			padding: 0;
+		}
+		
+		.title-wrapper {
+			margin: 0;
+
+			.title {
+				font-weight: 700;
+			}
+		}
+		
+		.beehive-breadcumb {
+			text-align: left;
+			margin-bottom: .5rem;
+			@include order(-1);
+			
+			@include small-max() {
+				display: none;
+			}
+		}
+
+		&.visible {
+			margin-bottom: 1.5rem;
+		}
+	}
+}
+
+body {
+
+	&.full-width {
+
+		&.single-post {
+
+			.beehive-title-bar {
+	
+				&.default {
+					background-color: #fafafd;
+					background-image: url(../images/pattern.png);
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center;
+					padding: 2.5rem 0;
+	
+					.title-bar-wrapper {
+						max-width: 100%;
+						margin-left: auto;
+						margin-right: auto;
+						padding-left: 15px;
+						padding-right: 15px;
+
+						.container {
+							max-width: 100%;
+							padding-left: 0;
+							padding-right: 0;
+						}
+
+						@include extra-small-min() {
+							max-width: 540px;
+						}
+
+						@include small-min() {
+							max-width: 720px;
+						}
+
+						@include medium-min() {
+							max-width: 960px;
+						}
+
+						@include large-min() {
+							max-width: 1140px;
+						}
+					}
+
+					.title-bar-wrapper {
+						@include flex-direction(row);
+						@include flex-wrap(wrap);
+						@include justify-content(space-between);
+						@include align-items(center);
+
+						> div {
+							max-width: 100%;
+						}					
+
+						.title-wrapper {
+							background: none !important;
+							padding: 0;
+						}
+
+						.breadcrumb-wrapper {
+							padding: 0;
+							border: none;
+							display: none;
+						}
+
+						@include small-min () {
+
+							> div {
+								max-width: 50%;
+							}
+
+							.title-wrapper {
+								padding-right: 15px;
+							}
+
+							.breadcrumb-wrapper {
+								display: block;
+								padding-left: 15px;
+							}
+						}
+
+						@include medium-min() {
+
+							> div {
+								max-width: 400px;
+							}
+						}
+
+						@include small-max() {
+							@include justify-content(center);
+						}
+					}
+				}
+			}
+		}
+	}
+}

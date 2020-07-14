@@ -1,0 +1,39 @@
+//
+// WP block font classes
+//
+// @version 1.0.0
+//
+// Outputs WP block font classes
+
+.has-small-font-size.has-small-font-size {
+    font-size: 13px;
+}
+
+.has-medium-font-size.has-medium-font-size {
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.has-large-font-size.has-large-font-size {
+    font-size: 24px;
+    line-height: 1.25;
+    margin: 1rem 0;
+}
+
+.has-huge-font-size.has-huge-font-size {
+    font-size: 32px;
+    line-height: 1.25;
+    margin: 1rem 0;
+}
+
+.has-text-align-left.has-text-align-left {
+    text-align: left;
+}
+
+.has-text-align-center.has-text-align-center {
+    text-align: center;
+}
+
+.has-text-align-right.has-text-align-right {
+    text-align: right;
+}

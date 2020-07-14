@@ -1,0 +1,127 @@
+//
+// Posts
+//
+// @version 1.0.0
+//
+// Outputs posts dynamic styles
+
+.entry-content {
+
+	> ul:not([class]),
+	> ol:not([class]) {
+
+		li {
+
+			> a {
+				color: $primary;
+			}
+		}
+	}
+
+	> p {
+
+		> a {
+			color: $primary;
+		}
+	}
+}
+
+.blog-layout-grid {
+
+	.beehive-post {
+
+		.entry-wrapper {
+
+			> .beehive-sticky-post {
+				background-color: $primary;
+				color: #fff;
+			}
+
+			.entry-thumbnail {
+
+				.post-format {
+
+					a {
+						background-color: $primary;
+						color: #fff;
+
+						&:hover {
+							background-color: lighten($primary, 10%);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.blog-layout-classic {
+
+	.beehive-post {
+
+		.entry-wrapper {
+
+			.entry-content {
+
+				.beehive-sticky-post {
+					background-color: $primary;
+					color: #fff;
+				}
+
+				.entry-content-inner {
+
+					.post-format {
+
+						a {
+							background-color: $primary;
+							color: #fff;
+
+							&:hover {
+								background-color: lighten($primary, 10%);
+							}
+						}
+					}
+
+					.read-more {
+
+						a {
+
+							&::after {
+								background-color: $primary;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+aside {
+
+	&.post-overview {
+
+		.widget {
+
+			.widget-title {
+
+				&::after {
+					background: $primary;
+				}
+			}
+		}
+
+		ul {
+			
+			&:not([class]) {
+				
+				li {
+					
+					&::before {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+}

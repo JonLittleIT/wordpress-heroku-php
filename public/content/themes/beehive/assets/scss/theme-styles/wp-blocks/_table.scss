@@ -1,0 +1,91 @@
+//
+// Table
+//
+// @version 1.0.0
+//
+// Outputs wp-block-table styles
+
+.wp-block-table {
+  
+  a {
+    color: $beehive-primary;
+    font-weight: normal;
+  }
+		
+	tr {
+		border: none !important;
+	}
+	
+	th,
+	td {
+		padding: .75rem !important;
+		border: 1px solid;
+		border-color: $beehive-border;
+  }
+
+  table {
+    margin-bottom: 0;
+  }
+  
+  figcaption {
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+  }
+
+  &.is-style-stripes {
+    border: none;
+
+    thead {
+      border: none;
+    }
+
+    tbody {
+
+      tr:nth-child(odd) {
+        background: $beehive-pale__2;
+      }
+    }
+
+    tr {
+      border: none;
+    }
+
+    td,
+    th {
+      border-color: $beehive-border;
+      vertical-align: middle;
+    }
+  }
+
+  &.alignleft,
+  &.alignright {
+		width: 100% !important;
+  }
+
+  &.aligncenter {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.alignwide {
+
+    @media screen and (min-width: 991.98px) {
+      width: calc(100% + 160px) !important;
+    }
+  }
+}
+
+body {
+
+  &.full-width {
+
+    .wp-block-table {
+
+      &.alignfull {
+        width: 100vw !important;
+      }
+    }
+  }
+}

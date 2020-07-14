@@ -1,0 +1,61 @@
+//
+// Social Icons
+//
+// @version 1.0.0
+//
+// Style the social icons
+
+/** Social Icons */
+ul.social-links {
+	@include flexbox();
+	@include flex-wrap(wrap);
+	padding: 0;
+	margin: -.125rem;
+	
+	li {
+		padding: .125rem;;
+		list-style: none;
+		
+		a {
+			background: $beehive-input;
+			display: block;
+			height: 35px;
+			width: 35px;
+			border: 1px solid transparent;
+			text-align: center;
+			line-height: 35px;
+			border-radius: 12px;
+
+			&:hover {
+				border: 1px solid $beehive-primary;
+			}
+		}
+	}
+}
+
+/** Social Share */
+ul.social-share {
+	margin: -.125rem;
+	padding: 0;
+	
+	li {
+		display: inline-block;
+		list-style: none;
+		margin: .125rem;
+		
+		a {
+			background: $beehive-input;
+			display: block;
+			height: 35px;
+			width: 35px;
+			line-height: 35px;
+			border-radius: 12px;
+			text-align: center;
+			border: 1px solid transparent;
+
+			&:hover {
+				border: 1px solid $beehive-primary;
+			}
+		}
+	}
+}

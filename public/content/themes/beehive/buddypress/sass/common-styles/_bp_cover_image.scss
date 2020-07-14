@@ -1,0 +1,100 @@
+// Cover image container generic styles.
+// These properties manage the required positioning of
+// the image container overlay.
+// @version 3.0.0
+
+/*
+* Default required cover image rules
+*/
+
+#cover-image-container {
+	position: relative;
+}
+
+#header-cover-image {
+	background-color: #c5c5c5;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 12px;
+	
+	@include large-max() {
+		margin-bottom: 80px;
+	}
+	
+	&::before {
+		content: "";
+		background-image: radial-gradient(circle, transparent 0%, rgba(#000, .15) 58%, rgba(#000, .3) 100%);
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+}
+
+#item-header-cover-image {
+	//padding: 0 1em;
+	margin: 0 !important;
+	min-height: initial !important;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	
+	@include large-max() {
+		background: #fff;
+		border-radius: 1rem;
+		bottom: -80px;
+		box-shadow: 0 15px 30px rgba($bp-shadow, .06);
+	}
+
+	#item-header-avatar {
+		margin: 0 !important;
+    float: none !important;
+    text-align: center;
+		
+		@include large-up() {
+			position: absolute;
+			left: 1rem;
+			right: 1rem;
+			bottom: -90px;
+		}
+		
+		@include large-max() {
+			margin-top: -60px !important;
+		
+			img.avatar {
+				width: 120px;
+				border-radius: 50%;
+				margin-bottom: .75rem !important;
+				border: none !important;
+				box-shadow: 0 5px 20px rgba($bp-shadow, .15);
+			}
+		}
+	}
+}
+
+body {
+
+	&.panel-collapsed {
+
+		#header-cover-image {
+			width: 100vw;
+			left: calc(-50vw + 50%);
+			border-radius: 0;
+		}
+	}
+}
+
+/*
+* end cover image block
+*/

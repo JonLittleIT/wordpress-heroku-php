@@ -1,0 +1,49 @@
+//
+// Playlist
+//
+// @version 1.0.0
+//
+// Customize WordPress playlist styles
+
+body.beehive {
+
+    .wp-playlist-light {
+        padding: 2rem;
+        color: inherit;
+        font-size: 1em;
+        border: 1px solid $beehive-border;
+        border-radius: 12px;
+
+        .wp-playlist-playing {
+            color: $beehive-anchor;
+        }
+
+        .wp-playlist-caption,
+        .wp-playlist-item-length {
+            color: inherit;
+        }
+
+        .wp-playlist-current-item .wp-playlist-item-title {
+            font-weight: 600;
+        }
+
+        .wp-playlist-item-artist {
+            color: $beehive-mute;
+            font-size: 90%;
+            text-transform: none;
+        }
+
+        .wp-playlist-item {
+            padding: .5rem 0;
+            border-bottom-color: $beehive-border;
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        .wp-playlist-item-length {
+            top: .5rem;
+        }
+    } 
+}

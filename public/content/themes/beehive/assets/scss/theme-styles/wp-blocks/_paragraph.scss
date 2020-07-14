@@ -1,0 +1,70 @@
+//
+// Paragraph
+//
+// @version 1.0.0
+//
+// Outputs paragraph styles
+
+.has-drop-cap {
+
+  &:not(.has-background) {
+
+    &:not(:focus)::first-letter {
+      color: $beehive-primary;
+    }
+  }
+}
+
+p.has-drop-cap {
+  font-size: calc(26px * 2em);
+	
+	&:not(:focus):after {
+		padding-top: 0;
+  }
+  
+  &:not(:focus):first-letter {
+    font-size: calc(2 * 2em);
+    padding-top: .25rem;
+  }
+
+  &.has-medium-font-size {
+
+    &:not(:focus):first-letter {
+      font-size: calc(1.75 * 2em);
+    }
+  }
+
+  &.has-large-font-size {
+
+    &:not(:focus):first-letter {
+      font-size: calc(1.5 * 2em);
+    }
+  }
+
+  &.has-huge-font-size {
+
+    &:not(:focus):first-letter {
+      font-size: calc(1.375 * 2em);
+    }
+  }
+}
+
+p.has-background {
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  > a {
+    color: inherit !important;
+    text-decoration: underline;
+  }
+
+  code {
+    color: inherit;
+  }
+
+  &:not(.has-text-color) {
+    color: #fff;
+  }
+}

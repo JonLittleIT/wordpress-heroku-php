@@ -1,0 +1,86 @@
+//
+// Cover
+//
+// @version 1.0.0
+//
+// Outputs wp-block-cover styles
+
+.wp-block-cover {
+  border-radius: 12px;
+  line-height: 1.25;
+
+	.wp-block-cover-text {
+    color: #fff;
+    padding: 2rem;
+		
+		a {
+      color: inherit;
+			text-decoration: underline;
+    }
+    
+    code {
+      color: inherit;
+    }
+  }
+  
+  .wp-block-cover__inner-container {
+    width: 100%;
+    color: #fff;
+    padding: 2rem;
+
+    a {
+      color: inherit;
+			text-decoration: underline;
+    }
+
+    code {
+      color: inherit;
+    }
+
+    > p {
+      margin: 1rem 0;
+    }
+  }
+	
+  &.alignleft,
+  &.alignright {
+    max-width: 50%;
+    
+    @media screen and (max-width: 600px) {
+      float: none;
+      margin-left: 0;
+      max-width: 100% !important;
+    }
+  }
+}
+
+.wp-block-cover-image,
+.wp-block-cover {
+
+  .wp-block-subhead,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+
+    &:not(.has-text-color) {
+      color: #fff;
+    }
+  }
+}
+
+body {
+
+  &.full-width {
+
+    .wp-block-cover {
+
+      &.alignfull {
+        border-radius: 0;
+      }
+    }
+  }
+}

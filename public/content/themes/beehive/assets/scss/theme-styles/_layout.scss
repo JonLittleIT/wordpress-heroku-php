@@ -1,0 +1,794 @@
+//
+// Layouts
+//
+// @version 1.0.0
+//
+// Landles theme layout styles
+
+.layout {
+
+	&.default,
+	&.right {
+	
+		.col-main {
+			padding: 30px 30px 70px 15px;
+			
+			@include medium-max() {
+				padding: 30px 15px 40px 15px;
+			}
+		}
+		
+		.col-aside {
+			padding: 30px 15px 70px 30px;
+			
+			@include medium-max() {
+				padding: 30px 15px 30px 15px;
+				border-left: none;
+				border-top: 1px solid $beehive-border;
+			}
+		}
+	}
+	
+	&.left {
+	
+		.col-main {
+			padding: 30px 15px 70px 30px;
+			
+			@include medium-max() {
+				padding: 30px 15px 40px 15px;
+			}
+		}
+		
+		.col-aside {
+			padding: 30px 30px 70px 15px;
+			
+			@include medium-max() {
+				padding: 30px 15px 30px 15px;
+				border-right: none;
+				border-top: 1px solid $beehive-border;
+				order: 2;
+			}
+		}
+	}
+	
+	&.full {
+
+		.col-main {
+			padding: 30px 15px 70px 15px;
+		}
+	}
+	
+	&.social {
+	
+		.col-main{
+			padding: 30px 40px 70px 40px;
+			min-height: 100vh;
+			
+			@include large-max() {
+				padding: 30px 30px 70px 30px;
+			}
+			
+			@include medium-max() {
+				padding: 30px 30px 40px 30px;
+				min-height: initial;
+			}
+			
+			@include small-max() {
+				padding: 30px 15px;
+			}
+		}
+		
+		.col-aside {
+			border-left: 1px solid $beehive-border;
+			padding: 30px 30px 70px 30px;
+			min-height: 100vh;
+
+			&::before {
+				content: "";
+				background: $beehive-pale__1;
+				display: block;
+				height: 100%;
+				width: 2500px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				z-index: -99;
+			}
+			
+			aside.widget-area {
+			
+				.widget {
+					padding: 2rem;
+				}
+			}
+			
+			@include medium-max() {
+				border-left: none;
+				padding: 30px 30px 40px 30px;
+				min-height: initial;
+
+				&::after {
+					content: "";
+					background: $beehive-border;
+					height: 1px;
+					width: 2500px;
+					position: absolute;
+					left: 0; 
+					top: 0;
+				}
+				
+				aside.widget-area {
+					
+					.widget{
+						padding: 2rem;
+					}
+				}
+			}
+			
+			@include small-max() {
+				padding: 30px 15px;
+			}
+		}
+	}
+
+	&.social-wide {
+		
+		.col-main {
+			padding: 30px 15px 70px 15px;
+		}
+
+		.single-headers {
+			margin-top: -30px;
+		}
+	}
+	
+	.profile-col-main {
+		padding: 30px 15px 70px 15px;
+
+		@include lg-md-between() {
+			@include flex(0, 0, 75%);
+			max-width: 75%;
+			padding-right: 30px;
+		}
+	}
+	
+	.profile-col-aside {
+
+		&.left {
+
+			.profile-widget-area {
+				position: relative;
+				border-right: 1px solid $beehive-border;
+
+				&::before {
+					content: "";
+					background: $beehive-pale__1;
+					display: block;
+					height: 100%;
+					width: 2500px;
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					z-index: -99;
+				}
+			}
+		}
+
+		&.right {
+
+			.profile-widget-area {
+				position: relative;
+				border-left: 1px solid $beehive-border;
+
+				&::before {
+					content: "";
+					background: $beehive-pale__1;
+					display: block;
+					height: 100%;
+					width: 2500px;
+					position: absolute;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					z-index: -99;
+				}
+			}
+
+			@include large-max() {
+				display: none;
+			}
+		}
+	
+		aside.widget-area {
+			padding: 30px 30px 70px;
+		}
+		
+		@include medium-max() {
+			display: none;
+		}
+	}
+}
+
+body {
+
+	#beehive-page {
+		overflow: hidden;
+	}
+
+	&.full-width,
+	&.panel-collapsed:not(.panel-expanded) {
+
+		&.single-post,
+		&.attachment {
+
+			main.main-content {
+			
+				@include small-min() {
+					max-width: 768px;
+					margin: auto;
+				}
+			}
+		}
+	}
+
+	&:not(.beehive-social-layout) {
+
+		&.title-bar-active {
+			
+			.beehive-navbar {
+				background-color: #fff;
+			}
+
+			.layout {
+
+				@include medium-min {
+		
+					&.default,
+					&.right {
+		
+						.col-aside {
+							border-left: 1px solid $beehive-border;
+						}
+					}
+		
+					&.left {
+		
+						.col-aside {
+							border-right: 1px solid $beehive-border;
+						}
+					}
+				}
+			}
+
+			.site-footer {
+
+				.find-us-on {
+					border-top: 1px solid $beehive-border;
+					border-bottom: 1px solid $beehive-border;
+				}
+
+				.footer-widget-area,
+				.footer-menu-area {
+					border-top: 1px solid $beehive-border;
+				}
+
+				.find-us-on + .footer-widget-area,
+				.find-us-on + .footer-menu-area {
+					border: none;
+				}
+			}
+		}
+	}
+
+	&.beehive-social-layout {
+		overflow-x: hidden;
+	
+		#beehive-page {
+			position: relative;
+		}
+
+		header.site-header {
+			margin-left: 22%;
+
+			nav.beehive-navbar {
+				padding-left: calc(40px - 15px);
+				padding-right: calc((40px - 15px) + 80px );
+
+				> .container {
+					max-width: 100%;
+				}
+			}
+
+			nav.fixed-top {
+				left: 22%;
+			}
+
+			&.overlay-header {
+
+				nav.beehive-navbar {
+
+					&:not(.fixed-top) {
+						left: 22%;
+					}
+				}
+			}
+		}
+
+		&.has-page-sidebar {
+		
+			header.site-header {
+				
+				nav.beehive-navbar {
+					padding-right: calc((30px - 15px) + 80px);
+				}
+			}
+		}
+
+		.site-content {
+			margin-left: 22%;
+			padding-right: 80px;
+		}
+		
+		footer.site-footer {
+			margin-left: 22%;
+			padding-right: 80px;
+			padding-left: calc(40px - 15px);
+			padding-right: calc((40px - 15px) + 80px );
+
+			.container {
+				max-width: 100%;
+			}
+		}
+
+		&.has-page-sidebar {
+		
+			footer.site-footer {
+				padding-right: calc((30px - 15px) + 80px );
+			}
+		}
+	}
+	
+	@include large-max() {
+		
+		&.beehive-social-layout {
+
+			header.site-header {
+				margin-left: 25%;
+			
+				nav.beehive-navbar {
+					padding-left: calc(30px - 15px);
+					padding-right: calc((30px - 15px) + 80px);
+				}
+
+				nav.fixed-top {
+					left: 25%;
+				}
+
+				&.overlay-header {
+
+					nav.beehive-navbar {
+	
+						&:not(.fixed-top) {
+							left: 25%;
+						}
+					}
+				}
+			}
+
+			&.has-page-sidebar {
+		
+				header.site-header {
+					
+					nav.beehive-navbar {
+						padding-right: calc((20px - 15px) + 80px);
+					}
+				}
+			}
+
+			.site-content {
+				margin-left: 25%;
+			}
+			
+			footer.site-footer {
+				margin-left: 25%;
+				padding-left: calc(30px - 15px);
+				padding-right: calc((30px - 15px) + 80px);
+			}
+
+			&.has-page-sidebar {
+
+				footer.site-footer {
+					padding-right: calc((20px - 15px) + 80px);
+				}
+			}
+		}
+		
+		.beehive-social-panel {
+			width: 25%;
+		}
+	}
+	
+	@include medium-max() {
+		
+		&.beehive-social-layout {
+
+			header.site-header {
+				margin-left: 33%;
+
+				nav.fixed-top {
+					left: 33%;
+				}
+
+				&.overlay-header {
+
+					nav.beehive-navbar {
+	
+						&:not(.fixed-top) {
+							left: 33%;
+						}
+					}
+				}
+			}
+
+			&.has-page-sidebar {
+		
+				header.site-header {
+					
+					nav.beehive-navbar {
+						padding-right: calc((30px - 15px) + 80px);
+					}
+				}
+			}
+
+			.site-content {
+				margin-left: 33%;
+			}
+			
+			footer.site-footer {
+				margin-left: 33%;
+			}
+
+			&.has-page-sidebar {
+
+				footer.site-footer {
+					padding-right: calc((30px - 15px) + 80px);
+				}
+			}
+		}
+		
+		.beehive-social-panel{
+			width: 33%;
+		}
+	}
+	
+	@include small-max() {
+		
+		&.beehive-social-layout {
+
+			header.site-header {
+				margin-left: 0;
+
+				nav.beehive-navbar {
+					padding-right: calc(30px - 15px);
+				}
+
+				nav.fixed-top {
+					left: 0;
+				}
+
+				&.overlay-header {
+
+					nav.beehive-navbar {
+	
+						&:not(.fixed-top) {
+							left: 0;
+						}
+					}
+				}
+			}
+
+			&.has-page-sidebar {
+		
+				header.site-header {
+					
+					nav.beehive-navbar {
+						padding-right: calc(30px - 15px);
+					}
+				}
+			}
+
+			.site-content {
+				margin-left: 0;
+				padding-right: 0;
+			}
+
+			footer.site-footer {
+				margin-left: 0;
+				padding-right: calc(30px - 15px);
+			}
+
+			&.has-page-sidebar {
+
+				footer.site-footer {
+					padding-right: calc(30px - 15px);
+				}
+			}
+		}
+		
+		.beehive-social-panel {
+			border-right: none;
+			width: 80%;
+		}
+	}
+
+	@include small-min() {
+
+		&.beehive-social-layout {
+
+			&.panel-collapsed {
+				
+				header.site-header {
+					margin-left: 80px;
+	
+					nav.fixed-top {
+						left: 80px;
+					}
+
+					&.overlay-header {
+
+						nav.beehive-navbar {
+		
+							&:not(.fixed-top) {
+								left: 80px;
+							}
+						}
+					}
+				}
+
+				.site-content {
+					margin-left: 80px;
+					padding-right: 80px;
+				}
+
+				footer.site-footer {
+					margin-left: 80px;
+				}
+
+				.beehive-social-panel {
+					width: 80px;
+				}
+			}
+		}
+
+		&.panel-collapsed,
+		&.full-width {
+
+			&.registration {
+
+				#register-page {
+					max-width: 600px;
+					margin-left: auto;
+					margin-right: auto;
+			
+					.signup-form {
+						padding: 0 60px;
+					}
+				}
+			}
+			
+			&.activate {
+				
+				#activate-page {
+					max-width: 600px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+
+			&.woocommerce-account {
+
+				.entry-content {
+
+					> .woocommerce {
+						max-width: 600px;
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+			}
+		}
+	}
+
+	&.panel-collapsed {
+		
+		.beehive-register-page {
+			padding: 0 0 70px;
+		}
+	}
+
+	&.elementor-page {
+
+		.layout {
+
+			&.full,
+			&.blank {
+
+				> .container {
+					max-width: initial;
+
+					> .row {
+
+						> .col-main {
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.bp-user.single,
+	&.groups.single-item {
+		overflow-x: hidden;
+
+		.layout {
+
+			.col-main {
+				padding-bottom: 0;
+			}
+		}
+	}
+
+	// Optimization for very large screens
+	@media screen and (min-width: 1599.98px) {
+		
+		&.panel-expanded {
+
+			&:not(.panel-collapsed) {
+
+				.layout {
+
+					&.social {
+
+						.col-main {
+							padding: 40px 60px 70px 60px;
+						}
+
+						.col-aside {
+							padding: 40px 40px 70px 40px;
+						}
+
+						.col-main-content {
+							padding-right: calc(60px - 15px);
+						}
+
+						.col-overview-aside {
+
+							.post-overview {
+								padding-left: 40px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (min-width: 1799.98px) {
+		
+		&.panel-expanded {
+
+			&:not(.panel-collapsed) {
+
+				.beehive-social-panel {
+
+					.panel-block {
+
+						.item.my-card {
+							max-width: 280px;
+						}
+					}
+				}
+				
+				.layout {
+
+					&.social {
+
+						.col-main {
+							padding: 60px 80px 70px 80px;
+						}
+
+						.col-aside {
+							padding: 60px 60px 70px 60px;
+						}
+
+						.col-main-content {
+							padding-right: calc(80px - 15px);
+						}
+
+						.col-overview-aside {
+
+							.post-overview {
+								padding-left: 60px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include very-large-min() {
+
+		&.panel-expanded {
+
+			&.panel-collapsed {
+				background-color: $beehive-pale__1;
+
+				header.site-header {
+
+					nav.beehive-navbar {
+						padding-left: 0;
+						padding-right: 80px;
+
+						> .container {
+							max-width: 1140px;
+							padding-left: 40px;
+							padding-right: 40px;
+						}
+					}
+				}
+
+				.layout {
+
+					> .container,
+					> .container-fluid {
+						background-color: #fff;
+						max-width: 1140px;
+						border-left: 1px solid $beehive-border;
+						border-right: 1px solid $beehive-border;
+					}
+
+					&.social {
+
+						.col-aside {
+
+							&::before {
+								content: none;
+							}
+						}
+					}
+				}
+
+				&.directory.activity {
+
+					.layout {
+
+						&.social {
+
+							.col-main {
+								z-index: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	} // end optimization for large screens
+}
+
+.admin-bar {
+
+	.fixed-top,
+	#navbar-account-sidebar,
+	.beehive-social-panel,
+	nav.beehive-navbar.default .js-hiraku-offcanvas.js-hiraku-offcanvas-active .navbar-main-container {
+    top: 32px;
+		
+		@include wp-small-max() {
+			top: 46px;
+		}
+ 	}
+}
